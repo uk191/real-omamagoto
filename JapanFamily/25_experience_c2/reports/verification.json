@@ -1,0 +1,3520 @@
+{
+  "checks": {
+    "five_families_24mo": true,
+    "all_event_choice_branches_have_state_differences": true,
+    "no_added_long_term_child_effect": true,
+    "integer_cash_and_net_worth_identities": true,
+    "player_money_matches_engine": true,
+    "semantic_experience_duplicates_suppressed": true,
+    "at_most_three_new_logs_per_month": true,
+    "six_persistent_policies_distinct_real_allocation": true,
+    "saved_event_resume_seed_and_view_purity": true,
+    "midmonth_birth_24month_limit": true
+  },
+  "family_metrics": [
+    {
+      "event_count": 11,
+      "mean_event_interval": 2.3,
+      "intervals": [
+        2,
+        1,
+        3,
+        3,
+        2,
+        2,
+        4,
+        2,
+        1,
+        3
+      ],
+      "published_logs": 25,
+      "fact_candidates": 53,
+      "suppressed": 28,
+      "semantic_duplicate_experience_logs": 0,
+      "cash_checks": 83
+    },
+    {
+      "event_count": 9,
+      "mean_event_interval": 2.5,
+      "intervals": [
+        2,
+        3,
+        3,
+        3,
+        2,
+        2,
+        2,
+        3
+      ],
+      "published_logs": 22,
+      "fact_candidates": 157,
+      "suppressed": 135,
+      "semantic_duplicate_experience_logs": 0,
+      "cash_checks": 81
+    },
+    {
+      "event_count": 10,
+      "mean_event_interval": 2.2222222222222223,
+      "intervals": [
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        3,
+        2,
+        2
+      ],
+      "published_logs": 34,
+      "fact_candidates": 104,
+      "suppressed": 70,
+      "semantic_duplicate_experience_logs": 0,
+      "cash_checks": 82
+    },
+    {
+      "event_count": 11,
+      "mean_event_interval": 2.1,
+      "intervals": [
+        3,
+        3,
+        2,
+        1,
+        2,
+        1,
+        3,
+        3,
+        2,
+        1
+      ],
+      "published_logs": 28,
+      "fact_candidates": 81,
+      "suppressed": 53,
+      "semantic_duplicate_experience_logs": 0,
+      "cash_checks": 83
+    },
+    {
+      "event_count": 9,
+      "mean_event_interval": 2.125,
+      "intervals": [
+        2,
+        2,
+        3,
+        2,
+        2,
+        1,
+        2,
+        3
+      ],
+      "published_logs": 17,
+      "fact_candidates": 54,
+      "suppressed": 37,
+      "semantic_duplicate_experience_logs": 0,
+      "cash_checks": 81
+    }
+  ],
+  "policies": [
+    {
+      "policy": "work",
+      "biological_hash": "b07df3b8be1e5b485c8c64c235a657bfe3d374ca8604a1ad4071af48eca68449",
+      "cash": 2127733,
+      "term": 23583138,
+      "time_total": 205.5,
+      "experience_count": 29,
+      "contexts": [
+        "floor",
+        "visit",
+        "voice"
+      ],
+      "native_hours_ratio": 1.0,
+      "policy_operations": [
+        {
+          "period": 0,
+          "kind": "work_preparation_reserved",
+          "hours": 8,
+          "evidence": "C2_time_allocation_scenario_no_extra_income"
+        },
+        {
+          "period": 1,
+          "kind": "work_preparation_reserved",
+          "hours": 8,
+          "evidence": "C2_time_allocation_scenario_no_extra_income"
+        },
+        {
+          "period": 2,
+          "kind": "work_preparation_reserved",
+          "hours": 8,
+          "evidence": "C2_time_allocation_scenario_no_extra_income"
+        },
+        {
+          "period": 3,
+          "kind": "work_preparation_reserved",
+          "hours": 8,
+          "evidence": "C2_time_allocation_scenario_no_extra_income"
+        },
+        {
+          "period": 4,
+          "kind": "work_preparation_reserved",
+          "hours": 8,
+          "evidence": "C2_time_allocation_scenario_no_extra_income"
+        },
+        {
+          "period": 5,
+          "kind": "work_preparation_reserved",
+          "hours": 8,
+          "evidence": "C2_time_allocation_scenario_no_extra_income"
+        },
+        {
+          "period": 6,
+          "kind": "work_preparation_reserved",
+          "hours": 8,
+          "evidence": "C2_time_allocation_scenario_no_extra_income"
+        },
+        {
+          "period": 7,
+          "kind": "work_preparation_reserved",
+          "hours": 8,
+          "evidence": "C2_time_allocation_scenario_no_extra_income"
+        },
+        {
+          "period": 8,
+          "kind": "work_preparation_reserved",
+          "hours": 8,
+          "evidence": "C2_time_allocation_scenario_no_extra_income"
+        },
+        {
+          "period": 9,
+          "kind": "work_preparation_reserved",
+          "hours": 8,
+          "evidence": "C2_time_allocation_scenario_no_extra_income"
+        },
+        {
+          "period": 10,
+          "kind": "work_preparation_reserved",
+          "hours": 8,
+          "evidence": "C2_time_allocation_scenario_no_extra_income"
+        },
+        {
+          "period": 11,
+          "kind": "work_preparation_reserved",
+          "hours": 8,
+          "evidence": "C2_time_allocation_scenario_no_extra_income"
+        },
+        {
+          "period": 12,
+          "kind": "work_preparation_reserved",
+          "hours": 8,
+          "evidence": "C2_time_allocation_scenario_no_extra_income"
+        },
+        {
+          "period": 13,
+          "kind": "work_preparation_reserved",
+          "hours": 8,
+          "evidence": "C2_time_allocation_scenario_no_extra_income"
+        },
+        {
+          "period": 14,
+          "kind": "work_preparation_reserved",
+          "hours": 8,
+          "evidence": "C2_time_allocation_scenario_no_extra_income"
+        },
+        {
+          "period": 15,
+          "kind": "work_preparation_reserved",
+          "hours": 8,
+          "evidence": "C2_time_allocation_scenario_no_extra_income"
+        },
+        {
+          "period": 16,
+          "kind": "work_preparation_reserved",
+          "hours": 8,
+          "evidence": "C2_time_allocation_scenario_no_extra_income"
+        },
+        {
+          "period": 17,
+          "kind": "work_preparation_reserved",
+          "hours": 8,
+          "evidence": "C2_time_allocation_scenario_no_extra_income"
+        },
+        {
+          "period": 18,
+          "kind": "work_preparation_reserved",
+          "hours": 8,
+          "evidence": "C2_time_allocation_scenario_no_extra_income"
+        },
+        {
+          "period": 19,
+          "kind": "work_preparation_reserved",
+          "hours": 8,
+          "evidence": "C2_time_allocation_scenario_no_extra_income"
+        },
+        {
+          "period": 20,
+          "kind": "work_preparation_reserved",
+          "hours": 8,
+          "evidence": "C2_time_allocation_scenario_no_extra_income"
+        },
+        {
+          "period": 21,
+          "kind": "work_preparation_reserved",
+          "hours": 8,
+          "evidence": "C2_time_allocation_scenario_no_extra_income"
+        },
+        {
+          "period": 22,
+          "kind": "work_preparation_reserved",
+          "hours": 8,
+          "evidence": "C2_time_allocation_scenario_no_extra_income"
+        },
+        {
+          "period": 23,
+          "kind": "work_preparation_reserved",
+          "hours": 8,
+          "evidence": "C2_time_allocation_scenario_no_extra_income"
+        }
+      ],
+      "logs": [
+        {
+          "id": "fact-00000",
+          "key": "experience/voice/engaged",
+          "title": "一緒に過ごした場面",
+          "text": "ゆうたははると自宅で「抱っこで声をかける」時間を取った。声の方へ顔を向けた。",
+          "date": "2026-10-01",
+          "period": 0,
+          "phase": 1,
+          "source_refs": [
+            "C2.experiences/experience-00000",
+            "C2.tasks/task-00000"
+          ],
+          "evidence": "inherited_C1_uncalibrated_acute_scenario",
+          "links": [],
+          "published_date": "2026-10-01",
+          "published_phase": 1,
+          "published_period": 0
+        },
+        {
+          "id": "fact-00001",
+          "key": "experience/voice/crying",
+          "title": "いつもと違う発見",
+          "text": "ゆうたははると自宅で「抱っこで声をかける」時間を取った。途中で泣き出したため、活動を切り上げて静かな所で過ごした。前回の同じ活動とは違う反応が記録された。",
+          "date": "2026-11-01",
+          "period": 1,
+          "phase": 1,
+          "source_refs": [
+            "C2.experiences/experience-00001",
+            "C2.tasks/task-00001"
+          ],
+          "evidence": "inherited_C1_uncalibrated_acute_scenario",
+          "links": [],
+          "published_date": "2026-11-01",
+          "published_phase": 1,
+          "published_period": 1
+        },
+        {
+          "id": "fact-00002",
+          "key": "request/08acdb69ffdbd6905d28818594d9354407fc8fd79440b402e27c8d2bfaa16249",
+          "title": "希望を伝えた場面",
+          "text": "ゆうたは「親族へ支援を依頼する」の手続きに0.5時間を使った。いまの実働は週0時間で、まだ結果ではない。",
+          "date": "2026-12-01",
+          "period": 2,
+          "phase": 0,
+          "source_refs": [
+            "C2.requests/c0-0004"
+          ],
+          "evidence": "requested_action_not_outcome",
+          "links": [
+            "event-0000"
+          ],
+          "published_date": "2026-12-01",
+          "published_phase": 0,
+          "published_period": 2
+        },
+        {
+          "id": "fact-00004",
+          "key": "decision/48e690a844421c286d52bb26d403c7ff1559f5d93515519b4cef8c5410f75d92",
+          "title": "希望への返答が届いた",
+          "text": "ゆうたの希望に返答。身近な人に支援を相談する：今回は支援を得られなかった。 実働は週12時間、保育は「家庭で過ごす」。",
+          "date": "2027-01-01",
+          "period": 3,
+          "phase": 0,
+          "source_refs": [
+            "A.completed.decisions/c0-0004"
+          ],
+          "evidence": "native_A_unvalidated_feasibility",
+          "links": [
+            "event-0000"
+          ],
+          "published_date": "2027-01-01",
+          "published_phase": 0,
+          "published_period": 3
+        },
+        {
+          "id": "fact-00005",
+          "key": "work/father/paternity_leave/12",
+          "title": "働き方の実際が変わった",
+          "text": "ゆうたの実働は週0時間から12時間へ。今は「paternity_leave」。給与の振込とは時期を分けて確認する。",
+          "date": "2027-01-01",
+          "period": 3,
+          "phase": 0,
+          "source_refs": [
+            "A.completed.parents/father"
+          ],
+          "evidence": "native_A_unverified_employment",
+          "links": [],
+          "published_date": "2027-01-01",
+          "published_phase": 0,
+          "published_period": 3
+        },
+        {
+          "id": "fact-00006",
+          "key": "work/mother/parental_leave/0",
+          "title": "働き方の実際が変わった",
+          "text": "みさきの実働は週0時間から0時間へ。今は「育児休業中」。給与の振込とは時期を分けて確認する。",
+          "date": "2027-01-01",
+          "period": 3,
+          "phase": 0,
+          "source_refs": [
+            "A.completed.parents/mother"
+          ],
+          "evidence": "native_A_unverified_employment",
+          "links": [],
+          "published_date": "2027-01-01",
+          "published_phase": 0,
+          "published_period": 3
+        },
+        {
+          "id": "fact-00007",
+          "key": "pattern/voice/engaged",
+          "title": "繰り返して、気づいたこと",
+          "text": "ゆうたとはるの抱っこで声をかけるの直近4回の記録のうち、3回で「声の方へ顔を向けた。」という反応が残った。この場面での記録で、性格や好みの診断ではない。",
+          "date": "2027-01-01",
+          "period": 3,
+          "phase": 1,
+          "source_refs": [
+            "C2.experiences/experience-00000",
+            "C2.experiences/experience-00001",
+            "C2.experiences/experience-00002",
+            "C2.experiences/experience-00003"
+          ],
+          "evidence": "repeated_observed_scenario_pattern",
+          "links": [],
+          "published_date": "2027-02-01",
+          "published_phase": 0,
+          "published_period": 4
+        },
+        {
+          "id": "fact-00009",
+          "key": "work/father/working/42",
+          "title": "働き方の実際が変わった",
+          "text": "ゆうたの実働は週12時間から42時間へ。今は「働いている」。給与の振込とは時期を分けて確認する。",
+          "date": "2027-02-01",
+          "period": 4,
+          "phase": 0,
+          "source_refs": [
+            "A.completed.parents/father"
+          ],
+          "evidence": "native_A_unverified_employment",
+          "links": [],
+          "published_date": "2027-02-01",
+          "published_phase": 0,
+          "published_period": 4
+        },
+        {
+          "id": "fact-00010",
+          "key": "experience/voice/looking_away",
+          "title": "いつもと違う発見",
+          "text": "ゆうたははると自宅で「抱っこで声をかける」時間を取った。しばらく見たあと、そばの大人へ顔を寄せた。前回の同じ活動とは違う反応が記録された。",
+          "date": "2027-02-01",
+          "period": 4,
+          "phase": 1,
+          "source_refs": [
+            "C2.experiences/experience-00004",
+            "C2.tasks/task-00004"
+          ],
+          "evidence": "inherited_C1_uncalibrated_acute_scenario",
+          "links": [],
+          "published_date": "2027-02-01",
+          "published_phase": 1,
+          "published_period": 4
+        },
+        {
+          "id": "fact-00011",
+          "key": "experience/visit/looking_away",
+          "title": "一緒に過ごした場面",
+          "text": "ゆうたははると保育施設（体験用の見学枠）で「保育園の見学枠を訪ねる」時間を取った。しばらく見たあと、そばの大人へ顔を寄せた。",
+          "date": "2027-03-01",
+          "period": 5,
+          "phase": 0,
+          "source_refs": [
+            "C2.experiences/experience-00005",
+            "C2.tasks/task-00005"
+          ],
+          "evidence": "inherited_C1_uncalibrated_acute_scenario",
+          "links": [
+            "event-0001"
+          ],
+          "published_date": "2027-03-01",
+          "published_phase": 0,
+          "published_period": 5
+        },
+        {
+          "id": "fact-00013",
+          "key": "pattern/voice/looking_away",
+          "title": "繰り返して、気づいたこと",
+          "text": "ゆうたとはるの抱っこで声をかけるの直近4回の記録のうち、3回で「しばらく見たあと、そばの大人へ顔を寄せた。」という反応が残った。この場面での記録で、性格や好みの診断ではない。",
+          "date": "2027-04-01",
+          "period": 6,
+          "phase": 1,
+          "source_refs": [
+            "C2.experiences/experience-00003",
+            "C2.experiences/experience-00004",
+            "C2.experiences/experience-00006",
+            "C2.experiences/experience-00007"
+          ],
+          "evidence": "repeated_observed_scenario_pattern",
+          "links": [],
+          "published_date": "2027-04-01",
+          "published_phase": 1,
+          "published_period": 6
+        },
+        {
+          "id": "fact-00015",
+          "key": "request/e6546cf4b412ac6fca607cd75bbcd8ab7d99bf0e5be7a2f60eaac624a28aa88e",
+          "title": "希望を伝えた場面",
+          "text": "ゆうたは「保育の利用を申請する」の手続きに0.5時間を使った。いまの実働は週42時間で、まだ結果ではない。",
+          "date": "2027-05-01",
+          "period": 7,
+          "phase": 0,
+          "source_refs": [
+            "C2.requests/c0-0015"
+          ],
+          "evidence": "requested_action_not_outcome",
+          "links": [
+            "event-0002"
+          ],
+          "published_date": "2027-05-01",
+          "published_phase": 0,
+          "published_period": 7
+        },
+        {
+          "id": "fact-00018",
+          "key": "decision/9dcb570bfbd7829a5fa2384c75e2e4769025d02ce869438cb31e5debd54cca90",
+          "title": "希望への返答が届いた",
+          "text": "ゆうたの希望に返答。保育の利用を申し込む：申請・相談を提出した。 実働は週42時間、保育は「保育の申請を審査待ち」。",
+          "date": "2027-06-01",
+          "period": 8,
+          "phase": 0,
+          "source_refs": [
+            "A.completed.decisions/c0-0015"
+          ],
+          "evidence": "native_A_unvalidated_feasibility",
+          "links": [
+            "event-0002"
+          ],
+          "published_date": "2027-06-01",
+          "published_phase": 0,
+          "published_period": 8
+        },
+        {
+          "id": "fact-00022",
+          "key": "request/aad1a62427079f85c10101020e93e9fd5347276b2e9b7c5d72c3a7fbdffb555b",
+          "title": "希望を伝えた場面",
+          "text": "ゆうたは「親族へ支援を依頼する」の手続きに0.5時間を使った。いまの実働は週42時間で、まだ結果ではない。",
+          "date": "2027-08-01",
+          "period": 10,
+          "phase": 0,
+          "source_refs": [
+            "C2.requests/c0-0022"
+          ],
+          "evidence": "requested_action_not_outcome",
+          "links": [
+            "event-0003"
+          ],
+          "published_date": "2027-08-01",
+          "published_phase": 0,
+          "published_period": 10
+        },
+        {
+          "id": "fact-00024",
+          "key": "decision/49ff4b5dcda4c4309c21ade7cf6c9d6074dffc2d29f4a0aaf46ffff77348d5a5",
+          "title": "希望への返答が届いた",
+          "text": "ゆうたの希望に返答。身近な人に支援を相談する：今回は支援を得られなかった。 実働は週42時間、保育は「保育の申請は今回の調整では入園に至らず」。",
+          "date": "2027-09-01",
+          "period": 11,
+          "phase": 0,
+          "source_refs": [
+            "A.completed.decisions/c0-0022"
+          ],
+          "evidence": "native_A_unvalidated_feasibility",
+          "links": [
+            "event-0003"
+          ],
+          "published_date": "2027-09-01",
+          "published_phase": 0,
+          "published_period": 11
+        },
+        {
+          "id": "fact-00026",
+          "key": "experience/floor/looking_away",
+          "title": "一緒に過ごした場面",
+          "text": "ゆうたははると自宅で「床に敷いたマットで遊ぶ」時間を取った。しばらく見たあと、そばの大人へ顔を寄せた。",
+          "date": "2027-10-01",
+          "period": 12,
+          "phase": 0,
+          "source_refs": [
+            "C2.experiences/experience-00013",
+            "C2.tasks/task-00013"
+          ],
+          "evidence": "inherited_C1_uncalibrated_acute_scenario",
+          "links": [
+            "event-0004"
+          ],
+          "published_date": "2027-10-01",
+          "published_phase": 0,
+          "published_period": 12
+        },
+        {
+          "id": "fact-00027",
+          "key": "pattern/voice/crying",
+          "title": "繰り返して、気づいたこと",
+          "text": "ゆうたとはるの抱っこで声をかけるの直近4回の記録のうち、3回で「途中で泣き出したため、活動を切り上げて静かな所で過ごした。」という反応が残った。この場面での記録で、性格や好みの診断ではない。",
+          "date": "2027-10-01",
+          "period": 12,
+          "phase": 1,
+          "source_refs": [
+            "C2.experiences/experience-00010",
+            "C2.experiences/experience-00011",
+            "C2.experiences/experience-00012",
+            "C2.experiences/experience-00014"
+          ],
+          "evidence": "repeated_observed_scenario_pattern",
+          "links": [],
+          "published_date": "2027-10-01",
+          "published_phase": 1,
+          "published_period": 12
+        },
+        {
+          "id": "fact-00029",
+          "key": "work/mother/unpaid_care_interruption/0",
+          "title": "働き方の実際が変わった",
+          "text": "みさきの実働は週0時間から0時間へ。今は「育児のため実働を休止」。給与の振込とは時期を分けて確認する。",
+          "date": "2027-11-01",
+          "period": 13,
+          "phase": 0,
+          "source_refs": [
+            "A.completed.parents/mother"
+          ],
+          "evidence": "native_A_unverified_employment",
+          "links": [],
+          "published_date": "2027-11-01",
+          "published_phase": 0,
+          "published_period": 13
+        },
+        {
+          "id": "fact-00031",
+          "key": "observed-skill/takes_independent_steps",
+          "title": "親の記録に初めて残ったこと",
+          "text": "ゆうたの観察に、はるの「ひとりで足を運ぶ姿」が初めて残った。観察した場面の記録で、診断や正確な獲得日ではない。",
+          "date": "2027-11-01",
+          "period": 13,
+          "phase": 1,
+          "source_refs": [
+            "B.player_view/father/takes_independent_steps"
+          ],
+          "evidence": "B_report_model_not_diagnosis",
+          "links": [],
+          "published_date": "2027-11-01",
+          "published_phase": 1,
+          "published_period": 13
+        },
+        {
+          "id": "fact-00032",
+          "key": "observed-skill/uses_contextual_word",
+          "title": "初めて記録できた姿",
+          "text": "ゆうたは、はるの「場面に合う言葉」を記録した。実際に観察できた場面で、正確な獲得日の判定ではない。",
+          "date": "2027-12-01",
+          "period": 14,
+          "phase": 0,
+          "source_refs": [
+            "B.player_view/father/uses_contextual_word"
+          ],
+          "evidence": "B_uncalibrated_report_measurement",
+          "links": [],
+          "published_date": "2027-12-01",
+          "published_phase": 0,
+          "published_period": 14
+        },
+        {
+          "id": "fact-00042",
+          "key": "experience/floor/crying",
+          "title": "いつもと違う発見",
+          "text": "ゆうたははると自宅で「床に敷いたマットで遊ぶ」時間を取った。途中で泣き出したため、活動を切り上げて静かな所で過ごした。前回の同じ活動とは違う反応が記録された。",
+          "date": "2028-05-01",
+          "period": 19,
+          "phase": 0,
+          "source_refs": [
+            "C2.experiences/experience-00022",
+            "C2.tasks/task-00022"
+          ],
+          "evidence": "inherited_C1_uncalibrated_acute_scenario",
+          "links": [
+            "event-0007"
+          ],
+          "published_date": "2028-05-01",
+          "published_phase": 0,
+          "published_period": 19
+        },
+        {
+          "id": "fact-00046",
+          "key": "work/mother/working_care_constrained/6",
+          "title": "働き方の実際が変わった",
+          "text": "みさきの実働は週0時間から6時間へ。今は「working_care_constrained」。給与の振込とは時期を分けて確認する。",
+          "date": "2028-08-01",
+          "period": 22,
+          "phase": 0,
+          "source_refs": [
+            "A.completed.parents/mother"
+          ],
+          "evidence": "native_A_unverified_employment",
+          "links": [],
+          "published_date": "2028-08-01",
+          "published_phase": 0,
+          "published_period": 22
+        },
+        {
+          "id": "fact-00047",
+          "key": "experience/visit/crying",
+          "title": "いつもと違う発見",
+          "text": "ゆうたははると保育施設（体験用の見学枠）で「保育園の見学枠を訪ねる」時間を取った。途中で泣き出したため、活動を切り上げて静かな所で過ごした。前回の同じ活動とは違う反応が記録された。",
+          "date": "2028-08-01",
+          "period": 22,
+          "phase": 0,
+          "source_refs": [
+            "C2.experiences/experience-00026",
+            "C2.tasks/task-00026"
+          ],
+          "evidence": "inherited_C1_uncalibrated_acute_scenario",
+          "links": [
+            "event-0008"
+          ],
+          "published_date": "2028-08-01",
+          "published_phase": 0,
+          "published_period": 22
+        }
+      ]
+    },
+    {
+      "policy": "time",
+      "biological_hash": "b07df3b8be1e5b485c8c64c235a657bfe3d374ca8604a1ad4071af48eca68449",
+      "cash": 1494922,
+      "term": 23583138,
+      "time_total": 54.5,
+      "experience_count": 102,
+      "contexts": [
+        "floor",
+        "visit",
+        "voice"
+      ],
+      "native_hours_ratio": 0.8,
+      "policy_operations": [],
+      "logs": [
+        {
+          "id": "fact-00000",
+          "key": "experience/voice/engaged",
+          "title": "一緒に過ごした場面",
+          "text": "ゆうたははると自宅で「抱っこで声をかける」時間を取った。声の方へ顔を向けた。",
+          "date": "2026-10-01",
+          "period": 0,
+          "phase": 1,
+          "source_refs": [
+            "C2.experiences/experience-00000",
+            "C2.tasks/task-00000"
+          ],
+          "evidence": "inherited_C1_uncalibrated_acute_scenario",
+          "links": [],
+          "published_date": "2026-10-01",
+          "published_phase": 1,
+          "published_period": 0
+        },
+        {
+          "id": "fact-00001",
+          "key": "experience/voice/crying",
+          "title": "いつもと違う発見",
+          "text": "ゆうたははると自宅で「抱っこで声をかける」時間を取った。途中で泣き出したため、活動を切り上げて静かな所で過ごした。前回の同じ活動とは違う反応が記録された。",
+          "date": "2026-10-01",
+          "period": 0,
+          "phase": 1,
+          "source_refs": [
+            "C2.experiences/experience-00001",
+            "C2.tasks/task-00001"
+          ],
+          "evidence": "inherited_C1_uncalibrated_acute_scenario",
+          "links": [],
+          "published_date": "2026-10-01",
+          "published_phase": 1,
+          "published_period": 0
+        },
+        {
+          "id": "fact-00002",
+          "key": "experience/voice/looking_away",
+          "title": "いつもと違う発見",
+          "text": "ゆうたははると自宅で「抱っこで声をかける」時間を取った。しばらく見たあと、そばの大人へ顔を寄せた。前回の同じ活動とは違う反応が記録された。",
+          "date": "2026-10-01",
+          "period": 0,
+          "phase": 2,
+          "source_refs": [
+            "C2.experiences/experience-00002",
+            "C2.tasks/task-00002"
+          ],
+          "evidence": "inherited_C1_uncalibrated_acute_scenario",
+          "links": [],
+          "published_date": "2026-10-01",
+          "published_phase": 2,
+          "published_period": 0
+        },
+        {
+          "id": "fact-00004",
+          "key": "decision/5606fd3bdadedc9e940c982554ea1b0d9dad1e9feff25ed78a6ed9d532bfaa35",
+          "title": "希望への返答が届いた",
+          "text": "ゆうたの希望に返答。勤務時間の調整を相談する：受け付けられた。 実働は週0時間、保育は「家庭で過ごす」。",
+          "date": "2026-11-01",
+          "period": 1,
+          "phase": 0,
+          "source_refs": [
+            "A.completed.decisions/c0-0000"
+          ],
+          "evidence": "native_A_unvalidated_feasibility",
+          "links": [],
+          "published_date": "2026-11-01",
+          "published_phase": 0,
+          "published_period": 1
+        },
+        {
+          "id": "fact-00007",
+          "key": "pattern/voice/engaged",
+          "title": "繰り返して、気づいたこと",
+          "text": "ゆうたとはるの抱っこで声をかけるの直近4回の記録のうち、3回で「声の方へ顔を向けた。」という反応が残った。この場面での記録で、性格や好みの診断ではない。",
+          "date": "2026-11-01",
+          "period": 1,
+          "phase": 2,
+          "source_refs": [
+            "C2.experiences/experience-00003",
+            "C2.experiences/experience-00004",
+            "C2.experiences/experience-00005",
+            "C2.experiences/experience-00006"
+          ],
+          "evidence": "repeated_observed_scenario_pattern",
+          "links": [],
+          "published_date": "2026-11-01",
+          "published_phase": 2,
+          "published_period": 1
+        },
+        {
+          "id": "fact-00010",
+          "key": "request/10db1e3ed398884b262a18f300ea3218023be855700b2cd1fedcff2d1e003f67",
+          "title": "希望を伝えた場面",
+          "text": "ゆうたは「親族へ支援を依頼する」の手続きに0.5時間を使った。いまの実働は週0時間で、まだ結果ではない。",
+          "date": "2026-12-01",
+          "period": 2,
+          "phase": 0,
+          "source_refs": [
+            "C2.requests/c0-0005"
+          ],
+          "evidence": "requested_action_not_outcome",
+          "links": [
+            "event-0000"
+          ],
+          "published_date": "2026-12-01",
+          "published_phase": 0,
+          "published_period": 2
+        },
+        {
+          "id": "fact-00013",
+          "key": "pattern/voice/crying",
+          "title": "繰り返して、気づいたこと",
+          "text": "ゆうたとはるの抱っこで声をかけるの直近4回の記録のうち、3回で「途中で泣き出したため、活動を切り上げて静かな所で過ごした。」という反応が残った。この場面での記録で、性格や好みの診断ではない。",
+          "date": "2026-12-01",
+          "period": 2,
+          "phase": 2,
+          "source_refs": [
+            "C2.experiences/experience-00007",
+            "C2.experiences/experience-00008",
+            "C2.experiences/experience-00009",
+            "C2.experiences/experience-00010"
+          ],
+          "evidence": "repeated_observed_scenario_pattern",
+          "links": [],
+          "published_date": "2026-12-01",
+          "published_phase": 2,
+          "published_period": 2
+        },
+        {
+          "id": "fact-00016",
+          "key": "decision/57b5b0d813d412812986d74dd14bc32e18d77ef3b1515fc19260ec7c56893202",
+          "title": "希望への返答が届いた",
+          "text": "ゆうたの希望に返答。身近な人に支援を相談する：今回は支援を得られなかった。 実働は週10時間、保育は「家庭で過ごす」。",
+          "date": "2027-01-01",
+          "period": 3,
+          "phase": 0,
+          "source_refs": [
+            "A.completed.decisions/c0-0005"
+          ],
+          "evidence": "native_A_unvalidated_feasibility",
+          "links": [
+            "event-0000"
+          ],
+          "published_date": "2027-01-01",
+          "published_phase": 0,
+          "published_period": 3
+        },
+        {
+          "id": "fact-00017",
+          "key": "work/father/paternity_leave/10",
+          "title": "働き方の実際が変わった",
+          "text": "ゆうたの実働は週0時間から10時間へ。今は「paternity_leave」。給与の振込とは時期を分けて確認する。",
+          "date": "2027-01-01",
+          "period": 3,
+          "phase": 0,
+          "source_refs": [
+            "A.completed.parents/father"
+          ],
+          "evidence": "native_A_unverified_employment",
+          "links": [],
+          "published_date": "2027-01-01",
+          "published_phase": 0,
+          "published_period": 3
+        },
+        {
+          "id": "fact-00018",
+          "key": "work/mother/parental_leave/0",
+          "title": "働き方の実際が変わった",
+          "text": "みさきの実働は週0時間から0時間へ。今は「育児休業中」。給与の振込とは時期を分けて確認する。",
+          "date": "2027-01-01",
+          "period": 3,
+          "phase": 0,
+          "source_refs": [
+            "A.completed.parents/mother"
+          ],
+          "evidence": "native_A_unverified_employment",
+          "links": [],
+          "published_date": "2027-01-01",
+          "published_phase": 0,
+          "published_period": 3
+        },
+        {
+          "id": "fact-00019",
+          "key": "experience/floor/crying",
+          "title": "一緒に過ごした場面",
+          "text": "ゆうたははると自宅で「床に敷いたマットで遊ぶ」時間を取った。途中で泣き出したため、活動を切り上げて静かな所で過ごした。",
+          "date": "2027-01-01",
+          "period": 3,
+          "phase": 1,
+          "source_refs": [
+            "C2.experiences/experience-00012",
+            "C2.tasks/task-00012"
+          ],
+          "evidence": "inherited_C1_uncalibrated_acute_scenario",
+          "links": [],
+          "published_date": "2027-02-01",
+          "published_phase": 0,
+          "published_period": 4
+        },
+        {
+          "id": "fact-00021",
+          "key": "experience/floor/engaged",
+          "title": "いつもと違う発見",
+          "text": "ゆうたははると自宅で「床に敷いたマットで遊ぶ」時間を取った。周りの音の方へ顔を向けた。前回の同じ活動とは違う反応が記録された。",
+          "date": "2027-01-01",
+          "period": 3,
+          "phase": 2,
+          "source_refs": [
+            "C2.experiences/experience-00014",
+            "C2.tasks/task-00014"
+          ],
+          "evidence": "inherited_C1_uncalibrated_acute_scenario",
+          "links": [],
+          "published_date": "2027-02-01",
+          "published_phase": 0,
+          "published_period": 4
+        },
+        {
+          "id": "fact-00023",
+          "key": "work/father/working/34",
+          "title": "働き方の実際が変わった",
+          "text": "ゆうたの実働は週10時間から34時間へ。今は「働いている」。給与の振込とは時期を分けて確認する。",
+          "date": "2027-02-01",
+          "period": 4,
+          "phase": 0,
+          "source_refs": [
+            "A.completed.parents/father"
+          ],
+          "evidence": "native_A_unverified_employment",
+          "links": [],
+          "published_date": "2027-02-01",
+          "published_phase": 0,
+          "published_period": 4
+        },
+        {
+          "id": "fact-00024",
+          "key": "pattern/floor/engaged",
+          "title": "繰り返して、気づいたこと",
+          "text": "ゆうたとはるの床に敷いたマットで遊ぶの直近4回の記録のうち、3回で「周りの音の方へ顔を向けた。」という反応が残った。この場面での記録で、性格や好みの診断ではない。",
+          "date": "2027-02-01",
+          "period": 4,
+          "phase": 1,
+          "source_refs": [
+            "C2.experiences/experience-00013",
+            "C2.experiences/experience-00014",
+            "C2.experiences/experience-00015",
+            "C2.experiences/experience-00016"
+          ],
+          "evidence": "repeated_observed_scenario_pattern",
+          "links": [],
+          "published_date": "2027-03-01",
+          "published_phase": 0,
+          "published_period": 5
+        },
+        {
+          "id": "fact-00026",
+          "key": "experience/floor/looking_away",
+          "title": "いつもと違う発見",
+          "text": "ゆうたははると自宅で「床に敷いたマットで遊ぶ」時間を取った。しばらく見たあと、そばの大人へ顔を寄せた。前回の同じ活動とは違う反応が記録された。",
+          "date": "2027-02-01",
+          "period": 4,
+          "phase": 1,
+          "source_refs": [
+            "C2.experiences/experience-00017",
+            "C2.tasks/task-00017"
+          ],
+          "evidence": "inherited_C1_uncalibrated_acute_scenario",
+          "links": [],
+          "published_date": "2027-03-01",
+          "published_phase": 0,
+          "published_period": 5
+        },
+        {
+          "id": "fact-00029",
+          "key": "experience/visit/looking_away",
+          "title": "一緒に過ごした場面",
+          "text": "ゆうたははると保育施設（体験用の見学枠）で「保育園の見学枠を訪ねる」時間を取った。しばらく見たあと、そばの大人へ顔を寄せた。",
+          "date": "2027-03-01",
+          "period": 5,
+          "phase": 0,
+          "source_refs": [
+            "C2.experiences/experience-00020",
+            "C2.tasks/task-00020"
+          ],
+          "evidence": "inherited_C1_uncalibrated_acute_scenario",
+          "links": [
+            "event-0001"
+          ],
+          "published_date": "2027-03-01",
+          "published_phase": 0,
+          "published_period": 5
+        },
+        {
+          "id": "fact-00036",
+          "key": "pattern/floor/crying",
+          "title": "繰り返して、気づいたこと",
+          "text": "ゆうたとはるの床に敷いたマットで遊ぶの直近4回の記録のうち、3回で「途中で泣き出したため、活動を切り上げて静かな所で過ごした。」という反応が残った。この場面での記録で、性格や好みの診断ではない。",
+          "date": "2027-04-01",
+          "period": 6,
+          "phase": 2,
+          "source_refs": [
+            "C2.experiences/experience-00024",
+            "C2.experiences/experience-00025",
+            "C2.experiences/experience-00026",
+            "C2.experiences/experience-00027"
+          ],
+          "evidence": "repeated_observed_scenario_pattern",
+          "links": [],
+          "published_date": "2027-04-01",
+          "published_phase": 2,
+          "published_period": 6
+        },
+        {
+          "id": "fact-00053",
+          "key": "request/9fcf8961a5b6951adabb5d10de865861e832f0d4a8194776eb8f2d0e325893ef",
+          "title": "希望を伝えた場面",
+          "text": "ゆうたは「親族へ支援を依頼する」の手続きに0.5時間を使った。いまの実働は週34時間で、まだ結果ではない。",
+          "date": "2027-08-01",
+          "period": 10,
+          "phase": 0,
+          "source_refs": [
+            "C2.requests/c0-0022"
+          ],
+          "evidence": "requested_action_not_outcome",
+          "links": [
+            "event-0003"
+          ],
+          "published_date": "2027-08-01",
+          "published_phase": 0,
+          "published_period": 10
+        },
+        {
+          "id": "fact-00058",
+          "key": "decision/ef1666a325940d219e72aab4d113a1d2490288fa00a1bb7efd207a8adafa9e41",
+          "title": "希望への返答が届いた",
+          "text": "ゆうたの希望に返答。身近な人に支援を相談する：今回は支援を得られなかった。 実働は週34時間、保育は「家庭で過ごす」。",
+          "date": "2027-09-01",
+          "period": 11,
+          "phase": 0,
+          "source_refs": [
+            "A.completed.decisions/c0-0022"
+          ],
+          "evidence": "native_A_unvalidated_feasibility",
+          "links": [
+            "event-0003"
+          ],
+          "published_date": "2027-09-01",
+          "published_phase": 0,
+          "published_period": 11
+        },
+        {
+          "id": "fact-00059",
+          "key": "pattern/floor/looking_away",
+          "title": "繰り返して、気づいたこと",
+          "text": "ゆうたとはるの床に敷いたマットで遊ぶの直近4回の記録のうち、3回で「しばらく見たあと、そばの大人へ顔を寄せた。」という反応が残った。この場面での記録で、性格や好みの診断ではない。",
+          "date": "2027-09-01",
+          "period": 11,
+          "phase": 1,
+          "source_refs": [
+            "C2.experiences/experience-00043",
+            "C2.experiences/experience-00044",
+            "C2.experiences/experience-00045",
+            "C2.experiences/experience-00046"
+          ],
+          "evidence": "repeated_observed_scenario_pattern",
+          "links": [],
+          "published_date": "2027-09-01",
+          "published_phase": 1,
+          "published_period": 11
+        },
+        {
+          "id": "fact-00066",
+          "key": "experience/visit/crying",
+          "title": "いつもと違う発見",
+          "text": "ゆうたははると保育施設（体験用の見学枠）で「保育園の見学枠を訪ねる」時間を取った。途中で泣き出したため、活動を切り上げて静かな所で過ごした。前回の同じ活動とは違う反応が記録された。",
+          "date": "2027-10-01",
+          "period": 12,
+          "phase": 0,
+          "source_refs": [
+            "C2.experiences/experience-00050",
+            "C2.tasks/task-00050"
+          ],
+          "evidence": "inherited_C1_uncalibrated_acute_scenario",
+          "links": [
+            "event-0004"
+          ],
+          "published_date": "2027-10-01",
+          "published_phase": 0,
+          "published_period": 12
+        },
+        {
+          "id": "fact-00072",
+          "key": "work/mother/unpaid_care_interruption/0",
+          "title": "働き方の実際が変わった",
+          "text": "みさきの実働は週0時間から0時間へ。今は「育児のため実働を休止」。給与の振込とは時期を分けて確認する。",
+          "date": "2027-11-01",
+          "period": 13,
+          "phase": 0,
+          "source_refs": [
+            "A.completed.parents/mother"
+          ],
+          "evidence": "native_A_unverified_employment",
+          "links": [],
+          "published_date": "2027-11-01",
+          "published_phase": 0,
+          "published_period": 13
+        },
+        {
+          "id": "fact-00075",
+          "key": "observed-skill/takes_independent_steps",
+          "title": "親の記録に初めて残ったこと",
+          "text": "ゆうたの観察に、はるの「ひとりで足を運ぶ姿」が初めて残った。観察した場面の記録で、診断や正確な獲得日ではない。",
+          "date": "2027-11-01",
+          "period": 13,
+          "phase": 1,
+          "source_refs": [
+            "B.player_view/father/takes_independent_steps"
+          ],
+          "evidence": "B_report_model_not_diagnosis",
+          "links": [],
+          "published_date": "2027-11-01",
+          "published_phase": 1,
+          "published_period": 13
+        },
+        {
+          "id": "fact-00078",
+          "key": "observed-skill/uses_contextual_word",
+          "title": "初めて記録できた姿",
+          "text": "ゆうたは、はるの「場面に合う言葉」を記録した。実際に観察できた場面で、正確な獲得日の判定ではない。",
+          "date": "2027-12-01",
+          "period": 14,
+          "phase": 0,
+          "source_refs": [
+            "B.player_view/father/uses_contextual_word"
+          ],
+          "evidence": "B_uncalibrated_report_measurement",
+          "links": [],
+          "published_date": "2027-12-01",
+          "published_phase": 0,
+          "published_period": 14
+        },
+        {
+          "id": "fact-00121",
+          "key": "work/mother/working_care_constrained/14",
+          "title": "働き方の実際が変わった",
+          "text": "みさきの実働は週0時間から14時間へ。今は「working_care_constrained」。給与の振込とは時期を分けて確認する。",
+          "date": "2028-08-01",
+          "period": 22,
+          "phase": 0,
+          "source_refs": [
+            "A.completed.parents/mother"
+          ],
+          "evidence": "native_A_unverified_employment",
+          "links": [],
+          "published_date": "2028-08-01",
+          "published_phase": 0,
+          "published_period": 22
+        }
+      ]
+    },
+    {
+      "policy": "play",
+      "biological_hash": "b07df3b8be1e5b485c8c64c235a657bfe3d374ca8604a1ad4071af48eca68449",
+      "cash": 2118633,
+      "term": 23583138,
+      "time_total": 77.25,
+      "experience_count": 77,
+      "contexts": [
+        "book",
+        "center",
+        "floor",
+        "park",
+        "toy",
+        "visit",
+        "voice"
+      ],
+      "native_hours_ratio": 1.0,
+      "policy_operations": [],
+      "logs": [
+        {
+          "id": "fact-00000",
+          "key": "experience/voice/engaged",
+          "title": "一緒に過ごした場面",
+          "text": "ゆうたははると自宅で「抱っこで声をかける」時間を取った。声の方へ顔を向けた。",
+          "date": "2026-10-01",
+          "period": 0,
+          "phase": 1,
+          "source_refs": [
+            "C2.experiences/experience-00000",
+            "C2.tasks/task-00000"
+          ],
+          "evidence": "inherited_C1_uncalibrated_acute_scenario",
+          "links": [],
+          "published_date": "2026-10-01",
+          "published_phase": 1,
+          "published_period": 0
+        },
+        {
+          "id": "fact-00001",
+          "key": "experience/voice/crying",
+          "title": "いつもと違う発見",
+          "text": "ゆうたははると自宅で「抱っこで声をかける」時間を取った。途中で泣き出したため、活動を切り上げて静かな所で過ごした。前回の同じ活動とは違う反応が記録された。",
+          "date": "2026-10-01",
+          "period": 0,
+          "phase": 1,
+          "source_refs": [
+            "C2.experiences/experience-00001",
+            "C2.tasks/task-00001"
+          ],
+          "evidence": "inherited_C1_uncalibrated_acute_scenario",
+          "links": [],
+          "published_date": "2026-10-01",
+          "published_phase": 1,
+          "published_period": 0
+        },
+        {
+          "id": "fact-00002",
+          "key": "experience/voice/looking_away",
+          "title": "いつもと違う発見",
+          "text": "ゆうたははると自宅で「抱っこで声をかける」時間を取った。しばらく見たあと、そばの大人へ顔を寄せた。前回の同じ活動とは違う反応が記録された。",
+          "date": "2026-10-01",
+          "period": 0,
+          "phase": 2,
+          "source_refs": [
+            "C2.experiences/experience-00002",
+            "C2.tasks/task-00002"
+          ],
+          "evidence": "inherited_C1_uncalibrated_acute_scenario",
+          "links": [],
+          "published_date": "2026-10-01",
+          "published_phase": 2,
+          "published_period": 0
+        },
+        {
+          "id": "fact-00005",
+          "key": "experience/park/crying",
+          "title": "一緒に過ごした場面",
+          "text": "ゆうたははると近所の公園で「公園のベンチで過ごす」時間を取った。途中で泣き出したため、活動を切り上げて静かな所で過ごした。",
+          "date": "2026-11-01",
+          "period": 1,
+          "phase": 2,
+          "source_refs": [
+            "C2.experiences/experience-00005",
+            "C2.tasks/task-00005"
+          ],
+          "evidence": "inherited_C1_uncalibrated_acute_scenario",
+          "links": [],
+          "published_date": "2026-11-01",
+          "published_phase": 2,
+          "published_period": 1
+        },
+        {
+          "id": "fact-00006",
+          "key": "request/08acdb69ffdbd6905d28818594d9354407fc8fd79440b402e27c8d2bfaa16249",
+          "title": "希望を伝えた場面",
+          "text": "ゆうたは「親族へ支援を依頼する」の手続きに0.5時間を使った。いまの実働は週0時間で、まだ結果ではない。",
+          "date": "2026-12-01",
+          "period": 2,
+          "phase": 0,
+          "source_refs": [
+            "C2.requests/c0-0004"
+          ],
+          "evidence": "requested_action_not_outcome",
+          "links": [
+            "event-0000"
+          ],
+          "published_date": "2026-12-01",
+          "published_phase": 0,
+          "published_period": 2
+        },
+        {
+          "id": "fact-00007",
+          "key": "experience/book/crying",
+          "title": "一緒に過ごした場面",
+          "text": "ゆうたははると自宅で「まると、てのひら」（架空の絵本）を使った。途中で泣き出したため、活動を切り上げて静かな所で過ごした。",
+          "date": "2026-12-01",
+          "period": 2,
+          "phase": 1,
+          "source_refs": [
+            "C2.experiences/experience-00006",
+            "C2.tasks/task-00006",
+            "C2.inventory/item-book"
+          ],
+          "evidence": "inherited_C1_uncalibrated_acute_scenario",
+          "links": [],
+          "published_date": "2026-12-01",
+          "published_phase": 1,
+          "published_period": 2
+        },
+        {
+          "id": "fact-00010",
+          "key": "decision/48e690a844421c286d52bb26d403c7ff1559f5d93515519b4cef8c5410f75d92",
+          "title": "希望への返答が届いた",
+          "text": "ゆうたの希望に返答。身近な人に支援を相談する：今回は支援を得られなかった。 実働は週12時間、保育は「家庭で過ごす」。",
+          "date": "2027-01-01",
+          "period": 3,
+          "phase": 0,
+          "source_refs": [
+            "A.completed.decisions/c0-0004"
+          ],
+          "evidence": "native_A_unvalidated_feasibility",
+          "links": [
+            "event-0000"
+          ],
+          "published_date": "2027-01-01",
+          "published_phase": 0,
+          "published_period": 3
+        },
+        {
+          "id": "fact-00011",
+          "key": "work/father/paternity_leave/12",
+          "title": "働き方の実際が変わった",
+          "text": "ゆうたの実働は週0時間から12時間へ。今は「paternity_leave」。給与の振込とは時期を分けて確認する。",
+          "date": "2027-01-01",
+          "period": 3,
+          "phase": 0,
+          "source_refs": [
+            "A.completed.parents/father"
+          ],
+          "evidence": "native_A_unverified_employment",
+          "links": [],
+          "published_date": "2027-01-01",
+          "published_phase": 0,
+          "published_period": 3
+        },
+        {
+          "id": "fact-00012",
+          "key": "work/mother/parental_leave/0",
+          "title": "働き方の実際が変わった",
+          "text": "みさきの実働は週0時間から0時間へ。今は「育児休業中」。給与の振込とは時期を分けて確認する。",
+          "date": "2027-01-01",
+          "period": 3,
+          "phase": 0,
+          "source_refs": [
+            "A.completed.parents/mother"
+          ],
+          "evidence": "native_A_unverified_employment",
+          "links": [],
+          "published_date": "2027-01-01",
+          "published_phase": 0,
+          "published_period": 3
+        },
+        {
+          "id": "fact-00013",
+          "key": "experience/book/engaged",
+          "title": "いつもと違う発見",
+          "text": "ゆうたははると自宅で「まると、てのひら」（架空の絵本）を使った。開いたページへ顔を向けた。前回の同じ活動とは違う反応が記録された。",
+          "date": "2027-01-01",
+          "period": 3,
+          "phase": 1,
+          "source_refs": [
+            "C2.experiences/experience-00009",
+            "C2.tasks/task-00009",
+            "C2.inventory/item-book"
+          ],
+          "evidence": "inherited_C1_uncalibrated_acute_scenario",
+          "links": [],
+          "published_date": "2027-02-01",
+          "published_phase": 0,
+          "published_period": 4
+        },
+        {
+          "id": "fact-00014",
+          "key": "pattern/voice/crying",
+          "title": "繰り返して、気づいたこと",
+          "text": "ゆうたとはるの抱っこで声をかけるの直近4回の記録のうち、3回で「途中で泣き出したため、活動を切り上げて静かな所で過ごした。」という反応が残った。この場面での記録で、性格や好みの診断ではない。",
+          "date": "2027-01-01",
+          "period": 3,
+          "phase": 1,
+          "source_refs": [
+            "C2.experiences/experience-00003",
+            "C2.experiences/experience-00004",
+            "C2.experiences/experience-00007",
+            "C2.experiences/experience-00010"
+          ],
+          "evidence": "repeated_observed_scenario_pattern",
+          "links": [],
+          "published_date": "2027-02-01",
+          "published_phase": 0,
+          "published_period": 4
+        },
+        {
+          "id": "fact-00016",
+          "key": "experience/center/crying",
+          "title": "一緒に過ごした場面",
+          "text": "ゆうたははると地域の親子ひろば（体験用の施設）で「親子ひろばへ出かける」時間を取った。途中で泣き出したため、活動を切り上げて静かな所で過ごした。",
+          "date": "2027-01-01",
+          "period": 3,
+          "phase": 2,
+          "source_refs": [
+            "C2.experiences/experience-00011",
+            "C2.tasks/task-00011"
+          ],
+          "evidence": "inherited_C1_uncalibrated_acute_scenario",
+          "links": [],
+          "published_date": "2027-02-01",
+          "published_phase": 0,
+          "published_period": 4
+        },
+        {
+          "id": "fact-00017",
+          "key": "work/father/working/42",
+          "title": "働き方の実際が変わった",
+          "text": "ゆうたの実働は週12時間から42時間へ。今は「働いている」。給与の振込とは時期を分けて確認する。",
+          "date": "2027-02-01",
+          "period": 4,
+          "phase": 0,
+          "source_refs": [
+            "A.completed.parents/father"
+          ],
+          "evidence": "native_A_unverified_employment",
+          "links": [],
+          "published_date": "2027-03-01",
+          "published_phase": 0,
+          "published_period": 5
+        },
+        {
+          "id": "fact-00019",
+          "key": "experience/toy/crying",
+          "title": "一緒に過ごした場面",
+          "text": "ゆうたははると自宅で赤い布のボールを使った。途中で泣き出したため、活動を切り上げて静かな所で過ごした。",
+          "date": "2027-02-01",
+          "period": 4,
+          "phase": 1,
+          "source_refs": [
+            "C2.experiences/experience-00013",
+            "C2.tasks/task-00013",
+            "C2.inventory/item-toy"
+          ],
+          "evidence": "inherited_C1_uncalibrated_acute_scenario",
+          "links": [],
+          "published_date": "2027-03-01",
+          "published_phase": 0,
+          "published_period": 5
+        },
+        {
+          "id": "fact-00020",
+          "key": "experience/center/engaged",
+          "title": "いつもと違う発見",
+          "text": "ゆうたははると地域の親子ひろば（体験用の施設）で「親子ひろばへ出かける」時間を取った。周りの音の方へ顔を向けた。前回の同じ活動とは違う反応が記録された。",
+          "date": "2027-02-01",
+          "period": 4,
+          "phase": 2,
+          "source_refs": [
+            "C2.experiences/experience-00014",
+            "C2.tasks/task-00014"
+          ],
+          "evidence": "inherited_C1_uncalibrated_acute_scenario",
+          "links": [],
+          "published_date": "2027-03-01",
+          "published_phase": 0,
+          "published_period": 5
+        },
+        {
+          "id": "fact-00021",
+          "key": "experience/visit/crying",
+          "title": "一緒に過ごした場面",
+          "text": "ゆうたははると保育施設（体験用の見学枠）で「保育園の見学枠を訪ねる」時間を取った。途中で泣き出したため、活動を切り上げて静かな所で過ごした。",
+          "date": "2027-03-01",
+          "period": 5,
+          "phase": 0,
+          "source_refs": [
+            "C2.experiences/experience-00015",
+            "C2.tasks/task-00015"
+          ],
+          "evidence": "inherited_C1_uncalibrated_acute_scenario",
+          "links": [
+            "event-0001"
+          ],
+          "published_date": "2027-04-01",
+          "published_phase": 0,
+          "published_period": 6
+        },
+        {
+          "id": "fact-00022",
+          "key": "pattern/book/crying",
+          "title": "繰り返して、気づいたこと",
+          "text": "ゆうたとはるの「まると、てのひら」（架空の絵本）の直近4回の記録のうち、3回で「途中で泣き出したため、活動を切り上げて静かな所で過ごした。」という反応が残った。この場面での記録で、性格や好みの診断ではない。",
+          "date": "2027-03-01",
+          "period": 5,
+          "phase": 1,
+          "source_refs": [
+            "C2.experiences/experience-00006",
+            "C2.experiences/experience-00009",
+            "C2.experiences/experience-00012",
+            "C2.experiences/experience-00016"
+          ],
+          "evidence": "repeated_observed_scenario_pattern",
+          "links": [],
+          "published_date": "2027-04-01",
+          "published_phase": 0,
+          "published_period": 6
+        },
+        {
+          "id": "fact-00024",
+          "key": "experience/toy/engaged",
+          "title": "いつもと違う発見",
+          "text": "ゆうたははると自宅で赤い布のボールを使った。赤い布のボールへ手を伸ばした。前回の同じ活動とは違う反応が記録された。",
+          "date": "2027-03-01",
+          "period": 5,
+          "phase": 1,
+          "source_refs": [
+            "C2.experiences/experience-00017",
+            "C2.tasks/task-00017",
+            "C2.inventory/item-toy"
+          ],
+          "evidence": "inherited_C1_uncalibrated_acute_scenario",
+          "links": [],
+          "published_date": "2027-04-01",
+          "published_phase": 0,
+          "published_period": 6
+        },
+        {
+          "id": "fact-00025",
+          "key": "experience/center/looking_away",
+          "title": "いつもと違う発見",
+          "text": "ゆうたははると地域の親子ひろば（体験用の施設）で「親子ひろばへ出かける」時間を取った。しばらく見たあと、そばの大人へ顔を寄せた。前回の同じ活動とは違う反応が記録された。",
+          "date": "2027-03-01",
+          "period": 5,
+          "phase": 2,
+          "source_refs": [
+            "C2.experiences/experience-00018",
+            "C2.tasks/task-00018"
+          ],
+          "evidence": "inherited_C1_uncalibrated_acute_scenario",
+          "links": [],
+          "published_date": "2027-05-01",
+          "published_phase": 0,
+          "published_period": 7
+        },
+        {
+          "id": "fact-00026",
+          "key": "experience/book/looking_away",
+          "title": "いつもと違う発見",
+          "text": "ゆうたははると自宅で「まると、てのひら」（架空の絵本）を使った。しばらく見たあと、そばの大人へ顔を寄せた。前回の同じ活動とは違う反応が記録された。",
+          "date": "2027-04-01",
+          "period": 6,
+          "phase": 1,
+          "source_refs": [
+            "C2.experiences/experience-00019",
+            "C2.tasks/task-00019",
+            "C2.inventory/item-book"
+          ],
+          "evidence": "inherited_C1_uncalibrated_acute_scenario",
+          "links": [],
+          "published_date": "2027-05-01",
+          "published_phase": 0,
+          "published_period": 7
+        },
+        {
+          "id": "fact-00029",
+          "key": "request/e6546cf4b412ac6fca607cd75bbcd8ab7d99bf0e5be7a2f60eaac624a28aa88e",
+          "title": "希望を伝えた場面",
+          "text": "ゆうたは「保育の利用を申請する」の手続きに0.5時間を使った。いまの実働は週42時間で、まだ結果ではない。",
+          "date": "2027-05-01",
+          "period": 7,
+          "phase": 0,
+          "source_refs": [
+            "C2.requests/c0-0015"
+          ],
+          "evidence": "requested_action_not_outcome",
+          "links": [
+            "event-0002"
+          ],
+          "published_date": "2027-05-01",
+          "published_phase": 0,
+          "published_period": 7
+        },
+        {
+          "id": "fact-00031",
+          "key": "experience/toy/looking_away",
+          "title": "いつもと違う発見",
+          "text": "ゆうたははると自宅で赤い布のボールを使った。しばらく見たあと、そばの大人へ顔を寄せた。前回の同じ活動とは違う反応が記録された。",
+          "date": "2027-05-01",
+          "period": 7,
+          "phase": 1,
+          "source_refs": [
+            "C2.experiences/experience-00023",
+            "C2.tasks/task-00023",
+            "C2.inventory/item-toy"
+          ],
+          "evidence": "inherited_C1_uncalibrated_acute_scenario",
+          "links": [],
+          "published_date": "2027-06-01",
+          "published_phase": 0,
+          "published_period": 8
+        },
+        {
+          "id": "fact-00033",
+          "key": "decision/9dcb570bfbd7829a5fa2384c75e2e4769025d02ce869438cb31e5debd54cca90",
+          "title": "希望への返答が届いた",
+          "text": "ゆうたの希望に返答。保育の利用を申し込む：申請・相談を提出した。 実働は週42時間、保育は「保育の申請を審査待ち」。",
+          "date": "2027-06-01",
+          "period": 8,
+          "phase": 0,
+          "source_refs": [
+            "A.completed.decisions/c0-0015"
+          ],
+          "evidence": "native_A_unvalidated_feasibility",
+          "links": [
+            "event-0002"
+          ],
+          "published_date": "2027-06-01",
+          "published_phase": 0,
+          "published_period": 8
+        },
+        {
+          "id": "fact-00037",
+          "key": "pattern/book/looking_away",
+          "title": "繰り返して、気づいたこと",
+          "text": "ゆうたとはるの「まると、てのひら」（架空の絵本）の直近4回の記録のうち、3回で「しばらく見たあと、そばの大人へ顔を寄せた。」という反応が残った。この場面での記録で、性格や好みの診断ではない。",
+          "date": "2027-07-01",
+          "period": 9,
+          "phase": 1,
+          "source_refs": [
+            "C2.experiences/experience-00019",
+            "C2.experiences/experience-00022",
+            "C2.experiences/experience-00025",
+            "C2.experiences/experience-00028"
+          ],
+          "evidence": "repeated_observed_scenario_pattern",
+          "links": [],
+          "published_date": "2027-07-01",
+          "published_phase": 1,
+          "published_period": 9
+        },
+        {
+          "id": "fact-00040",
+          "key": "pattern/center/crying",
+          "title": "繰り返して、気づいたこと",
+          "text": "ゆうたとはるの親子ひろばへ出かけるの直近4回の記録のうち、3回で「途中で泣き出したため、活動を切り上げて静かな所で過ごした。」という反応が残った。この場面での記録で、性格や好みの診断ではない。",
+          "date": "2027-07-01",
+          "period": 9,
+          "phase": 2,
+          "source_refs": [
+            "C2.experiences/experience-00021",
+            "C2.experiences/experience-00024",
+            "C2.experiences/experience-00027",
+            "C2.experiences/experience-00030"
+          ],
+          "evidence": "repeated_observed_scenario_pattern",
+          "links": [],
+          "published_date": "2027-07-01",
+          "published_phase": 2,
+          "published_period": 9
+        },
+        {
+          "id": "fact-00042",
+          "key": "request/aad1a62427079f85c10101020e93e9fd5347276b2e9b7c5d72c3a7fbdffb555b",
+          "title": "希望を伝えた場面",
+          "text": "ゆうたは「親族へ支援を依頼する」の手続きに0.5時間を使った。いまの実働は週42時間で、まだ結果ではない。",
+          "date": "2027-08-01",
+          "period": 10,
+          "phase": 0,
+          "source_refs": [
+            "C2.requests/c0-0022"
+          ],
+          "evidence": "requested_action_not_outcome",
+          "links": [
+            "event-0003"
+          ],
+          "published_date": "2027-08-01",
+          "published_phase": 0,
+          "published_period": 10
+        },
+        {
+          "id": "fact-00043",
+          "key": "experience/book/engaged_reaching",
+          "title": "いつもと違う発見",
+          "text": "ゆうたははると自宅で「まると、てのひら」（架空の絵本）を使った。開いたページに手を伸ばした。前回の同じ活動とは違う反応が記録された。",
+          "date": "2027-08-01",
+          "period": 10,
+          "phase": 1,
+          "source_refs": [
+            "C2.experiences/experience-00031",
+            "C2.tasks/task-00031",
+            "C2.inventory/item-book"
+          ],
+          "evidence": "inherited_C1_uncalibrated_acute_scenario",
+          "links": [],
+          "published_date": "2027-08-01",
+          "published_phase": 1,
+          "published_period": 10
+        },
+        {
+          "id": "fact-00047",
+          "key": "decision/49ff4b5dcda4c4309c21ade7cf6c9d6074dffc2d29f4a0aaf46ffff77348d5a5",
+          "title": "希望への返答が届いた",
+          "text": "ゆうたの希望に返答。身近な人に支援を相談する：今回は支援を得られなかった。 実働は週42時間、保育は「保育の申請は今回の調整では入園に至らず」。",
+          "date": "2027-09-01",
+          "period": 11,
+          "phase": 0,
+          "source_refs": [
+            "A.completed.decisions/c0-0022"
+          ],
+          "evidence": "native_A_unvalidated_feasibility",
+          "links": [
+            "event-0003"
+          ],
+          "published_date": "2027-09-01",
+          "published_phase": 0,
+          "published_period": 11
+        },
+        {
+          "id": "fact-00049",
+          "key": "experience/toy/engaged_reaching",
+          "title": "いつもと違う発見",
+          "text": "ゆうたははると自宅で赤い布のボールを使った。赤い布のボールへ手を伸ばした。前回の同じ活動とは違う反応が記録された。",
+          "date": "2027-09-01",
+          "period": 11,
+          "phase": 1,
+          "source_refs": [
+            "C2.experiences/experience-00035",
+            "C2.tasks/task-00035",
+            "C2.inventory/item-toy"
+          ],
+          "evidence": "inherited_C1_uncalibrated_acute_scenario",
+          "links": [],
+          "published_date": "2027-09-01",
+          "published_phase": 1,
+          "published_period": 11
+        },
+        {
+          "id": "fact-00052",
+          "key": "experience/park/engaged",
+          "title": "いつもと違う発見",
+          "text": "ゆうたははると近所の公園で「公園のベンチで過ごす」時間を取った。周りの音の方へ顔を向けた。前回の同じ活動とは違う反応が記録された。",
+          "date": "2027-10-01",
+          "period": 12,
+          "phase": 0,
+          "source_refs": [
+            "C2.experiences/experience-00037",
+            "C2.tasks/task-00037"
+          ],
+          "evidence": "inherited_C1_uncalibrated_acute_scenario",
+          "links": [
+            "event-0004"
+          ],
+          "published_date": "2027-10-01",
+          "published_phase": 0,
+          "published_period": 12
+        },
+        {
+          "id": "fact-00054",
+          "key": "pattern/toy/crying",
+          "title": "繰り返して、気づいたこと",
+          "text": "ゆうたとはるの赤い布のボールの直近4回の記録のうち、3回で「途中で泣き出したため、活動を切り上げて静かな所で過ごした。」という反応が残った。この場面での記録で、性格や好みの診断ではない。",
+          "date": "2027-10-01",
+          "period": 12,
+          "phase": 1,
+          "source_refs": [
+            "C2.experiences/experience-00029",
+            "C2.experiences/experience-00032",
+            "C2.experiences/experience-00035",
+            "C2.experiences/experience-00039"
+          ],
+          "evidence": "repeated_observed_scenario_pattern",
+          "links": [],
+          "published_date": "2027-10-01",
+          "published_phase": 1,
+          "published_period": 12
+        },
+        {
+          "id": "fact-00058",
+          "key": "work/mother/unpaid_care_interruption/0",
+          "title": "働き方の実際が変わった",
+          "text": "みさきの実働は週0時間から0時間へ。今は「育児のため実働を休止」。給与の振込とは時期を分けて確認する。",
+          "date": "2027-11-01",
+          "period": 13,
+          "phase": 0,
+          "source_refs": [
+            "A.completed.parents/mother"
+          ],
+          "evidence": "native_A_unverified_employment",
+          "links": [],
+          "published_date": "2027-11-01",
+          "published_phase": 0,
+          "published_period": 13
+        },
+        {
+          "id": "fact-00059",
+          "key": "pattern/book/engaged_reaching",
+          "title": "繰り返して、気づいたこと",
+          "text": "ゆうたとはるの「まると、てのひら」（架空の絵本）の直近4回の記録のうち、3回で「開いたページに手を伸ばした。」という反応が残った。この場面での記録で、性格や好みの診断ではない。",
+          "date": "2027-11-01",
+          "period": 13,
+          "phase": 1,
+          "source_refs": [
+            "C2.experiences/experience-00031",
+            "C2.experiences/experience-00034",
+            "C2.experiences/experience-00038",
+            "C2.experiences/experience-00041"
+          ],
+          "evidence": "repeated_observed_scenario_pattern",
+          "links": [],
+          "published_date": "2027-11-01",
+          "published_phase": 1,
+          "published_period": 13
+        },
+        {
+          "id": "fact-00062",
+          "key": "observed-skill/takes_independent_steps",
+          "title": "親の記録に初めて残ったこと",
+          "text": "ゆうたの観察に、はるの「ひとりで足を運ぶ姿」が初めて残った。観察した場面の記録で、診断や正確な獲得日ではない。",
+          "date": "2027-11-01",
+          "period": 13,
+          "phase": 1,
+          "source_refs": [
+            "B.player_view/father/takes_independent_steps"
+          ],
+          "evidence": "B_report_model_not_diagnosis",
+          "links": [],
+          "published_date": "2027-11-01",
+          "published_phase": 1,
+          "published_period": 13
+        },
+        {
+          "id": "fact-00064",
+          "key": "observed-skill/uses_contextual_word",
+          "title": "初めて記録できた姿",
+          "text": "ゆうたは、はるの「場面に合う言葉」を記録した。実際に観察できた場面で、正確な獲得日の判定ではない。",
+          "date": "2027-12-01",
+          "period": 14,
+          "phase": 0,
+          "source_refs": [
+            "B.player_view/father/uses_contextual_word"
+          ],
+          "evidence": "B_uncalibrated_report_measurement",
+          "links": [],
+          "published_date": "2027-12-01",
+          "published_phase": 0,
+          "published_period": 14
+        },
+        {
+          "id": "fact-00065",
+          "key": "experience/floor/looking_away",
+          "title": "一緒に過ごした場面",
+          "text": "ゆうたははると自宅で「床に敷いたマットで遊ぶ」時間を取った。しばらく見たあと、そばの大人へ顔を寄せた。",
+          "date": "2027-12-01",
+          "period": 14,
+          "phase": 0,
+          "source_refs": [
+            "C2.experiences/experience-00044",
+            "C2.tasks/task-00044"
+          ],
+          "evidence": "inherited_C1_uncalibrated_acute_scenario",
+          "links": [
+            "event-0005"
+          ],
+          "published_date": "2027-12-01",
+          "published_phase": 0,
+          "published_period": 14
+        },
+        {
+          "id": "fact-00071",
+          "key": "pattern/toy/looking_away",
+          "title": "繰り返して、気づいたこと",
+          "text": "ゆうたとはるの赤い布のボールの直近4回の記録のうち、3回で「しばらく見たあと、そばの大人へ顔を寄せた。」という反応が残った。この場面での記録で、性格や好みの診断ではない。",
+          "date": "2028-01-01",
+          "period": 15,
+          "phase": 1,
+          "source_refs": [
+            "C2.experiences/experience-00039",
+            "C2.experiences/experience-00042",
+            "C2.experiences/experience-00046",
+            "C2.experiences/experience-00049"
+          ],
+          "evidence": "repeated_observed_scenario_pattern",
+          "links": [],
+          "published_date": "2028-01-01",
+          "published_phase": 1,
+          "published_period": 15
+        },
+        {
+          "id": "fact-00106",
+          "key": "work/mother/working_care_constrained/6",
+          "title": "働き方の実際が変わった",
+          "text": "みさきの実働は週0時間から6時間へ。今は「working_care_constrained」。給与の振込とは時期を分けて確認する。",
+          "date": "2028-08-01",
+          "period": 22,
+          "phase": 0,
+          "source_refs": [
+            "A.completed.parents/mother"
+          ],
+          "evidence": "native_A_unverified_employment",
+          "links": [],
+          "published_date": "2028-08-01",
+          "published_phase": 0,
+          "published_period": 22
+        },
+        {
+          "id": "fact-00107",
+          "key": "experience/visit/looking_away",
+          "title": "いつもと違う発見",
+          "text": "ゆうたははると保育施設（体験用の見学枠）で「保育園の見学枠を訪ねる」時間を取った。しばらく見たあと、そばの大人へ顔を寄せた。前回の同じ活動とは違う反応が記録された。",
+          "date": "2028-08-01",
+          "period": 22,
+          "phase": 0,
+          "source_refs": [
+            "C2.experiences/experience-00070",
+            "C2.tasks/task-00070"
+          ],
+          "evidence": "inherited_C1_uncalibrated_acute_scenario",
+          "links": [
+            "event-0008"
+          ],
+          "published_date": "2028-08-01",
+          "published_phase": 0,
+          "published_period": 22
+        }
+      ]
+    },
+    {
+      "policy": "stable",
+      "biological_hash": "b07df3b8be1e5b485c8c64c235a657bfe3d374ca8604a1ad4071af48eca68449",
+      "cash": 2127733,
+      "term": 23583138,
+      "time_total": 24.75,
+      "experience_count": 53,
+      "contexts": [
+        "floor",
+        "visit",
+        "voice"
+      ],
+      "native_hours_ratio": 1.0,
+      "policy_operations": [],
+      "logs": [
+        {
+          "id": "fact-00000",
+          "key": "experience/voice/engaged",
+          "title": "一緒に過ごした場面",
+          "text": "ゆうたははると自宅で「抱っこで声をかける」時間を取った。声の方へ顔を向けた。",
+          "date": "2026-10-01",
+          "period": 0,
+          "phase": 1,
+          "source_refs": [
+            "C2.experiences/experience-00000",
+            "C2.tasks/task-00000"
+          ],
+          "evidence": "inherited_C1_uncalibrated_acute_scenario",
+          "links": [],
+          "published_date": "2026-10-01",
+          "published_phase": 1,
+          "published_period": 0
+        },
+        {
+          "id": "fact-00001",
+          "key": "experience/voice/crying",
+          "title": "いつもと違う発見",
+          "text": "ゆうたははると自宅で「抱っこで声をかける」時間を取った。途中で泣き出したため、活動を切り上げて静かな所で過ごした。前回の同じ活動とは違う反応が記録された。",
+          "date": "2026-10-01",
+          "period": 0,
+          "phase": 2,
+          "source_refs": [
+            "C2.experiences/experience-00001",
+            "C2.tasks/task-00001"
+          ],
+          "evidence": "inherited_C1_uncalibrated_acute_scenario",
+          "links": [],
+          "published_date": "2026-10-01",
+          "published_phase": 2,
+          "published_period": 0
+        },
+        {
+          "id": "fact-00004",
+          "key": "request/08acdb69ffdbd6905d28818594d9354407fc8fd79440b402e27c8d2bfaa16249",
+          "title": "希望を伝えた場面",
+          "text": "ゆうたは「親族へ支援を依頼する」の手続きに0.5時間を使った。いまの実働は週0時間で、まだ結果ではない。",
+          "date": "2026-12-01",
+          "period": 2,
+          "phase": 0,
+          "source_refs": [
+            "C2.requests/c0-0004"
+          ],
+          "evidence": "requested_action_not_outcome",
+          "links": [
+            "event-0000"
+          ],
+          "published_date": "2026-12-01",
+          "published_phase": 0,
+          "published_period": 2
+        },
+        {
+          "id": "fact-00005",
+          "key": "experience/voice/looking_away",
+          "title": "いつもと違う発見",
+          "text": "ゆうたははると自宅で「抱っこで声をかける」時間を取った。しばらく見たあと、そばの大人へ顔を寄せた。前回の同じ活動とは違う反応が記録された。",
+          "date": "2026-12-01",
+          "period": 2,
+          "phase": 1,
+          "source_refs": [
+            "C2.experiences/experience-00004",
+            "C2.tasks/task-00004"
+          ],
+          "evidence": "inherited_C1_uncalibrated_acute_scenario",
+          "links": [],
+          "published_date": "2026-12-01",
+          "published_phase": 1,
+          "published_period": 2
+        },
+        {
+          "id": "fact-00007",
+          "key": "decision/48e690a844421c286d52bb26d403c7ff1559f5d93515519b4cef8c5410f75d92",
+          "title": "希望への返答が届いた",
+          "text": "ゆうたの希望に返答。身近な人に支援を相談する：今回は支援を得られなかった。 実働は週12時間、保育は「家庭で過ごす」。",
+          "date": "2027-01-01",
+          "period": 3,
+          "phase": 0,
+          "source_refs": [
+            "A.completed.decisions/c0-0004"
+          ],
+          "evidence": "native_A_unvalidated_feasibility",
+          "links": [
+            "event-0000"
+          ],
+          "published_date": "2027-01-01",
+          "published_phase": 0,
+          "published_period": 3
+        },
+        {
+          "id": "fact-00008",
+          "key": "work/father/paternity_leave/12",
+          "title": "働き方の実際が変わった",
+          "text": "ゆうたの実働は週0時間から12時間へ。今は「paternity_leave」。給与の振込とは時期を分けて確認する。",
+          "date": "2027-01-01",
+          "period": 3,
+          "phase": 0,
+          "source_refs": [
+            "A.completed.parents/father"
+          ],
+          "evidence": "native_A_unverified_employment",
+          "links": [],
+          "published_date": "2027-01-01",
+          "published_phase": 0,
+          "published_period": 3
+        },
+        {
+          "id": "fact-00009",
+          "key": "work/mother/parental_leave/0",
+          "title": "働き方の実際が変わった",
+          "text": "みさきの実働は週0時間から0時間へ。今は「育児休業中」。給与の振込とは時期を分けて確認する。",
+          "date": "2027-01-01",
+          "period": 3,
+          "phase": 0,
+          "source_refs": [
+            "A.completed.parents/mother"
+          ],
+          "evidence": "native_A_unverified_employment",
+          "links": [],
+          "published_date": "2027-01-01",
+          "published_phase": 0,
+          "published_period": 3
+        },
+        {
+          "id": "fact-00011",
+          "key": "experience/floor/looking_away",
+          "title": "一緒に過ごした場面",
+          "text": "ゆうたははると自宅で「床に敷いたマットで遊ぶ」時間を取った。しばらく見たあと、そばの大人へ顔を寄せた。",
+          "date": "2027-01-01",
+          "period": 3,
+          "phase": 2,
+          "source_refs": [
+            "C2.experiences/experience-00007",
+            "C2.tasks/task-00007"
+          ],
+          "evidence": "inherited_C1_uncalibrated_acute_scenario",
+          "links": [],
+          "published_date": "2027-02-01",
+          "published_phase": 0,
+          "published_period": 4
+        },
+        {
+          "id": "fact-00012",
+          "key": "work/father/working/42",
+          "title": "働き方の実際が変わった",
+          "text": "ゆうたの実働は週12時間から42時間へ。今は「働いている」。給与の振込とは時期を分けて確認する。",
+          "date": "2027-02-01",
+          "period": 4,
+          "phase": 0,
+          "source_refs": [
+            "A.completed.parents/father"
+          ],
+          "evidence": "native_A_unverified_employment",
+          "links": [],
+          "published_date": "2027-02-01",
+          "published_phase": 0,
+          "published_period": 4
+        },
+        {
+          "id": "fact-00015",
+          "key": "experience/visit/crying",
+          "title": "一緒に過ごした場面",
+          "text": "ゆうたははると保育施設（体験用の見学枠）で「保育園の見学枠を訪ねる」時間を取った。途中で泣き出したため、活動を切り上げて静かな所で過ごした。",
+          "date": "2027-03-01",
+          "period": 5,
+          "phase": 0,
+          "source_refs": [
+            "C2.experiences/experience-00010",
+            "C2.tasks/task-00010"
+          ],
+          "evidence": "inherited_C1_uncalibrated_acute_scenario",
+          "links": [
+            "event-0001"
+          ],
+          "published_date": "2027-03-01",
+          "published_phase": 0,
+          "published_period": 5
+        },
+        {
+          "id": "fact-00017",
+          "key": "experience/floor/crying",
+          "title": "いつもと違う発見",
+          "text": "ゆうたははると自宅で「床に敷いたマットで遊ぶ」時間を取った。途中で泣き出したため、活動を切り上げて静かな所で過ごした。前回の同じ活動とは違う反応が記録された。",
+          "date": "2027-03-01",
+          "period": 5,
+          "phase": 2,
+          "source_refs": [
+            "C2.experiences/experience-00012",
+            "C2.tasks/task-00012"
+          ],
+          "evidence": "inherited_C1_uncalibrated_acute_scenario",
+          "links": [],
+          "published_date": "2027-03-01",
+          "published_phase": 2,
+          "published_period": 5
+        },
+        {
+          "id": "fact-00019",
+          "key": "pattern/floor/looking_away",
+          "title": "繰り返して、気づいたこと",
+          "text": "ゆうたとはるの床に敷いたマットで遊ぶの直近4回の記録のうち、3回で「しばらく見たあと、そばの大人へ顔を寄せた。」という反応が残った。この場面での記録で、性格や好みの診断ではない。",
+          "date": "2027-04-01",
+          "period": 6,
+          "phase": 2,
+          "source_refs": [
+            "C2.experiences/experience-00007",
+            "C2.experiences/experience-00009",
+            "C2.experiences/experience-00012",
+            "C2.experiences/experience-00014"
+          ],
+          "evidence": "repeated_observed_scenario_pattern",
+          "links": [],
+          "published_date": "2027-04-01",
+          "published_phase": 2,
+          "published_period": 6
+        },
+        {
+          "id": "fact-00021",
+          "key": "request/e6546cf4b412ac6fca607cd75bbcd8ab7d99bf0e5be7a2f60eaac624a28aa88e",
+          "title": "希望を伝えた場面",
+          "text": "ゆうたは「保育の利用を申請する」の手続きに0.5時間を使った。いまの実働は週42時間で、まだ結果ではない。",
+          "date": "2027-05-01",
+          "period": 7,
+          "phase": 0,
+          "source_refs": [
+            "C2.requests/c0-0015"
+          ],
+          "evidence": "requested_action_not_outcome",
+          "links": [
+            "event-0002"
+          ],
+          "published_date": "2027-05-01",
+          "published_phase": 0,
+          "published_period": 7
+        },
+        {
+          "id": "fact-00023",
+          "key": "experience/floor/engaged",
+          "title": "いつもと違う発見",
+          "text": "ゆうたははると自宅で「床に敷いたマットで遊ぶ」時間を取った。周りの音の方へ顔を向けた。前回の同じ活動とは違う反応が記録された。",
+          "date": "2027-05-01",
+          "period": 7,
+          "phase": 2,
+          "source_refs": [
+            "C2.experiences/experience-00016",
+            "C2.tasks/task-00016"
+          ],
+          "evidence": "inherited_C1_uncalibrated_acute_scenario",
+          "links": [],
+          "published_date": "2027-05-01",
+          "published_phase": 2,
+          "published_period": 7
+        },
+        {
+          "id": "fact-00024",
+          "key": "decision/9dcb570bfbd7829a5fa2384c75e2e4769025d02ce869438cb31e5debd54cca90",
+          "title": "希望への返答が届いた",
+          "text": "ゆうたの希望に返答。保育の利用を申し込む：申請・相談を提出した。 実働は週42時間、保育は「保育の申請を審査待ち」。",
+          "date": "2027-06-01",
+          "period": 8,
+          "phase": 0,
+          "source_refs": [
+            "A.completed.decisions/c0-0015"
+          ],
+          "evidence": "native_A_unvalidated_feasibility",
+          "links": [
+            "event-0002"
+          ],
+          "published_date": "2027-06-01",
+          "published_phase": 0,
+          "published_period": 8
+        },
+        {
+          "id": "fact-00029",
+          "key": "request/aad1a62427079f85c10101020e93e9fd5347276b2e9b7c5d72c3a7fbdffb555b",
+          "title": "希望を伝えた場面",
+          "text": "ゆうたは「親族へ支援を依頼する」の手続きに0.5時間を使った。いまの実働は週42時間で、まだ結果ではない。",
+          "date": "2027-08-01",
+          "period": 10,
+          "phase": 0,
+          "source_refs": [
+            "C2.requests/c0-0022"
+          ],
+          "evidence": "requested_action_not_outcome",
+          "links": [
+            "event-0003"
+          ],
+          "published_date": "2027-08-01",
+          "published_phase": 0,
+          "published_period": 10
+        },
+        {
+          "id": "fact-00032",
+          "key": "decision/49ff4b5dcda4c4309c21ade7cf6c9d6074dffc2d29f4a0aaf46ffff77348d5a5",
+          "title": "希望への返答が届いた",
+          "text": "ゆうたの希望に返答。身近な人に支援を相談する：今回は支援を得られなかった。 実働は週42時間、保育は「保育の申請は今回の調整では入園に至らず」。",
+          "date": "2027-09-01",
+          "period": 11,
+          "phase": 0,
+          "source_refs": [
+            "A.completed.decisions/c0-0022"
+          ],
+          "evidence": "native_A_unvalidated_feasibility",
+          "links": [
+            "event-0003"
+          ],
+          "published_date": "2027-09-01",
+          "published_phase": 0,
+          "published_period": 11
+        },
+        {
+          "id": "fact-00038",
+          "key": "work/mother/unpaid_care_interruption/0",
+          "title": "働き方の実際が変わった",
+          "text": "みさきの実働は週0時間から0時間へ。今は「育児のため実働を休止」。給与の振込とは時期を分けて確認する。",
+          "date": "2027-11-01",
+          "period": 13,
+          "phase": 0,
+          "source_refs": [
+            "A.completed.parents/mother"
+          ],
+          "evidence": "native_A_unverified_employment",
+          "links": [],
+          "published_date": "2027-11-01",
+          "published_phase": 0,
+          "published_period": 13
+        },
+        {
+          "id": "fact-00040",
+          "key": "observed-skill/takes_independent_steps",
+          "title": "親の記録に初めて残ったこと",
+          "text": "ゆうたの観察に、はるの「ひとりで足を運ぶ姿」が初めて残った。観察した場面の記録で、診断や正確な獲得日ではない。",
+          "date": "2027-11-01",
+          "period": 13,
+          "phase": 1,
+          "source_refs": [
+            "B.player_view/father/takes_independent_steps"
+          ],
+          "evidence": "B_report_model_not_diagnosis",
+          "links": [],
+          "published_date": "2027-11-01",
+          "published_phase": 1,
+          "published_period": 13
+        },
+        {
+          "id": "fact-00042",
+          "key": "observed-skill/uses_contextual_word",
+          "title": "初めて記録できた姿",
+          "text": "ゆうたは、はるの「場面に合う言葉」を記録した。実際に観察できた場面で、正確な獲得日の判定ではない。",
+          "date": "2027-12-01",
+          "period": 14,
+          "phase": 0,
+          "source_refs": [
+            "B.player_view/father/uses_contextual_word"
+          ],
+          "evidence": "B_uncalibrated_report_measurement",
+          "links": [],
+          "published_date": "2027-12-01",
+          "published_phase": 0,
+          "published_period": 14
+        },
+        {
+          "id": "fact-00063",
+          "key": "work/mother/working_care_constrained/6",
+          "title": "働き方の実際が変わった",
+          "text": "みさきの実働は週0時間から6時間へ。今は「working_care_constrained」。給与の振込とは時期を分けて確認する。",
+          "date": "2028-08-01",
+          "period": 22,
+          "phase": 0,
+          "source_refs": [
+            "A.completed.parents/mother"
+          ],
+          "evidence": "native_A_unverified_employment",
+          "links": [],
+          "published_date": "2028-08-01",
+          "published_phase": 0,
+          "published_period": 22
+        },
+        {
+          "id": "fact-00064",
+          "key": "experience/visit/engaged",
+          "title": "いつもと違う発見",
+          "text": "ゆうたははると保育施設（体験用の見学枠）で「保育園の見学枠を訪ねる」時間を取った。周りの音の方へ顔を向けた。前回の同じ活動とは違う反応が記録された。",
+          "date": "2028-08-01",
+          "period": 22,
+          "phase": 0,
+          "source_refs": [
+            "C2.experiences/experience-00048",
+            "C2.tasks/task-00048"
+          ],
+          "evidence": "inherited_C1_uncalibrated_acute_scenario",
+          "links": [
+            "event-0008"
+          ],
+          "published_date": "2028-08-01",
+          "published_phase": 0,
+          "published_period": 22
+        },
+        {
+          "id": "fact-00065",
+          "key": "pattern/voice/crying",
+          "title": "繰り返して、気づいたこと",
+          "text": "ゆうたとはるの抱っこで声をかけるの直近4回の記録のうち、3回で「途中で泣き出したため、活動を切り上げて静かな所で過ごした。」という反応が残った。この場面での記録で、性格や好みの診断ではない。",
+          "date": "2028-08-01",
+          "period": 22,
+          "phase": 1,
+          "source_refs": [
+            "C2.experiences/experience-00042",
+            "C2.experiences/experience-00044",
+            "C2.experiences/experience-00046",
+            "C2.experiences/experience-00049"
+          ],
+          "evidence": "repeated_observed_scenario_pattern",
+          "links": [],
+          "published_date": "2028-08-01",
+          "published_phase": 1,
+          "published_period": 22
+        }
+      ]
+    },
+    {
+      "policy": "save",
+      "biological_hash": "b07df3b8be1e5b485c8c64c235a657bfe3d374ca8604a1ad4071af48eca68449",
+      "cash": 1647733,
+      "term": 24063138,
+      "time_total": 13.5,
+      "experience_count": 29,
+      "contexts": [
+        "floor",
+        "visit",
+        "voice"
+      ],
+      "native_hours_ratio": 1.0,
+      "policy_operations": [
+        {
+          "period": 0,
+          "kind": "saving",
+          "yen": 20000,
+          "finance_id": "finance-00000"
+        },
+        {
+          "period": 1,
+          "kind": "saving",
+          "yen": 20000,
+          "finance_id": "finance-00001"
+        },
+        {
+          "period": 2,
+          "kind": "saving",
+          "yen": 20000,
+          "finance_id": "finance-00002"
+        },
+        {
+          "period": 3,
+          "kind": "saving",
+          "yen": 20000,
+          "finance_id": "finance-00003"
+        },
+        {
+          "period": 4,
+          "kind": "saving",
+          "yen": 20000,
+          "finance_id": "finance-00004"
+        },
+        {
+          "period": 5,
+          "kind": "saving",
+          "yen": 20000,
+          "finance_id": "finance-00006"
+        },
+        {
+          "period": 6,
+          "kind": "saving",
+          "yen": 20000,
+          "finance_id": "finance-00007"
+        },
+        {
+          "period": 7,
+          "kind": "saving",
+          "yen": 20000,
+          "finance_id": "finance-00008"
+        },
+        {
+          "period": 8,
+          "kind": "saving",
+          "yen": 20000,
+          "finance_id": "finance-00009"
+        },
+        {
+          "period": 9,
+          "kind": "saving",
+          "yen": 20000,
+          "finance_id": "finance-00010"
+        },
+        {
+          "period": 10,
+          "kind": "saving",
+          "yen": 20000,
+          "finance_id": "finance-00011"
+        },
+        {
+          "period": 11,
+          "kind": "saving",
+          "yen": 20000,
+          "finance_id": "finance-00012"
+        },
+        {
+          "period": 12,
+          "kind": "saving",
+          "yen": 20000,
+          "finance_id": "finance-00013"
+        },
+        {
+          "period": 13,
+          "kind": "saving",
+          "yen": 20000,
+          "finance_id": "finance-00014"
+        },
+        {
+          "period": 14,
+          "kind": "saving",
+          "yen": 20000,
+          "finance_id": "finance-00015"
+        },
+        {
+          "period": 15,
+          "kind": "saving",
+          "yen": 20000,
+          "finance_id": "finance-00016"
+        },
+        {
+          "period": 16,
+          "kind": "saving",
+          "yen": 20000,
+          "finance_id": "finance-00017"
+        },
+        {
+          "period": 17,
+          "kind": "saving",
+          "yen": 20000,
+          "finance_id": "finance-00018"
+        },
+        {
+          "period": 18,
+          "kind": "saving",
+          "yen": 20000,
+          "finance_id": "finance-00019"
+        },
+        {
+          "period": 19,
+          "kind": "saving",
+          "yen": 20000,
+          "finance_id": "finance-00020"
+        },
+        {
+          "period": 20,
+          "kind": "saving",
+          "yen": 20000,
+          "finance_id": "finance-00021"
+        },
+        {
+          "period": 21,
+          "kind": "saving",
+          "yen": 20000,
+          "finance_id": "finance-00022"
+        },
+        {
+          "period": 22,
+          "kind": "saving",
+          "yen": 20000,
+          "finance_id": "finance-00024"
+        },
+        {
+          "period": 23,
+          "kind": "saving",
+          "yen": 20000,
+          "finance_id": "finance-00025"
+        }
+      ],
+      "logs": [
+        {
+          "id": "fact-00000",
+          "key": "saving-start",
+          "title": "支払い口座と分けて残す",
+          "text": "ゆうたは、直近の生活費2か月分を口座に残した上で20,000円を定期性預貯金へ移した。世帯の純資産は増えていない。",
+          "date": "2026-10-01",
+          "period": 0,
+          "phase": 1,
+          "source_refs": [
+            "C2.finance/finance-00000"
+          ],
+          "evidence": "explicit_asset_transfer",
+          "links": [],
+          "published_date": "2026-10-01",
+          "published_phase": 1,
+          "published_period": 0
+        },
+        {
+          "id": "fact-00001",
+          "key": "experience/voice/engaged",
+          "title": "一緒に過ごした場面",
+          "text": "ゆうたははると自宅で「抱っこで声をかける」時間を取った。声の方へ顔を向けた。",
+          "date": "2026-10-01",
+          "period": 0,
+          "phase": 1,
+          "source_refs": [
+            "C2.experiences/experience-00000",
+            "C2.tasks/task-00000"
+          ],
+          "evidence": "inherited_C1_uncalibrated_acute_scenario",
+          "links": [],
+          "published_date": "2026-10-01",
+          "published_phase": 1,
+          "published_period": 0
+        },
+        {
+          "id": "fact-00003",
+          "key": "experience/voice/crying",
+          "title": "いつもと違う発見",
+          "text": "ゆうたははると自宅で「抱っこで声をかける」時間を取った。途中で泣き出したため、活動を切り上げて静かな所で過ごした。前回の同じ活動とは違う反応が記録された。",
+          "date": "2026-11-01",
+          "period": 1,
+          "phase": 1,
+          "source_refs": [
+            "C2.experiences/experience-00001",
+            "C2.tasks/task-00001"
+          ],
+          "evidence": "inherited_C1_uncalibrated_acute_scenario",
+          "links": [],
+          "published_date": "2026-11-01",
+          "published_phase": 1,
+          "published_period": 1
+        },
+        {
+          "id": "fact-00004",
+          "key": "request/08acdb69ffdbd6905d28818594d9354407fc8fd79440b402e27c8d2bfaa16249",
+          "title": "希望を伝えた場面",
+          "text": "ゆうたは「親族へ支援を依頼する」の手続きに0.5時間を使った。いまの実働は週0時間で、まだ結果ではない。",
+          "date": "2026-12-01",
+          "period": 2,
+          "phase": 0,
+          "source_refs": [
+            "C2.requests/c0-0004"
+          ],
+          "evidence": "requested_action_not_outcome",
+          "links": [
+            "event-0000"
+          ],
+          "published_date": "2026-12-01",
+          "published_phase": 0,
+          "published_period": 2
+        },
+        {
+          "id": "fact-00007",
+          "key": "decision/48e690a844421c286d52bb26d403c7ff1559f5d93515519b4cef8c5410f75d92",
+          "title": "希望への返答が届いた",
+          "text": "ゆうたの希望に返答。身近な人に支援を相談する：今回は支援を得られなかった。 実働は週12時間、保育は「家庭で過ごす」。",
+          "date": "2027-01-01",
+          "period": 3,
+          "phase": 0,
+          "source_refs": [
+            "A.completed.decisions/c0-0004"
+          ],
+          "evidence": "native_A_unvalidated_feasibility",
+          "links": [
+            "event-0000"
+          ],
+          "published_date": "2027-01-01",
+          "published_phase": 0,
+          "published_period": 3
+        },
+        {
+          "id": "fact-00008",
+          "key": "work/father/paternity_leave/12",
+          "title": "働き方の実際が変わった",
+          "text": "ゆうたの実働は週0時間から12時間へ。今は「paternity_leave」。給与の振込とは時期を分けて確認する。",
+          "date": "2027-01-01",
+          "period": 3,
+          "phase": 0,
+          "source_refs": [
+            "A.completed.parents/father"
+          ],
+          "evidence": "native_A_unverified_employment",
+          "links": [],
+          "published_date": "2027-01-01",
+          "published_phase": 0,
+          "published_period": 3
+        },
+        {
+          "id": "fact-00009",
+          "key": "work/mother/parental_leave/0",
+          "title": "働き方の実際が変わった",
+          "text": "みさきの実働は週0時間から0時間へ。今は「育児休業中」。給与の振込とは時期を分けて確認する。",
+          "date": "2027-01-01",
+          "period": 3,
+          "phase": 0,
+          "source_refs": [
+            "A.completed.parents/mother"
+          ],
+          "evidence": "native_A_unverified_employment",
+          "links": [],
+          "published_date": "2027-01-01",
+          "published_phase": 0,
+          "published_period": 3
+        },
+        {
+          "id": "fact-00011",
+          "key": "pattern/voice/engaged",
+          "title": "繰り返して、気づいたこと",
+          "text": "ゆうたとはるの抱っこで声をかけるの直近4回の記録のうち、3回で「声の方へ顔を向けた。」という反応が残った。この場面での記録で、性格や好みの診断ではない。",
+          "date": "2027-01-01",
+          "period": 3,
+          "phase": 1,
+          "source_refs": [
+            "C2.experiences/experience-00000",
+            "C2.experiences/experience-00001",
+            "C2.experiences/experience-00002",
+            "C2.experiences/experience-00003"
+          ],
+          "evidence": "repeated_observed_scenario_pattern",
+          "links": [],
+          "published_date": "2027-02-01",
+          "published_phase": 0,
+          "published_period": 4
+        },
+        {
+          "id": "fact-00013",
+          "key": "work/father/working/42",
+          "title": "働き方の実際が変わった",
+          "text": "ゆうたの実働は週12時間から42時間へ。今は「働いている」。給与の振込とは時期を分けて確認する。",
+          "date": "2027-02-01",
+          "period": 4,
+          "phase": 0,
+          "source_refs": [
+            "A.completed.parents/father"
+          ],
+          "evidence": "native_A_unverified_employment",
+          "links": [],
+          "published_date": "2027-02-01",
+          "published_phase": 0,
+          "published_period": 4
+        },
+        {
+          "id": "fact-00015",
+          "key": "experience/voice/looking_away",
+          "title": "いつもと違う発見",
+          "text": "ゆうたははると自宅で「抱っこで声をかける」時間を取った。しばらく見たあと、そばの大人へ顔を寄せた。前回の同じ活動とは違う反応が記録された。",
+          "date": "2027-02-01",
+          "period": 4,
+          "phase": 1,
+          "source_refs": [
+            "C2.experiences/experience-00004",
+            "C2.tasks/task-00004"
+          ],
+          "evidence": "inherited_C1_uncalibrated_acute_scenario",
+          "links": [],
+          "published_date": "2027-02-01",
+          "published_phase": 1,
+          "published_period": 4
+        },
+        {
+          "id": "fact-00016",
+          "key": "experience/visit/looking_away",
+          "title": "一緒に過ごした場面",
+          "text": "ゆうたははると保育施設（体験用の見学枠）で「保育園の見学枠を訪ねる」時間を取った。しばらく見たあと、そばの大人へ顔を寄せた。",
+          "date": "2027-03-01",
+          "period": 5,
+          "phase": 0,
+          "source_refs": [
+            "C2.experiences/experience-00005",
+            "C2.tasks/task-00005"
+          ],
+          "evidence": "inherited_C1_uncalibrated_acute_scenario",
+          "links": [
+            "event-0001"
+          ],
+          "published_date": "2027-03-01",
+          "published_phase": 0,
+          "published_period": 5
+        },
+        {
+          "id": "fact-00020",
+          "key": "pattern/voice/looking_away",
+          "title": "繰り返して、気づいたこと",
+          "text": "ゆうたとはるの抱っこで声をかけるの直近4回の記録のうち、3回で「しばらく見たあと、そばの大人へ顔を寄せた。」という反応が残った。この場面での記録で、性格や好みの診断ではない。",
+          "date": "2027-04-01",
+          "period": 6,
+          "phase": 1,
+          "source_refs": [
+            "C2.experiences/experience-00003",
+            "C2.experiences/experience-00004",
+            "C2.experiences/experience-00006",
+            "C2.experiences/experience-00007"
+          ],
+          "evidence": "repeated_observed_scenario_pattern",
+          "links": [],
+          "published_date": "2027-04-01",
+          "published_phase": 1,
+          "published_period": 6
+        },
+        {
+          "id": "fact-00022",
+          "key": "request/e6546cf4b412ac6fca607cd75bbcd8ab7d99bf0e5be7a2f60eaac624a28aa88e",
+          "title": "希望を伝えた場面",
+          "text": "ゆうたは「保育の利用を申請する」の手続きに0.5時間を使った。いまの実働は週42時間で、まだ結果ではない。",
+          "date": "2027-05-01",
+          "period": 7,
+          "phase": 0,
+          "source_refs": [
+            "C2.requests/c0-0015"
+          ],
+          "evidence": "requested_action_not_outcome",
+          "links": [
+            "event-0002"
+          ],
+          "published_date": "2027-05-01",
+          "published_phase": 0,
+          "published_period": 7
+        },
+        {
+          "id": "fact-00026",
+          "key": "decision/9dcb570bfbd7829a5fa2384c75e2e4769025d02ce869438cb31e5debd54cca90",
+          "title": "希望への返答が届いた",
+          "text": "ゆうたの希望に返答。保育の利用を申し込む：申請・相談を提出した。 実働は週42時間、保育は「保育の申請を審査待ち」。",
+          "date": "2027-06-01",
+          "period": 8,
+          "phase": 0,
+          "source_refs": [
+            "A.completed.decisions/c0-0015"
+          ],
+          "evidence": "native_A_unvalidated_feasibility",
+          "links": [
+            "event-0002"
+          ],
+          "published_date": "2027-06-01",
+          "published_phase": 0,
+          "published_period": 8
+        },
+        {
+          "id": "fact-00032",
+          "key": "request/aad1a62427079f85c10101020e93e9fd5347276b2e9b7c5d72c3a7fbdffb555b",
+          "title": "希望を伝えた場面",
+          "text": "ゆうたは「親族へ支援を依頼する」の手続きに0.5時間を使った。いまの実働は週42時間で、まだ結果ではない。",
+          "date": "2027-08-01",
+          "period": 10,
+          "phase": 0,
+          "source_refs": [
+            "C2.requests/c0-0022"
+          ],
+          "evidence": "requested_action_not_outcome",
+          "links": [
+            "event-0003"
+          ],
+          "published_date": "2027-08-01",
+          "published_phase": 0,
+          "published_period": 10
+        },
+        {
+          "id": "fact-00035",
+          "key": "decision/49ff4b5dcda4c4309c21ade7cf6c9d6074dffc2d29f4a0aaf46ffff77348d5a5",
+          "title": "希望への返答が届いた",
+          "text": "ゆうたの希望に返答。身近な人に支援を相談する：今回は支援を得られなかった。 実働は週42時間、保育は「保育の申請は今回の調整では入園に至らず」。",
+          "date": "2027-09-01",
+          "period": 11,
+          "phase": 0,
+          "source_refs": [
+            "A.completed.decisions/c0-0022"
+          ],
+          "evidence": "native_A_unvalidated_feasibility",
+          "links": [
+            "event-0003"
+          ],
+          "published_date": "2027-09-01",
+          "published_phase": 0,
+          "published_period": 11
+        },
+        {
+          "id": "fact-00038",
+          "key": "experience/floor/looking_away",
+          "title": "一緒に過ごした場面",
+          "text": "ゆうたははると自宅で「床に敷いたマットで遊ぶ」時間を取った。しばらく見たあと、そばの大人へ顔を寄せた。",
+          "date": "2027-10-01",
+          "period": 12,
+          "phase": 0,
+          "source_refs": [
+            "C2.experiences/experience-00013",
+            "C2.tasks/task-00013"
+          ],
+          "evidence": "inherited_C1_uncalibrated_acute_scenario",
+          "links": [
+            "event-0004"
+          ],
+          "published_date": "2027-10-01",
+          "published_phase": 0,
+          "published_period": 12
+        },
+        {
+          "id": "fact-00040",
+          "key": "pattern/voice/crying",
+          "title": "繰り返して、気づいたこと",
+          "text": "ゆうたとはるの抱っこで声をかけるの直近4回の記録のうち、3回で「途中で泣き出したため、活動を切り上げて静かな所で過ごした。」という反応が残った。この場面での記録で、性格や好みの診断ではない。",
+          "date": "2027-10-01",
+          "period": 12,
+          "phase": 1,
+          "source_refs": [
+            "C2.experiences/experience-00010",
+            "C2.experiences/experience-00011",
+            "C2.experiences/experience-00012",
+            "C2.experiences/experience-00014"
+          ],
+          "evidence": "repeated_observed_scenario_pattern",
+          "links": [],
+          "published_date": "2027-10-01",
+          "published_phase": 1,
+          "published_period": 12
+        },
+        {
+          "id": "fact-00042",
+          "key": "work/mother/unpaid_care_interruption/0",
+          "title": "働き方の実際が変わった",
+          "text": "みさきの実働は週0時間から0時間へ。今は「育児のため実働を休止」。給与の振込とは時期を分けて確認する。",
+          "date": "2027-11-01",
+          "period": 13,
+          "phase": 0,
+          "source_refs": [
+            "A.completed.parents/mother"
+          ],
+          "evidence": "native_A_unverified_employment",
+          "links": [],
+          "published_date": "2027-11-01",
+          "published_phase": 0,
+          "published_period": 13
+        },
+        {
+          "id": "fact-00045",
+          "key": "observed-skill/takes_independent_steps",
+          "title": "親の記録に初めて残ったこと",
+          "text": "ゆうたの観察に、はるの「ひとりで足を運ぶ姿」が初めて残った。観察した場面の記録で、診断や正確な獲得日ではない。",
+          "date": "2027-11-01",
+          "period": 13,
+          "phase": 1,
+          "source_refs": [
+            "B.player_view/father/takes_independent_steps"
+          ],
+          "evidence": "B_report_model_not_diagnosis",
+          "links": [],
+          "published_date": "2027-11-01",
+          "published_phase": 1,
+          "published_period": 13
+        },
+        {
+          "id": "fact-00046",
+          "key": "observed-skill/uses_contextual_word",
+          "title": "初めて記録できた姿",
+          "text": "ゆうたは、はるの「場面に合う言葉」を記録した。実際に観察できた場面で、正確な獲得日の判定ではない。",
+          "date": "2027-12-01",
+          "period": 14,
+          "phase": 0,
+          "source_refs": [
+            "B.player_view/father/uses_contextual_word"
+          ],
+          "evidence": "B_uncalibrated_report_measurement",
+          "links": [],
+          "published_date": "2027-12-01",
+          "published_phase": 0,
+          "published_period": 14
+        },
+        {
+          "id": "fact-00061",
+          "key": "experience/floor/crying",
+          "title": "いつもと違う発見",
+          "text": "ゆうたははると自宅で「床に敷いたマットで遊ぶ」時間を取った。途中で泣き出したため、活動を切り上げて静かな所で過ごした。前回の同じ活動とは違う反応が記録された。",
+          "date": "2028-05-01",
+          "period": 19,
+          "phase": 0,
+          "source_refs": [
+            "C2.experiences/experience-00022",
+            "C2.tasks/task-00022"
+          ],
+          "evidence": "inherited_C1_uncalibrated_acute_scenario",
+          "links": [
+            "event-0007"
+          ],
+          "published_date": "2028-05-01",
+          "published_phase": 0,
+          "published_period": 19
+        },
+        {
+          "id": "fact-00068",
+          "key": "work/mother/working_care_constrained/6",
+          "title": "働き方の実際が変わった",
+          "text": "みさきの実働は週0時間から6時間へ。今は「working_care_constrained」。給与の振込とは時期を分けて確認する。",
+          "date": "2028-08-01",
+          "period": 22,
+          "phase": 0,
+          "source_refs": [
+            "A.completed.parents/mother"
+          ],
+          "evidence": "native_A_unverified_employment",
+          "links": [],
+          "published_date": "2028-08-01",
+          "published_phase": 0,
+          "published_period": 22
+        },
+        {
+          "id": "fact-00069",
+          "key": "experience/visit/crying",
+          "title": "いつもと違う発見",
+          "text": "ゆうたははると保育施設（体験用の見学枠）で「保育園の見学枠を訪ねる」時間を取った。途中で泣き出したため、活動を切り上げて静かな所で過ごした。前回の同じ活動とは違う反応が記録された。",
+          "date": "2028-08-01",
+          "period": 22,
+          "phase": 0,
+          "source_refs": [
+            "C2.experiences/experience-00026",
+            "C2.tasks/task-00026"
+          ],
+          "evidence": "inherited_C1_uncalibrated_acute_scenario",
+          "links": [
+            "event-0008"
+          ],
+          "published_date": "2028-08-01",
+          "published_phase": 0,
+          "published_period": 22
+        }
+      ]
+    },
+    {
+      "policy": "social",
+      "biological_hash": "b07df3b8be1e5b485c8c64c235a657bfe3d374ca8604a1ad4071af48eca68449",
+      "cash": 2121433,
+      "term": 23583138,
+      "time_total": 100.25,
+      "experience_count": 53,
+      "contexts": [
+        "center",
+        "floor",
+        "handover",
+        "park",
+        "visit",
+        "voice"
+      ],
+      "native_hours_ratio": 1.0,
+      "policy_operations": [],
+      "logs": [
+        {
+          "id": "fact-00000",
+          "key": "experience/voice/engaged",
+          "title": "一緒に過ごした場面",
+          "text": "ゆうたははると自宅で「抱っこで声をかける」時間を取った。声の方へ顔を向けた。",
+          "date": "2026-10-01",
+          "period": 0,
+          "phase": 1,
+          "source_refs": [
+            "C2.experiences/experience-00000",
+            "C2.tasks/task-00000"
+          ],
+          "evidence": "inherited_C1_uncalibrated_acute_scenario",
+          "links": [],
+          "published_date": "2026-10-01",
+          "published_phase": 1,
+          "published_period": 0
+        },
+        {
+          "id": "fact-00001",
+          "key": "experience/handover/crying",
+          "title": "一緒に過ごした場面",
+          "text": "ゆうたははると自宅で「2時間の育児を引き受ける」時間を取った。途中で泣き出したため、活動を切り上げて静かな所で過ごした。みさきはその2時間、「近所をひとりで散歩する」予定を実行した。",
+          "date": "2026-10-01",
+          "period": 0,
+          "phase": 2,
+          "source_refs": [
+            "C2.experiences/experience-00001",
+            "C2.tasks/task-00001"
+          ],
+          "evidence": "inherited_C1_uncalibrated_acute_scenario",
+          "links": [],
+          "published_date": "2026-10-01",
+          "published_phase": 2,
+          "published_period": 0
+        },
+        {
+          "id": "fact-00004",
+          "key": "request/08acdb69ffdbd6905d28818594d9354407fc8fd79440b402e27c8d2bfaa16249",
+          "title": "希望を伝えた場面",
+          "text": "ゆうたは「親族へ支援を依頼する」の手続きに0.5時間を使った。いまの実働は週0時間で、まだ結果ではない。",
+          "date": "2026-12-01",
+          "period": 2,
+          "phase": 0,
+          "source_refs": [
+            "C2.requests/c0-0004"
+          ],
+          "evidence": "requested_action_not_outcome",
+          "links": [
+            "event-0000"
+          ],
+          "published_date": "2026-12-01",
+          "published_phase": 0,
+          "published_period": 2
+        },
+        {
+          "id": "fact-00005",
+          "key": "experience/voice/looking_away",
+          "title": "いつもと違う発見",
+          "text": "ゆうたははると自宅で「抱っこで声をかける」時間を取った。しばらく見たあと、そばの大人へ顔を寄せた。前回の同じ活動とは違う反応が記録された。",
+          "date": "2026-12-01",
+          "period": 2,
+          "phase": 1,
+          "source_refs": [
+            "C2.experiences/experience-00004",
+            "C2.tasks/task-00004"
+          ],
+          "evidence": "inherited_C1_uncalibrated_acute_scenario",
+          "links": [],
+          "published_date": "2026-12-01",
+          "published_phase": 1,
+          "published_period": 2
+        },
+        {
+          "id": "fact-00006",
+          "key": "experience/handover/looking_away",
+          "title": "いつもと違う発見",
+          "text": "ゆうたははると自宅で「2時間の育児を引き受ける」時間を取った。しばらく見たあと、そばの大人へ顔を寄せた。前回の同じ活動とは違う反応が記録された。みさきはその2時間、「近所をひとりで散歩する」予定を実行した。",
+          "date": "2026-12-01",
+          "period": 2,
+          "phase": 2,
+          "source_refs": [
+            "C2.experiences/experience-00005",
+            "C2.tasks/task-00005"
+          ],
+          "evidence": "inherited_C1_uncalibrated_acute_scenario",
+          "links": [],
+          "published_date": "2026-12-01",
+          "published_phase": 2,
+          "published_period": 2
+        },
+        {
+          "id": "fact-00007",
+          "key": "decision/48e690a844421c286d52bb26d403c7ff1559f5d93515519b4cef8c5410f75d92",
+          "title": "希望への返答が届いた",
+          "text": "ゆうたの希望に返答。身近な人に支援を相談する：今回は支援を得られなかった。 実働は週12時間、保育は「家庭で過ごす」。",
+          "date": "2027-01-01",
+          "period": 3,
+          "phase": 0,
+          "source_refs": [
+            "A.completed.decisions/c0-0004"
+          ],
+          "evidence": "native_A_unvalidated_feasibility",
+          "links": [
+            "event-0000"
+          ],
+          "published_date": "2027-01-01",
+          "published_phase": 0,
+          "published_period": 3
+        },
+        {
+          "id": "fact-00008",
+          "key": "work/father/paternity_leave/12",
+          "title": "働き方の実際が変わった",
+          "text": "ゆうたの実働は週0時間から12時間へ。今は「paternity_leave」。給与の振込とは時期を分けて確認する。",
+          "date": "2027-01-01",
+          "period": 3,
+          "phase": 0,
+          "source_refs": [
+            "A.completed.parents/father"
+          ],
+          "evidence": "native_A_unverified_employment",
+          "links": [],
+          "published_date": "2027-01-01",
+          "published_phase": 0,
+          "published_period": 3
+        },
+        {
+          "id": "fact-00009",
+          "key": "work/mother/parental_leave/0",
+          "title": "働き方の実際が変わった",
+          "text": "みさきの実働は週0時間から0時間へ。今は「育児休業中」。給与の振込とは時期を分けて確認する。",
+          "date": "2027-01-01",
+          "period": 3,
+          "phase": 0,
+          "source_refs": [
+            "A.completed.parents/mother"
+          ],
+          "evidence": "native_A_unverified_employment",
+          "links": [],
+          "published_date": "2027-01-01",
+          "published_phase": 0,
+          "published_period": 3
+        },
+        {
+          "id": "fact-00010",
+          "key": "experience/center/crying",
+          "title": "一緒に過ごした場面",
+          "text": "ゆうたははると地域の親子ひろば（体験用の施設）で「親子ひろばへ出かける」時間を取った。途中で泣き出したため、活動を切り上げて静かな所で過ごした。",
+          "date": "2027-01-01",
+          "period": 3,
+          "phase": 1,
+          "source_refs": [
+            "C2.experiences/experience-00006",
+            "C2.tasks/task-00006"
+          ],
+          "evidence": "inherited_C1_uncalibrated_acute_scenario",
+          "links": [],
+          "published_date": "2027-02-01",
+          "published_phase": 0,
+          "published_period": 4
+        },
+        {
+          "id": "fact-00012",
+          "key": "work/father/working/42",
+          "title": "働き方の実際が変わった",
+          "text": "ゆうたの実働は週12時間から42時間へ。今は「働いている」。給与の振込とは時期を分けて確認する。",
+          "date": "2027-02-01",
+          "period": 4,
+          "phase": 0,
+          "source_refs": [
+            "A.completed.parents/father"
+          ],
+          "evidence": "native_A_unverified_employment",
+          "links": [],
+          "published_date": "2027-02-01",
+          "published_phase": 0,
+          "published_period": 4
+        },
+        {
+          "id": "fact-00014",
+          "key": "pattern/handover/looking_away",
+          "title": "繰り返して、気づいたこと",
+          "text": "ゆうたとはるの2時間の育児を引き受けるの直近4回の記録のうち、3回で「しばらく見たあと、そばの大人へ顔を寄せた。」という反応が残った。この場面での記録で、性格や好みの診断ではない。",
+          "date": "2027-02-01",
+          "period": 4,
+          "phase": 2,
+          "source_refs": [
+            "C2.experiences/experience-00003",
+            "C2.experiences/experience-00005",
+            "C2.experiences/experience-00007",
+            "C2.experiences/experience-00009"
+          ],
+          "evidence": "repeated_observed_scenario_pattern",
+          "links": [],
+          "published_date": "2027-02-01",
+          "published_phase": 2,
+          "published_period": 4
+        },
+        {
+          "id": "fact-00016",
+          "key": "experience/visit/crying",
+          "title": "一緒に過ごした場面",
+          "text": "ゆうたははると保育施設（体験用の見学枠）で「保育園の見学枠を訪ねる」時間を取った。途中で泣き出したため、活動を切り上げて静かな所で過ごした。",
+          "date": "2027-03-01",
+          "period": 5,
+          "phase": 0,
+          "source_refs": [
+            "C2.experiences/experience-00010",
+            "C2.tasks/task-00010"
+          ],
+          "evidence": "inherited_C1_uncalibrated_acute_scenario",
+          "links": [
+            "event-0001"
+          ],
+          "published_date": "2027-03-01",
+          "published_phase": 0,
+          "published_period": 5
+        },
+        {
+          "id": "fact-00017",
+          "key": "experience/center/looking_away",
+          "title": "いつもと違う発見",
+          "text": "ゆうたははると地域の親子ひろば（体験用の施設）で「親子ひろばへ出かける」時間を取った。しばらく見たあと、そばの大人へ顔を寄せた。前回の同じ活動とは違う反応が記録された。",
+          "date": "2027-03-01",
+          "period": 5,
+          "phase": 1,
+          "source_refs": [
+            "C2.experiences/experience-00011",
+            "C2.tasks/task-00011"
+          ],
+          "evidence": "inherited_C1_uncalibrated_acute_scenario",
+          "links": [],
+          "published_date": "2027-03-01",
+          "published_phase": 1,
+          "published_period": 5
+        },
+        {
+          "id": "fact-00019",
+          "key": "experience/center/engaged",
+          "title": "いつもと違う発見",
+          "text": "ゆうたははると地域の親子ひろば（体験用の施設）で「親子ひろばへ出かける」時間を取った。周りの音の方へ顔を向けた。前回の同じ活動とは違う反応が記録された。",
+          "date": "2027-04-01",
+          "period": 6,
+          "phase": 1,
+          "source_refs": [
+            "C2.experiences/experience-00013",
+            "C2.tasks/task-00013"
+          ],
+          "evidence": "inherited_C1_uncalibrated_acute_scenario",
+          "links": [],
+          "published_date": "2027-04-01",
+          "published_phase": 1,
+          "published_period": 6
+        },
+        {
+          "id": "fact-00022",
+          "key": "request/e6546cf4b412ac6fca607cd75bbcd8ab7d99bf0e5be7a2f60eaac624a28aa88e",
+          "title": "希望を伝えた場面",
+          "text": "ゆうたは「保育の利用を申請する」の手続きに0.5時間を使った。いまの実働は週42時間で、まだ結果ではない。",
+          "date": "2027-05-01",
+          "period": 7,
+          "phase": 0,
+          "source_refs": [
+            "C2.requests/c0-0015"
+          ],
+          "evidence": "requested_action_not_outcome",
+          "links": [
+            "event-0002"
+          ],
+          "published_date": "2027-05-01",
+          "published_phase": 0,
+          "published_period": 7
+        },
+        {
+          "id": "fact-00024",
+          "key": "experience/handover/engaged",
+          "title": "いつもと違う発見",
+          "text": "ゆうたははると自宅で「2時間の育児を引き受ける」時間を取った。周りの音の方へ顔を向けた。前回の同じ活動とは違う反応が記録された。みさきはその2時間、「近所をひとりで散歩する」予定を実行した。",
+          "date": "2027-05-01",
+          "period": 7,
+          "phase": 2,
+          "source_refs": [
+            "C2.experiences/experience-00016",
+            "C2.tasks/task-00016"
+          ],
+          "evidence": "inherited_C1_uncalibrated_acute_scenario",
+          "links": [],
+          "published_date": "2027-05-01",
+          "published_phase": 2,
+          "published_period": 7
+        },
+        {
+          "id": "fact-00025",
+          "key": "decision/9dcb570bfbd7829a5fa2384c75e2e4769025d02ce869438cb31e5debd54cca90",
+          "title": "希望への返答が届いた",
+          "text": "ゆうたの希望に返答。保育の利用を申し込む：申請・相談を提出した。 実働は週42時間、保育は「保育の申請を審査待ち」。",
+          "date": "2027-06-01",
+          "period": 8,
+          "phase": 0,
+          "source_refs": [
+            "A.completed.decisions/c0-0015"
+          ],
+          "evidence": "native_A_unvalidated_feasibility",
+          "links": [
+            "event-0002"
+          ],
+          "published_date": "2027-06-01",
+          "published_phase": 0,
+          "published_period": 8
+        },
+        {
+          "id": "fact-00030",
+          "key": "request/aad1a62427079f85c10101020e93e9fd5347276b2e9b7c5d72c3a7fbdffb555b",
+          "title": "希望を伝えた場面",
+          "text": "ゆうたは「親族へ支援を依頼する」の手続きに0.5時間を使った。いまの実働は週42時間で、まだ結果ではない。",
+          "date": "2027-08-01",
+          "period": 10,
+          "phase": 0,
+          "source_refs": [
+            "C2.requests/c0-0022"
+          ],
+          "evidence": "requested_action_not_outcome",
+          "links": [
+            "event-0003"
+          ],
+          "published_date": "2027-08-01",
+          "published_phase": 0,
+          "published_period": 10
+        },
+        {
+          "id": "fact-00031",
+          "key": "pattern/center/crying",
+          "title": "繰り返して、気づいたこと",
+          "text": "ゆうたとはるの親子ひろばへ出かけるの直近4回の記録のうち、3回で「途中で泣き出したため、活動を切り上げて静かな所で過ごした。」という反応が残った。この場面での記録で、性格や好みの診断ではない。",
+          "date": "2027-08-01",
+          "period": 10,
+          "phase": 1,
+          "source_refs": [
+            "C2.experiences/experience-00015",
+            "C2.experiences/experience-00017",
+            "C2.experiences/experience-00019",
+            "C2.experiences/experience-00021"
+          ],
+          "evidence": "repeated_observed_scenario_pattern",
+          "links": [],
+          "published_date": "2027-08-01",
+          "published_phase": 1,
+          "published_period": 10
+        },
+        {
+          "id": "fact-00034",
+          "key": "decision/49ff4b5dcda4c4309c21ade7cf6c9d6074dffc2d29f4a0aaf46ffff77348d5a5",
+          "title": "希望への返答が届いた",
+          "text": "ゆうたの希望に返答。身近な人に支援を相談する：今回は支援を得られなかった。 実働は週42時間、保育は「保育の申請は今回の調整では入園に至らず」。",
+          "date": "2027-09-01",
+          "period": 11,
+          "phase": 0,
+          "source_refs": [
+            "A.completed.decisions/c0-0022"
+          ],
+          "evidence": "native_A_unvalidated_feasibility",
+          "links": [
+            "event-0003"
+          ],
+          "published_date": "2027-09-01",
+          "published_phase": 0,
+          "published_period": 11
+        },
+        {
+          "id": "fact-00037",
+          "key": "experience/park/crying",
+          "title": "一緒に過ごした場面",
+          "text": "ゆうたははると近所の公園で「公園のベンチで過ごす」時間を取った。途中で泣き出したため、活動を切り上げて静かな所で過ごした。",
+          "date": "2027-10-01",
+          "period": 12,
+          "phase": 0,
+          "source_refs": [
+            "C2.experiences/experience-00025",
+            "C2.tasks/task-00025"
+          ],
+          "evidence": "inherited_C1_uncalibrated_acute_scenario",
+          "links": [
+            "event-0004"
+          ],
+          "published_date": "2027-10-01",
+          "published_phase": 0,
+          "published_period": 12
+        },
+        {
+          "id": "fact-00040",
+          "key": "work/mother/unpaid_care_interruption/0",
+          "title": "働き方の実際が変わった",
+          "text": "みさきの実働は週0時間から0時間へ。今は「育児のため実働を休止」。給与の振込とは時期を分けて確認する。",
+          "date": "2027-11-01",
+          "period": 13,
+          "phase": 0,
+          "source_refs": [
+            "A.completed.parents/mother"
+          ],
+          "evidence": "native_A_unverified_employment",
+          "links": [],
+          "published_date": "2027-11-01",
+          "published_phase": 0,
+          "published_period": 13
+        },
+        {
+          "id": "fact-00042",
+          "key": "observed-skill/takes_independent_steps",
+          "title": "親の記録に初めて残ったこと",
+          "text": "ゆうたの観察に、はるの「ひとりで足を運ぶ姿」が初めて残った。観察した場面の記録で、診断や正確な獲得日ではない。",
+          "date": "2027-11-01",
+          "period": 13,
+          "phase": 1,
+          "source_refs": [
+            "B.player_view/father/takes_independent_steps"
+          ],
+          "evidence": "B_report_model_not_diagnosis",
+          "links": [],
+          "published_date": "2027-11-01",
+          "published_phase": 1,
+          "published_period": 13
+        },
+        {
+          "id": "fact-00044",
+          "key": "observed-skill/uses_contextual_word",
+          "title": "初めて記録できた姿",
+          "text": "ゆうたは、はるの「場面に合う言葉」を記録した。実際に観察できた場面で、正確な獲得日の判定ではない。",
+          "date": "2027-12-01",
+          "period": 14,
+          "phase": 0,
+          "source_refs": [
+            "B.player_view/father/uses_contextual_word"
+          ],
+          "evidence": "B_uncalibrated_report_measurement",
+          "links": [],
+          "published_date": "2027-12-01",
+          "published_phase": 0,
+          "published_period": 14
+        },
+        {
+          "id": "fact-00045",
+          "key": "experience/floor/crying",
+          "title": "一緒に過ごした場面",
+          "text": "ゆうたははると自宅で「床に敷いたマットで遊ぶ」時間を取った。途中で泣き出したため、活動を切り上げて静かな所で過ごした。",
+          "date": "2027-12-01",
+          "period": 14,
+          "phase": 0,
+          "source_refs": [
+            "C2.experiences/experience-00030",
+            "C2.tasks/task-00030"
+          ],
+          "evidence": "inherited_C1_uncalibrated_acute_scenario",
+          "links": [
+            "event-0005"
+          ],
+          "published_date": "2027-12-01",
+          "published_phase": 0,
+          "published_period": 14
+        },
+        {
+          "id": "fact-00061",
+          "key": "pattern/handover/engaged",
+          "title": "繰り返して、気づいたこと",
+          "text": "ゆうたとはるの2時間の育児を引き受けるの直近4回の記録のうち、3回で「周りの音の方へ顔を向けた。」という反応が残った。この場面での記録で、性格や好みの診断ではない。",
+          "date": "2028-05-01",
+          "period": 19,
+          "phase": 2,
+          "source_refs": [
+            "C2.experiences/experience-00036",
+            "C2.experiences/experience-00038",
+            "C2.experiences/experience-00040",
+            "C2.experiences/experience-00043"
+          ],
+          "evidence": "repeated_observed_scenario_pattern",
+          "links": [],
+          "published_date": "2028-05-01",
+          "published_phase": 2,
+          "published_period": 19
+        },
+        {
+          "id": "fact-00070",
+          "key": "work/mother/working_care_constrained/6",
+          "title": "働き方の実際が変わった",
+          "text": "みさきの実働は週0時間から6時間へ。今は「working_care_constrained」。給与の振込とは時期を分けて確認する。",
+          "date": "2028-08-01",
+          "period": 22,
+          "phase": 0,
+          "source_refs": [
+            "A.completed.parents/mother"
+          ],
+          "evidence": "native_A_unverified_employment",
+          "links": [],
+          "published_date": "2028-08-01",
+          "published_phase": 0,
+          "published_period": 22
+        },
+        {
+          "id": "fact-00071",
+          "key": "experience/visit/engaged",
+          "title": "いつもと違う発見",
+          "text": "ゆうたははると保育施設（体験用の見学枠）で「保育園の見学枠を訪ねる」時間を取った。周りの音の方へ顔を向けた。前回の同じ活動とは違う反応が記録された。",
+          "date": "2028-08-01",
+          "period": 22,
+          "phase": 0,
+          "source_refs": [
+            "C2.experiences/experience-00048",
+            "C2.tasks/task-00048"
+          ],
+          "evidence": "inherited_C1_uncalibrated_acute_scenario",
+          "links": [
+            "event-0008"
+          ],
+          "published_date": "2028-08-01",
+          "published_phase": 0,
+          "published_period": 22
+        }
+      ]
+    }
+  ],
+  "branch_events": 21,
+  "actual_user_study": false,
+  "scientific_external_validation": false
+}

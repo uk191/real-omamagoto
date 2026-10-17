@@ -1,0 +1,3622 @@
+{
+  "seed": 3201,
+  "event": {
+    "id": "event-0003",
+    "kind": "job",
+    "title": "仕事の提案が届いた",
+    "background": "通常年収3,852,004円、週56.0時間の提案。受けても就業の実現はAモデルの判定を待つ。 世帯は2人。みさきの直近の実働は週0時間、今月の空き予定枠は56時間。",
+    "date": "2027-07-01",
+    "period": 9,
+    "participants": [
+      "みさき",
+      "はる"
+    ],
+    "why_now": "本人宛ての仕事の提案が実際に届いているため。 将来の結果はまだ計算していない。",
+    "choices": [
+      {
+        "id": "accept",
+        "title": "この提案を受ける",
+        "mode": "request",
+        "kind": "accept_job_offer",
+        "value": "dad8eb42d9cd3f89ce90",
+        "cost_yen": 0,
+        "hours": 0.5,
+        "detail": "希望を伝える手続き。職場・自治体等の結果は次の月次処理を待つ。給与の入金はさらに遅れる場合がある。",
+        "transfer_yen": 0
+      },
+      {
+        "id": "reject",
+        "title": "今回は見送る",
+        "mode": "request",
+        "kind": "reject_job_offer",
+        "value": "dad8eb42d9cd3f89ce90",
+        "cost_yen": 0,
+        "hours": 0.5,
+        "detail": "希望を伝える手続き。職場・自治体等の結果は次の月次処理を待つ。給与の入金はさらに遅れる場合がある。",
+        "transfer_yen": 0
+      }
+    ],
+    "source_refs": [
+      "A.completed.parents/mother",
+      "A.completed.care",
+      "A.completed.accounts",
+      "C2.experience_ledger"
+    ],
+    "status": "waiting",
+    "evidence": "C2_contextual_game_scenario_with_native_actions"
+  },
+  "branches": [
+    {
+      "choice": "accept",
+      "view": {
+        "version": "C-2.0-low-load-research",
+        "revision": 42,
+        "date": "2027-10-01",
+        "age_months": 12,
+        "age_days": 365,
+        "phase": 0,
+        "running": false,
+        "speed": 1,
+        "elapsed_ms": 0,
+        "finished": false,
+        "actor": "mother",
+        "player_name": "みさき",
+        "child_name": "はる",
+        "location": "東京都豊島区",
+        "parents": [
+          {
+            "role": "mother",
+            "name": "みさき",
+            "age": 29,
+            "education": "高校・旧制中(卒業者)",
+            "occupation": null,
+            "usual_annual": 3852004,
+            "state": "働いている",
+            "hours": 6,
+            "is_player": true
+          }
+        ],
+        "policy": "work",
+        "work_preference_override": null,
+        "policies": {
+          "work": {
+            "name": "仕事と収入",
+            "hint": "自分の通常勤務を希望。仕事の準備に月8時間を確保し、家では声かけ。収入増を保証しません。"
+          },
+          "time": {
+            "name": "子どもとの時間",
+            "hint": "自分の勤務を8割で相談。月4回、家で一緒に過ごす枠を確保。実現後は給与が減る可能性。"
+          },
+          "play": {
+            "name": "遊びと体験",
+            "hint": "月3,000円を上限に絵本・玩具と外出。支払い口座と予定枠が足りる範囲で実行。"
+          },
+          "stable": {
+            "name": "安定した暮らし",
+            "hint": "今の働き方を保ち、家での活動を中心に。直近の支払い額を目安に口座を残す。"
+          },
+          "save": {
+            "name": "貯蓄をつくる",
+            "hint": "直近の支払い2か月分を残し、余裕があれば月2万円まで定期性預貯金へ。運用益は追加しません。"
+          },
+          "social": {
+            "name": "家族と交流",
+            "hint": "親子ひろばと家族の分担を優先。配偶者には都度相談し、断られた場合も経過を残します。"
+          }
+        },
+        "logs": [
+          {
+            "id": "fact-00000",
+            "key": "experience/voice/engaged",
+            "title": "一緒に過ごした場面",
+            "text": "みさきははると自宅で「抱っこで声をかける」時間を取った。声の方へ顔を向けた。",
+            "date": "2026-10-01",
+            "period": 0,
+            "phase": 1,
+            "source_refs": [
+              "C2.experiences/experience-00000",
+              "C2.tasks/task-00000"
+            ],
+            "evidence": "inherited_C1_uncalibrated_acute_scenario",
+            "links": [],
+            "published_date": "2026-10-01",
+            "published_phase": 1,
+            "published_period": 0
+          },
+          {
+            "id": "fact-00001",
+            "key": "decision/7805d1d1f9daf739df31e8464237a5a4e4466b4cef56716638975609a2bbd00b",
+            "title": "希望への返答が届いた",
+            "text": "みさきの希望に返答。仕事を探し始める：申請・相談を提出した。 実働は週0時間、保育は「家庭で過ごす」。",
+            "date": "2026-11-01",
+            "period": 1,
+            "phase": 0,
+            "source_refs": [
+              "A.completed.decisions/c0-0000"
+            ],
+            "evidence": "native_A_unvalidated_feasibility",
+            "links": [],
+            "published_date": "2026-11-01",
+            "published_phase": 0,
+            "published_period": 1
+          },
+          {
+            "id": "fact-00003",
+            "key": "pattern/voice/engaged",
+            "title": "繰り返して、気づいたこと",
+            "text": "みさきとはるの抱っこで声をかけるの直近3回の記録のうち、3回で「声の方へ顔を向けた。」という反応が残った。この場面での記録で、性格や好みの診断ではない。",
+            "date": "2026-12-01",
+            "period": 2,
+            "phase": 0,
+            "source_refs": [
+              "C2.experiences/experience-00000",
+              "C2.experiences/experience-00001",
+              "C2.experiences/experience-00002"
+            ],
+            "evidence": "repeated_observed_scenario_pattern",
+            "links": [],
+            "published_date": "2026-12-01",
+            "published_phase": 0,
+            "published_period": 2
+          },
+          {
+            "id": "fact-00005",
+            "key": "experience/voice/looking_away",
+            "title": "いつもと違う発見",
+            "text": "みさきははると自宅で「抱っこで声をかける」時間を取った。しばらく見たあと、そばの大人へ顔を寄せた。前回の同じ活動とは違う反応が記録された。",
+            "date": "2026-12-01",
+            "period": 2,
+            "phase": 1,
+            "source_refs": [
+              "C2.experiences/experience-00003",
+              "C2.tasks/task-00003"
+            ],
+            "evidence": "inherited_C1_uncalibrated_acute_scenario",
+            "links": [],
+            "published_date": "2026-12-01",
+            "published_phase": 1,
+            "published_period": 2
+          },
+          {
+            "id": "fact-00008",
+            "key": "experience/voice/crying",
+            "title": "いつもと違う発見",
+            "text": "みさきははると自宅で「抱っこで声をかける」時間を取った。途中で泣き出したため、活動を切り上げて静かな所で過ごした。前回の同じ活動とは違う反応が記録された。",
+            "date": "2027-02-01",
+            "period": 4,
+            "phase": 1,
+            "source_refs": [
+              "C2.experiences/experience-00005",
+              "C2.tasks/task-00005"
+            ],
+            "evidence": "inherited_C1_uncalibrated_acute_scenario",
+            "links": [],
+            "published_date": "2027-02-01",
+            "published_phase": 1,
+            "published_period": 4
+          },
+          {
+            "id": "fact-00009",
+            "key": "request/f0d25dd624b99295909131f6ef800577a1b78d49552b23885bc6363040e4b926",
+            "title": "希望を伝えた場面",
+            "text": "みさきは「親族へ支援を頼む」の手続きに0.5時間を使った。いまの実働は週0時間で、まだ結果ではない。",
+            "date": "2027-03-01",
+            "period": 5,
+            "phase": 0,
+            "source_refs": [
+              "C2.requests/c0-0011"
+            ],
+            "evidence": "requested_action_not_outcome",
+            "links": [
+              "event-0001"
+            ],
+            "published_date": "2027-03-01",
+            "published_phase": 0,
+            "published_period": 5
+          },
+          {
+            "id": "fact-00011",
+            "key": "decision/0197365c7cb469186b622800cc1200ab49a2deb70651fe6c8ef6742f23fb778c",
+            "title": "希望への返答が届いた",
+            "text": "みさきの希望に返答。身近な人に支援を相談する：今回は支援を得られなかった。 実働は週0時間、保育は「家庭で過ごす」。",
+            "date": "2027-04-01",
+            "period": 6,
+            "phase": 0,
+            "source_refs": [
+              "A.completed.decisions/c0-0011"
+            ],
+            "evidence": "native_A_unvalidated_feasibility",
+            "links": [
+              "event-0001"
+            ],
+            "published_date": "2027-04-01",
+            "published_phase": 0,
+            "published_period": 6
+          },
+          {
+            "id": "fact-00014",
+            "key": "experience/toy/engaged_reaching",
+            "title": "一緒に過ごした場面",
+            "text": "みさきははると自宅で赤い布のボールを使った。赤い布のボールへ手を伸ばした。",
+            "date": "2027-06-01",
+            "period": 8,
+            "phase": 0,
+            "source_refs": [
+              "C2.experiences/experience-00009",
+              "C2.tasks/task-00009",
+              "C2.inventory/item-toy"
+            ],
+            "evidence": "inherited_C1_uncalibrated_acute_scenario",
+            "links": [
+              "event-0002"
+            ],
+            "published_date": "2027-06-01",
+            "published_phase": 0,
+            "published_period": 8
+          },
+          {
+            "id": "fact-00016",
+            "key": "request/d3072f6250557a28daabe88b9f75f17fcae7b24fd01c7357e87b973d1d76e7c8",
+            "title": "希望を伝えた場面",
+            "text": "みさきは「この提案を受ける」の手続きに0.5時間を使った。いまの実働は週0時間で、まだ結果ではない。",
+            "date": "2027-07-01",
+            "period": 9,
+            "phase": 0,
+            "source_refs": [
+              "C2.requests/c0-0020"
+            ],
+            "evidence": "requested_action_not_outcome",
+            "links": [
+              "event-0003"
+            ],
+            "published_date": "2027-07-01",
+            "published_phase": 0,
+            "published_period": 9
+          },
+          {
+            "id": "fact-00018",
+            "key": "decision/6b75d8a096a74a8650dc286b7be64305e62bffc95517e1afc7283bc6168ec346",
+            "title": "希望への返答が届いた",
+            "text": "みさきの希望に返答。届いた仕事の提案を受ける：条件付きで受け付けられた。 実働は週6時間、保育は「家庭で過ごす」。",
+            "date": "2027-08-01",
+            "period": 10,
+            "phase": 0,
+            "source_refs": [
+              "A.completed.decisions/c0-0020"
+            ],
+            "evidence": "native_A_unvalidated_feasibility",
+            "links": [
+              "event-0003"
+            ],
+            "published_date": "2027-08-01",
+            "published_phase": 0,
+            "published_period": 10
+          },
+          {
+            "id": "fact-00019",
+            "key": "work/mother/working_care_constrained/6",
+            "title": "働き方の実際が変わった",
+            "text": "みさきの実働は週0時間から6時間へ。今は「working_care_constrained」。給与の振込とは時期を分けて確認する。",
+            "date": "2027-08-01",
+            "period": 10,
+            "phase": 0,
+            "source_refs": [
+              "A.completed.parents/mother"
+            ],
+            "evidence": "native_A_unverified_employment",
+            "links": [],
+            "published_date": "2027-08-01",
+            "published_phase": 0,
+            "published_period": 10
+          },
+          {
+            "id": "fact-00021",
+            "key": "request/27f9f9d1bcbc5660f9794e49aef8c08a3746196cbff926ffad3e68fd41421e76",
+            "title": "希望を伝えた場面",
+            "text": "みさきは「親族へ支援を頼む」の手続きに0.5時間を使った。いまの実働は週6時間で、まだ結果ではない。",
+            "date": "2027-09-01",
+            "period": 11,
+            "phase": 0,
+            "source_refs": [
+              "C2.requests/c0-0025"
+            ],
+            "evidence": "requested_action_not_outcome",
+            "links": [
+              "event-0004"
+            ],
+            "published_date": "2027-09-01",
+            "published_phase": 0,
+            "published_period": 11
+          },
+          {
+            "id": "fact-00024",
+            "key": "decision/5e202a7da42f97f622d852d0621fd123a74d63d5e4e1bef0cefeebf3248f4d73",
+            "title": "希望への返答が届いた",
+            "text": "みさきの希望に返答。身近な人に支援を相談する：今回は支援を得られなかった。 実働は週6時間、保育は「家庭で過ごす」。",
+            "date": "2027-10-01",
+            "period": 12,
+            "phase": 0,
+            "source_refs": [
+              "A.completed.decisions/c0-0025"
+            ],
+            "evidence": "native_A_unvalidated_feasibility",
+            "links": [
+              "event-0004"
+            ],
+            "published_date": "2027-10-01",
+            "published_phase": 0,
+            "published_period": 12
+          }
+        ],
+        "latest_child": {
+          "id": "fact-00014",
+          "key": "experience/toy/engaged_reaching",
+          "title": "一緒に過ごした場面",
+          "text": "みさきははると自宅で赤い布のボールを使った。赤い布のボールへ手を伸ばした。",
+          "date": "2027-06-01",
+          "period": 8,
+          "phase": 0,
+          "source_refs": [
+            "C2.experiences/experience-00009",
+            "C2.tasks/task-00009",
+            "C2.inventory/item-toy"
+          ],
+          "evidence": "inherited_C1_uncalibrated_acute_scenario",
+          "links": [
+            "event-0002"
+          ],
+          "published_date": "2027-06-01",
+          "published_phase": 0,
+          "published_period": 8
+        },
+        "event": {
+          "id": "event-0005",
+          "kind": "money",
+          "title": "次の支払いをどう備えるか",
+          "background": "支払い口座は49,765円。直近の通常消費・家賃・保育料は月99,274円。これは過去・初期の参照額で、来月の確定予測ではない。 世帯は2人。みさきの直近の実働は週6時間、今月の空き予定枠は22時間。",
+          "date": "2027-10-01",
+          "participants": [
+            "みさき",
+            "はる"
+          ],
+          "why_now": "口座が直近の支払い参照額に対して少ないか、期限が来た未払があるため。 将来の結果はまだ計算していない。",
+          "choices": [
+            {
+              "id": "reduce",
+              "title": "今後の通常消費を1割抑える",
+              "mode": "request",
+              "kind": "set_spending",
+              "value": 0.9,
+              "cost_yen": 0,
+              "hours": 0.5,
+              "detail": "希望を伝える手続き。職場・自治体等の結果は次の月次処理を待つ。給与の入金はさらに遅れる場合がある。",
+              "transfer_yen": 0
+            },
+            {
+              "id": "allowance",
+              "title": "児童手当の申請を進める",
+              "mode": "request",
+              "kind": "apply_child_allowance",
+              "value": null,
+              "cost_yen": 0,
+              "hours": 0.5,
+              "detail": "希望を伝える手続き。職場・自治体等の結果は次の月次処理を待つ。給与の入金はさらに遅れる場合がある。",
+              "transfer_yen": 0
+            }
+          ],
+          "evidence": "C2_contextual_game_scenario_with_native_actions",
+          "source_refs": [
+            "A.completed.parents/mother",
+            "A.completed.care",
+            "A.completed.accounts",
+            "C2.experience_ledger"
+          ]
+        },
+        "past_events": [
+          {
+            "id": "event-0000",
+            "title": "この子と、次に何をしてみよう",
+            "choice": "free",
+            "status": "chosen",
+            "date": "2026-12-01",
+            "result": {
+              "status": "done",
+              "reason": null,
+              "kind": "voice",
+              "id": "task-00002",
+              "paid_yen": 0,
+              "hours": 0.25
+            }
+          },
+          {
+            "id": "event-0001",
+            "title": "保育を調べる、その次は",
+            "choice": "relative",
+            "status": "chosen",
+            "date": "2027-03-01",
+            "result": {
+              "status": "requested",
+              "reason": null,
+              "kind": "request_relative_support",
+              "id": "c0-0011",
+              "paid_yen": null,
+              "hours": null
+            }
+          },
+          {
+            "id": "event-0002",
+            "title": "この子と、次に何をしてみよう",
+            "choice": "toy",
+            "status": "chosen",
+            "date": "2027-06-01",
+            "result": {
+              "status": "done",
+              "reason": null,
+              "kind": "toy",
+              "id": "task-00009",
+              "paid_yen": 1600,
+              "hours": 0.5
+            }
+          },
+          {
+            "id": "event-0003",
+            "title": "仕事の提案が届いた",
+            "choice": "accept",
+            "status": "chosen",
+            "date": "2027-07-01",
+            "result": {
+              "status": "requested",
+              "reason": null,
+              "kind": "accept_job_offer",
+              "id": "c0-0020",
+              "paid_yen": null,
+              "hours": null
+            }
+          },
+          {
+            "id": "event-0004",
+            "title": "保育を調べる、その次は",
+            "choice": "relative",
+            "status": "chosen",
+            "date": "2027-09-01",
+            "result": {
+              "status": "requested",
+              "reason": null,
+              "kind": "request_relative_support",
+              "id": "c0-0025",
+              "paid_yen": null,
+              "hours": null
+            }
+          },
+          {
+            "id": "event-0005",
+            "title": "次の支払いをどう備えるか",
+            "choice": null,
+            "status": "waiting",
+            "date": "2027-10-01",
+            "result": {
+              "status": null,
+              "reason": null,
+              "kind": null,
+              "id": null,
+              "paid_yen": null,
+              "hours": null
+            }
+          }
+        ],
+        "last_choice_result": {
+          "event_id": "event-0004",
+          "title": "親族へ支援を頼む",
+          "status": "requested",
+          "reason": null,
+          "observed_reaction": null,
+          "counterparty": null,
+          "cash_delta": 0,
+          "new_experiences": 0,
+          "time_hours": 0.5,
+          "native_results": [
+            {
+              "id": "decision/c0-0025",
+              "text": "身近な人に支援を相談する：今回は支援を得られなかった。",
+              "source_ref": "A.completed.A_decisions/c0-0025",
+              "value_sha256": "5d921f32737654cb0fce20ff0afde4a3a4d91e93ddd64cb26c8b3dbd9f0a1e99",
+              "evidence": "native_action_feasibility_scenario",
+              "kind": "request_relative_support",
+              "outcome": "unavailable",
+              "request_id": "c0-0025",
+              "person": null,
+              "requested_value": null
+            }
+          ],
+          "followup": "実際に動いた口座・予定枠・経験を記録しています。",
+          "evidence": "C2_contextual_game_scenario_with_native_actions"
+        },
+        "money": {
+          "cash": 49765,
+          "accounts": {
+            "cash": 49765,
+            "term": 0,
+            "insurance_reserve": 0,
+            "securities": 0,
+            "other_financial": 0,
+            "other_property": 0,
+            "home": 0,
+            "L:mortgage": 0,
+            "L:other_debt": 0,
+            "L:AP:NHI/mother/0": 0,
+            "L:AP:consumption/0": 0,
+            "L:AP:rent/0": 0,
+            "L:AP:birth_invoice": 0,
+            "AR:birth_grant": 0,
+            "L:AP:NHI/mother/1": 0,
+            "L:AP:consumption/1": 0,
+            "L:AP:rent/1": 0,
+            "L:AP:NHI/mother/2": 0,
+            "L:AP:consumption/2": 0,
+            "L:AP:rent/2": 0,
+            "L:AP:NHI/mother/3": 0,
+            "L:AP:consumption/3": 0,
+            "L:AP:rent/3": 0,
+            "L:AP:NHI/mother/4": 0,
+            "L:AP:consumption/4": 0,
+            "L:AP:rent/4": 0,
+            "L:AP:NHI/mother/5": 0,
+            "L:AP:consumption/5": 0,
+            "L:AP:rent/5": 0,
+            "L:AP:NHI/mother/6": 0,
+            "L:AP:consumption/6": 0,
+            "L:AP:rent/6": 0,
+            "L:AP:NHI/mother/7": 0,
+            "L:AP:consumption/7": 0,
+            "L:AP:rent/7": 0,
+            "L:AP:C2/task-00009": 0,
+            "L:AP:NHI/mother/8": 0,
+            "L:AP:consumption/8": 0,
+            "L:AP:rent/8": 0,
+            "AR:payroll/mother/9": 0,
+            "L:AP:social/mother/9": 0,
+            "L:AP:consumption/9": 0,
+            "L:AP:rent/9": 0,
+            "L:AP:commute/9": 0,
+            "AR:commute_reimbursement/9": 0,
+            "AR:payroll/mother/10": 0,
+            "L:AP:social/mother/10": 0,
+            "L:AP:consumption/10": 0,
+            "L:AP:rent/10": 0,
+            "L:AP:commute/10": 0,
+            "AR:commute_reimbursement/10": 0,
+            "AR:payroll/mother/11": 34393,
+            "L:AP:social/mother/11": 45579,
+            "L:AP:consumption/11": 0,
+            "L:AP:rent/11": 0,
+            "L:AP:commute/11": 0,
+            "AR:commute_reimbursement/11": 2708
+          },
+          "account_rows": [
+            {
+              "key": "cash",
+              "label": "通貨性預貯金（世帯・支払い口座）",
+              "value": 49765
+            },
+            {
+              "key": "term",
+              "label": "定期性預貯金（世帯）",
+              "value": 0
+            },
+            {
+              "key": "insurance_reserve",
+              "label": "保険準備金",
+              "value": 0
+            },
+            {
+              "key": "securities",
+              "label": "有価証券（世帯）",
+              "value": 0
+            },
+            {
+              "key": "other_financial",
+              "label": "その他金融資産",
+              "value": 0
+            },
+            {
+              "key": "other_property",
+              "label": "その他不動産等",
+              "value": 0
+            },
+            {
+              "key": "home",
+              "label": "現在の持家評価",
+              "value": 0
+            },
+            {
+              "key": "L:mortgage",
+              "label": "住宅・土地の借入",
+              "value": 0
+            },
+            {
+              "key": "L:other_debt",
+              "label": "その他借入",
+              "value": 0
+            },
+            {
+              "key": "L:AP:NHI/mother/0",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:consumption/0",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:rent/0",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:birth_invoice",
+              "label": "出産費用の未払い",
+              "value": 0
+            },
+            {
+              "key": "AR:birth_grant",
+              "label": "給付・精算等の入金待ち",
+              "value": 0
+            },
+            {
+              "key": "L:AP:NHI/mother/1",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:consumption/1",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:rent/1",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:NHI/mother/2",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:consumption/2",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:rent/2",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:NHI/mother/3",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:consumption/3",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:rent/3",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:NHI/mother/4",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:consumption/4",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:rent/4",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:NHI/mother/5",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:consumption/5",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:rent/5",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:NHI/mother/6",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:consumption/6",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:rent/6",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:NHI/mother/7",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:consumption/7",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:rent/7",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:C2/task-00009",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:NHI/mother/8",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:consumption/8",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:rent/8",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "AR:payroll/mother/9",
+              "label": "給与の入金待ち",
+              "value": 0
+            },
+            {
+              "key": "L:AP:social/mother/9",
+              "label": "社会保険の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:consumption/9",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:rent/9",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:commute/9",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "AR:commute_reimbursement/9",
+              "label": "給付・精算等の入金待ち",
+              "value": 0
+            },
+            {
+              "key": "AR:payroll/mother/10",
+              "label": "給与の入金待ち",
+              "value": 0
+            },
+            {
+              "key": "L:AP:social/mother/10",
+              "label": "社会保険の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:consumption/10",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:rent/10",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:commute/10",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "AR:commute_reimbursement/10",
+              "label": "給付・精算等の入金待ち",
+              "value": 0
+            },
+            {
+              "key": "AR:payroll/mother/11",
+              "label": "給与の入金待ち",
+              "value": 34393
+            },
+            {
+              "key": "L:AP:social/mother/11",
+              "label": "社会保険の未払い",
+              "value": 45579
+            },
+            {
+              "key": "L:AP:consumption/11",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:rent/11",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:commute/11",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "AR:commute_reimbursement/11",
+              "label": "給付・精算等の入金待ち",
+              "value": 2708
+            }
+          ],
+          "opening_cash": 160225,
+          "closing_cash": 49765,
+          "rows": [
+            {
+              "event_id": "2f1faa13441ad98128ea",
+              "label": "通勤費",
+              "cash_delta": 2708,
+              "kind": "receipt",
+              "source": "A.completed.transactions",
+              "deltas": {
+                "AR:commute_reimbursement/10": -2708,
+                "cash": 2708
+              }
+            },
+            {
+              "event_id": "b9d8c116cfe9b337a2c3",
+              "label": "社会保険料",
+              "cash_delta": -11186,
+              "kind": "payment",
+              "source": "A.completed.transactions",
+              "deltas": {
+                "L:AP:social/mother/10": -11186,
+                "cash": -11186
+              }
+            },
+            {
+              "event_id": "c3de903ef14ad6871926",
+              "label": "生活費",
+              "cash_delta": -56235,
+              "kind": "payment",
+              "source": "A.completed.transactions",
+              "deltas": {
+                "L:AP:consumption/11": -56235,
+                "cash": -56235
+              }
+            },
+            {
+              "event_id": "00f78273b7b14ef9669a",
+              "label": "家賃",
+              "cash_delta": -43039,
+              "kind": "payment",
+              "source": "A.completed.transactions",
+              "deltas": {
+                "L:AP:rent/11": -43039,
+                "cash": -43039
+              }
+            },
+            {
+              "event_id": "c8b6305c79b2042136f6",
+              "label": "通勤費",
+              "cash_delta": -2708,
+              "kind": "payment",
+              "source": "A.completed.transactions",
+              "deltas": {
+                "L:AP:commute/11": -2708,
+                "cash": -2708
+              }
+            }
+          ],
+          "cash_identity_residual": 0,
+          "current_C2_cash_delta": 0,
+          "period": "2027-09-01",
+          "consumption_items": [
+            {
+              "code": "210101",
+              "amount": 20418,
+              "cell": [
+                "a010301",
+                196,
+                79,
+                "30131"
+              ],
+              "policy_rigidity_unobserved": true
+            },
+            {
+              "code": "21010202",
+              "amount": 1912,
+              "cell": [
+                "a010301",
+                214,
+                79,
+                "2833"
+              ],
+              "policy_rigidity_unobserved": true
+            },
+            {
+              "code": "210103",
+              "amount": 8161,
+              "cell": [
+                "a010301",
+                217,
+                79,
+                "11938"
+              ],
+              "policy_rigidity_unobserved": true
+            },
+            {
+              "code": "210104",
+              "amount": 1354,
+              "cell": [
+                "a010301",
+                222,
+                79,
+                "2007"
+              ],
+              "policy_rigidity_unobserved": true
+            },
+            {
+              "code": "210105",
+              "amount": 3843,
+              "cell": [
+                "a010301",
+                235,
+                79,
+                "5696"
+              ],
+              "policy_rigidity_unobserved": true
+            },
+            {
+              "code": "210106",
+              "amount": 1698,
+              "cell": [
+                "a010301",
+                244,
+                79,
+                "2517"
+              ],
+              "policy_rigidity_unobserved": true
+            },
+            {
+              "code": "210107",
+              "amount": 10069,
+              "cell": [
+                "a010301",
+                249,
+                79,
+                "15040"
+              ],
+              "policy_rigidity_unobserved": true
+            },
+            {
+              "code": "210108",
+              "amount": 1902,
+              "cell": [
+                "a010301",
+                256,
+                79,
+                "2818"
+              ],
+              "policy_rigidity_unobserved": true
+            },
+            {
+              "code": "210109",
+              "amount": 1690,
+              "cell": [
+                "a010301",
+                260,
+                79,
+                "2504"
+              ],
+              "policy_rigidity_unobserved": true
+            },
+            {
+              "code": "210110",
+              "amount": 5188,
+              "cell": [
+                "a010301",
+                277,
+                79,
+                "7989"
+              ],
+              "policy_rigidity_unobserved": true
+            }
+          ],
+          "monthly_reference_need": 99274,
+          "reserved_cash": 0,
+          "normal_annual_total": 3852004,
+          "wages_gross_earned": 34393,
+          "recognized_expense": 147561,
+          "receivables": {
+            "AR:payroll/mother/11": 34393,
+            "AR:commute_reimbursement/11": 2708
+          },
+          "unpaid": {
+            "L:AP:social/mother/11": 45579
+          },
+          "ownership": "世帯の通貨性預貯金。主人公個人の持分は未識別。",
+          "initial_source": "2024年・住宅ローン有無×可処分所得帯×参照世帯規模の資産統計。親の年齢・職業と資産の同時分布、出生家庭への移送は未確認。",
+          "initial_explicit_scenario": true,
+          "net_worth": 41287
+        },
+        "time": {
+          "care": 336,
+          "rest": 22.0,
+          "used": {},
+          "basis": "直近の週時間配分×4週を計画枠に使う仮定"
+        },
+        "inventory": {
+          "toy": {
+            "id": "item-toy",
+            "name": "赤い布のボール",
+            "acquired": "2027-06-01",
+            "source_task": "task-00009",
+            "cost_yen": 1600
+          }
+        },
+        "care": {
+          "status": "家庭で過ごす",
+          "status_code": "home",
+          "relative_requested": true,
+          "relative_confirmed": false,
+          "application_submitted": false
+        },
+        "reports": {
+          "child_id": "hh_77258d5fb59f667765fb/index_child",
+          "observer": "mother",
+          "cards": [
+            {
+              "id": "child/crying",
+              "text": "記録した4場面のうち、0場面で泣いていた。",
+              "source_ref": "B.player_view.observations",
+              "value_sha256": "7a12f5f96d580c255b44f72fb19802be71162c484f0500bd79aa7cefb60203c0",
+              "evidence": "uncalibrated_behavior_and_observation",
+              "signal": "crying",
+              "title": "泣く様子",
+              "present": 0,
+              "sampled": 4,
+              "sources": [
+                {
+                  "observation_index": 58,
+                  "date": "2027-09-01",
+                  "sha256": "59836d29bf3470b51675bc9c92095c2b0ad3c144279d23cd21da6be2087a658e",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 59,
+                  "date": "2027-09-02",
+                  "sha256": "6500c6a30574108ba9ba11c452c98271d7a4273629ff30d40bc5be60c22746c2",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 61,
+                  "date": "2027-09-16",
+                  "sha256": "36a9e97932dc06b8c1c832801d5ae6013b91bc6a8be3297999cfb6e734648039",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 62,
+                  "date": "2027-09-23",
+                  "sha256": "3bc59187ad62337fd98b5a340aa8c18c65068b97423c527f641105eab731fbed",
+                  "source": "synthetic_caregiver_report"
+                }
+              ]
+            },
+            {
+              "id": "child/settles_after_comfort",
+              "text": "記録した5場面のうち、3場面で落ち着く様子があった。",
+              "source_ref": "B.player_view.observations",
+              "value_sha256": "1790db39ccb23b4f18686953d6b82f0d927d48710147e0f3ed0888ad0db7fb04",
+              "evidence": "uncalibrated_behavior_and_observation",
+              "signal": "settles_after_comfort",
+              "title": "慰めた場面",
+              "present": 3,
+              "sampled": 5,
+              "sources": [
+                {
+                  "observation_index": 58,
+                  "date": "2027-09-01",
+                  "sha256": "59836d29bf3470b51675bc9c92095c2b0ad3c144279d23cd21da6be2087a658e",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 60,
+                  "date": "2027-09-09",
+                  "sha256": "0324333d063b96c646feb5df6b93cdd0800ec863c3ee51247b6360aec6bc6dca",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 61,
+                  "date": "2027-09-16",
+                  "sha256": "36a9e97932dc06b8c1c832801d5ae6013b91bc6a8be3297999cfb6e734648039",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 62,
+                  "date": "2027-09-23",
+                  "sha256": "3bc59187ad62337fd98b5a340aa8c18c65068b97423c527f641105eab731fbed",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 63,
+                  "date": "2027-09-30",
+                  "sha256": "2acd272f719df85a1decede574c174b8c0c5796405bd7c50793d60fd1771b339",
+                  "source": "synthetic_caregiver_report"
+                }
+              ]
+            },
+            {
+              "id": "child/orients_to_unfamiliar_object",
+              "text": "記録した3場面のうち、0場面で物へ注意を向けた。",
+              "source_ref": "B.player_view.observations",
+              "value_sha256": "a6c57baeb8180e5a688c2fecdb724a9ada6c4d2db7a7cea368cfafdf88460171",
+              "evidence": "uncalibrated_behavior_and_observation",
+              "signal": "orients_to_unfamiliar_object",
+              "title": "見慣れない物への反応",
+              "present": 0,
+              "sampled": 3,
+              "sources": [
+                {
+                  "observation_index": 58,
+                  "date": "2027-09-01",
+                  "sha256": "59836d29bf3470b51675bc9c92095c2b0ad3c144279d23cd21da6be2087a658e",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 59,
+                  "date": "2027-09-02",
+                  "sha256": "6500c6a30574108ba9ba11c452c98271d7a4273629ff30d40bc5be60c22746c2",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 63,
+                  "date": "2027-09-30",
+                  "sha256": "2acd272f719df85a1decede574c174b8c0c5796405bd7c50793d60fd1771b339",
+                  "source": "synthetic_caregiver_report"
+                }
+              ]
+            },
+            {
+              "id": "child/looks_toward_voice",
+              "text": "記録した3場面のうち、0場面で声の方を見た。",
+              "source_ref": "B.player_view.observations",
+              "value_sha256": "db33ce2d496179d14b9f7173a32202299893e209d9c53ef03f4319699c5c7200",
+              "evidence": "uncalibrated_behavior_and_observation",
+              "signal": "looks_toward_voice",
+              "title": "声への反応",
+              "present": 0,
+              "sampled": 3,
+              "sources": [
+                {
+                  "observation_index": 58,
+                  "date": "2027-09-01",
+                  "sha256": "59836d29bf3470b51675bc9c92095c2b0ad3c144279d23cd21da6be2087a658e",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 62,
+                  "date": "2027-09-23",
+                  "sha256": "3bc59187ad62337fd98b5a340aa8c18c65068b97423c527f641105eab731fbed",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 63,
+                  "date": "2027-09-30",
+                  "sha256": "2acd272f719df85a1decede574c174b8c0c5796405bd7c50793d60fd1771b339",
+                  "source": "synthetic_caregiver_report"
+                }
+              ]
+            },
+            {
+              "id": "child/difficulty_settling",
+              "text": "記録した6場面のうち、3場面で落ち着きにくい様子があった。",
+              "source_ref": "B.player_view.observations",
+              "value_sha256": "58cee108ec976c49640ed009bd1c9802ef91fa9c409008d05aeefacf5ef818ff",
+              "evidence": "uncalibrated_behavior_and_observation",
+              "signal": "difficulty_settling",
+              "title": "寝つく場面",
+              "present": 3,
+              "sampled": 6,
+              "sources": [
+                {
+                  "observation_index": 58,
+                  "date": "2027-09-01",
+                  "sha256": "59836d29bf3470b51675bc9c92095c2b0ad3c144279d23cd21da6be2087a658e",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 59,
+                  "date": "2027-09-02",
+                  "sha256": "6500c6a30574108ba9ba11c452c98271d7a4273629ff30d40bc5be60c22746c2",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 60,
+                  "date": "2027-09-09",
+                  "sha256": "0324333d063b96c646feb5df6b93cdd0800ec863c3ee51247b6360aec6bc6dca",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 61,
+                  "date": "2027-09-16",
+                  "sha256": "36a9e97932dc06b8c1c832801d5ae6013b91bc6a8be3297999cfb6e734648039",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 62,
+                  "date": "2027-09-23",
+                  "sha256": "3bc59187ad62337fd98b5a340aa8c18c65068b97423c527f641105eab731fbed",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 63,
+                  "date": "2027-09-30",
+                  "sha256": "2acd272f719df85a1decede574c174b8c0c5796405bd7c50793d60fd1771b339",
+                  "source": "synthetic_caregiver_report"
+                }
+              ]
+            },
+            {
+              "id": "child/takes_independent_steps",
+              "text": "記録した5場面のうち、0場面でひとりで足を運んだ。",
+              "source_ref": "B.player_view.observations",
+              "value_sha256": "bf6a8aaa50d76dd06be53f7a93fc011654262e9933e441709913672451cc8767",
+              "evidence": "uncalibrated_behavior_and_observation",
+              "signal": "takes_independent_steps",
+              "title": "足を運ぶ姿",
+              "present": 0,
+              "sampled": 5,
+              "sources": [
+                {
+                  "observation_index": 58,
+                  "date": "2027-09-01",
+                  "sha256": "59836d29bf3470b51675bc9c92095c2b0ad3c144279d23cd21da6be2087a658e",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 59,
+                  "date": "2027-09-02",
+                  "sha256": "6500c6a30574108ba9ba11c452c98271d7a4273629ff30d40bc5be60c22746c2",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 60,
+                  "date": "2027-09-09",
+                  "sha256": "0324333d063b96c646feb5df6b93cdd0800ec863c3ee51247b6360aec6bc6dca",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 61,
+                  "date": "2027-09-16",
+                  "sha256": "36a9e97932dc06b8c1c832801d5ae6013b91bc6a8be3297999cfb6e734648039",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 63,
+                  "date": "2027-09-30",
+                  "sha256": "2acd272f719df85a1decede574c174b8c0c5796405bd7c50793d60fd1771b339",
+                  "source": "synthetic_caregiver_report"
+                }
+              ]
+            },
+            {
+              "id": "child/uses_contextual_word",
+              "text": "記録した6場面のうち、0場面で場面に合うことばがあった。",
+              "source_ref": "B.player_view.observations",
+              "value_sha256": "58cee108ec976c49640ed009bd1c9802ef91fa9c409008d05aeefacf5ef818ff",
+              "evidence": "uncalibrated_behavior_and_observation",
+              "signal": "uses_contextual_word",
+              "title": "ことばの記録",
+              "present": 0,
+              "sampled": 6,
+              "sources": [
+                {
+                  "observation_index": 58,
+                  "date": "2027-09-01",
+                  "sha256": "59836d29bf3470b51675bc9c92095c2b0ad3c144279d23cd21da6be2087a658e",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 59,
+                  "date": "2027-09-02",
+                  "sha256": "6500c6a30574108ba9ba11c452c98271d7a4273629ff30d40bc5be60c22746c2",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 60,
+                  "date": "2027-09-09",
+                  "sha256": "0324333d063b96c646feb5df6b93cdd0800ec863c3ee51247b6360aec6bc6dca",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 61,
+                  "date": "2027-09-16",
+                  "sha256": "36a9e97932dc06b8c1c832801d5ae6013b91bc6a8be3297999cfb6e734648039",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 62,
+                  "date": "2027-09-23",
+                  "sha256": "3bc59187ad62337fd98b5a340aa8c18c65068b97423c527f641105eab731fbed",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 63,
+                  "date": "2027-09-30",
+                  "sha256": "2acd272f719df85a1decede574c174b8c0c5796405bd7c50793d60fd1771b339",
+                  "source": "synthetic_caregiver_report"
+                }
+              ]
+            },
+            {
+              "id": "child/sustains_object_attention",
+              "text": "記録した6場面のうち、3場面で物へ注意を向け続けた。",
+              "source_ref": "B.player_view.observations",
+              "value_sha256": "58cee108ec976c49640ed009bd1c9802ef91fa9c409008d05aeefacf5ef818ff",
+              "evidence": "uncalibrated_behavior_and_observation",
+              "signal": "sustains_object_attention",
+              "title": "物への注意",
+              "present": 3,
+              "sampled": 6,
+              "sources": [
+                {
+                  "observation_index": 58,
+                  "date": "2027-09-01",
+                  "sha256": "59836d29bf3470b51675bc9c92095c2b0ad3c144279d23cd21da6be2087a658e",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 59,
+                  "date": "2027-09-02",
+                  "sha256": "6500c6a30574108ba9ba11c452c98271d7a4273629ff30d40bc5be60c22746c2",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 60,
+                  "date": "2027-09-09",
+                  "sha256": "0324333d063b96c646feb5df6b93cdd0800ec863c3ee51247b6360aec6bc6dca",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 61,
+                  "date": "2027-09-16",
+                  "sha256": "36a9e97932dc06b8c1c832801d5ae6013b91bc6a8be3297999cfb6e734648039",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 62,
+                  "date": "2027-09-23",
+                  "sha256": "3bc59187ad62337fd98b5a340aa8c18c65068b97423c527f641105eab731fbed",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 63,
+                  "date": "2027-09-30",
+                  "sha256": "2acd272f719df85a1decede574c174b8c0c5796405bd7c50793d60fd1771b339",
+                  "source": "synthetic_caregiver_report"
+                }
+              ]
+            },
+            {
+              "id": "child/withdraws_from_intense_stimulus",
+              "text": "記録した5場面のうち、2場面で刺激から身を引いた。",
+              "source_ref": "B.player_view.observations",
+              "value_sha256": "80209ed6d8e9fcc7cc0e8a36422443d550bdb1401ec5f949f48d838c20709e61",
+              "evidence": "uncalibrated_behavior_and_observation",
+              "signal": "withdraws_from_intense_stimulus",
+              "title": "強い刺激への反応",
+              "present": 2,
+              "sampled": 5,
+              "sources": [
+                {
+                  "observation_index": 58,
+                  "date": "2027-09-01",
+                  "sha256": "59836d29bf3470b51675bc9c92095c2b0ad3c144279d23cd21da6be2087a658e",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 59,
+                  "date": "2027-09-02",
+                  "sha256": "6500c6a30574108ba9ba11c452c98271d7a4273629ff30d40bc5be60c22746c2",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 61,
+                  "date": "2027-09-16",
+                  "sha256": "36a9e97932dc06b8c1c832801d5ae6013b91bc6a8be3297999cfb6e734648039",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 62,
+                  "date": "2027-09-23",
+                  "sha256": "3bc59187ad62337fd98b5a340aa8c18c65068b97423c527f641105eab731fbed",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 63,
+                  "date": "2027-09-30",
+                  "sha256": "2acd272f719df85a1decede574c174b8c0c5796405bd7c50793d60fd1771b339",
+                  "source": "synthetic_caregiver_report"
+                }
+              ]
+            },
+            {
+              "id": "child/explores_available_space",
+              "text": "記録した5場面のうち、3場面で周囲を探索する様子があった。",
+              "source_ref": "B.player_view.observations",
+              "value_sha256": "bf6a8aaa50d76dd06be53f7a93fc011654262e9933e441709913672451cc8767",
+              "evidence": "uncalibrated_behavior_and_observation",
+              "signal": "explores_available_space",
+              "title": "周囲への関心",
+              "present": 3,
+              "sampled": 5,
+              "sources": [
+                {
+                  "observation_index": 58,
+                  "date": "2027-09-01",
+                  "sha256": "59836d29bf3470b51675bc9c92095c2b0ad3c144279d23cd21da6be2087a658e",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 59,
+                  "date": "2027-09-02",
+                  "sha256": "6500c6a30574108ba9ba11c452c98271d7a4273629ff30d40bc5be60c22746c2",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 60,
+                  "date": "2027-09-09",
+                  "sha256": "0324333d063b96c646feb5df6b93cdd0800ec863c3ee51247b6360aec6bc6dca",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 61,
+                  "date": "2027-09-16",
+                  "sha256": "36a9e97932dc06b8c1c832801d5ae6013b91bc6a8be3297999cfb6e734648039",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 63,
+                  "date": "2027-09-30",
+                  "sha256": "2acd272f719df85a1decede574c174b8c0c5796405bd7c50793d60fd1771b339",
+                  "source": "synthetic_caregiver_report"
+                }
+              ]
+            }
+          ],
+          "notices": [],
+          "observations": [
+            {
+              "observer_id": "hh_77258d5fb59f667765fb/mother",
+              "date": "2027-09-01",
+              "source": "synthetic_caregiver_report",
+              "behaviors": {
+                "crying": false,
+                "settles_after_comfort": false,
+                "orients_to_unfamiliar_object": false,
+                "looks_toward_voice": false,
+                "difficulty_settling": true,
+                "sustains_object_attention": false,
+                "withdraws_from_intense_stimulus": false,
+                "explores_available_space": true,
+                "takes_independent_steps": false,
+                "uses_contextual_word": false
+              },
+              "interpretation": "観察した場面の記録。気質・能力・愛着の診断はできません。",
+              "uncertain": true
+            },
+            {
+              "observer_id": "hh_77258d5fb59f667765fb/mother",
+              "date": "2027-09-02",
+              "source": "synthetic_caregiver_report",
+              "behaviors": {
+                "crying": false,
+                "orients_to_unfamiliar_object": false,
+                "difficulty_settling": false,
+                "sustains_object_attention": true,
+                "withdraws_from_intense_stimulus": false,
+                "explores_available_space": true,
+                "takes_independent_steps": false,
+                "uses_contextual_word": false
+              },
+              "interpretation": "観察した場面の記録。気質・能力・愛着の診断はできません。",
+              "uncertain": true
+            },
+            {
+              "observer_id": "hh_77258d5fb59f667765fb/mother",
+              "date": "2027-09-09",
+              "source": "synthetic_caregiver_report",
+              "behaviors": {
+                "settles_after_comfort": true,
+                "difficulty_settling": false,
+                "sustains_object_attention": false,
+                "explores_available_space": false,
+                "takes_independent_steps": false,
+                "uses_contextual_word": false
+              },
+              "interpretation": "観察した場面の記録。気質・能力・愛着の診断はできません。",
+              "uncertain": true
+            },
+            {
+              "observer_id": "hh_77258d5fb59f667765fb/mother",
+              "date": "2027-09-16",
+              "source": "synthetic_caregiver_report",
+              "behaviors": {
+                "crying": false,
+                "settles_after_comfort": false,
+                "difficulty_settling": true,
+                "sustains_object_attention": false,
+                "withdraws_from_intense_stimulus": false,
+                "explores_available_space": false,
+                "takes_independent_steps": false,
+                "uses_contextual_word": false
+              },
+              "interpretation": "観察した場面の記録。気質・能力・愛着の診断はできません。",
+              "uncertain": true
+            },
+            {
+              "observer_id": "hh_77258d5fb59f667765fb/mother",
+              "date": "2027-09-23",
+              "source": "synthetic_caregiver_report",
+              "behaviors": {
+                "crying": false,
+                "settles_after_comfort": true,
+                "looks_toward_voice": false,
+                "difficulty_settling": false,
+                "sustains_object_attention": true,
+                "withdraws_from_intense_stimulus": true,
+                "uses_contextual_word": false
+              },
+              "interpretation": "観察した場面の記録。気質・能力・愛着の診断はできません。",
+              "uncertain": true
+            },
+            {
+              "observer_id": "hh_77258d5fb59f667765fb/mother",
+              "date": "2027-09-30",
+              "source": "synthetic_caregiver_report",
+              "behaviors": {
+                "settles_after_comfort": true,
+                "orients_to_unfamiliar_object": false,
+                "looks_toward_voice": false,
+                "difficulty_settling": true,
+                "sustains_object_attention": true,
+                "withdraws_from_intense_stimulus": true,
+                "explores_available_space": true,
+                "takes_independent_steps": false,
+                "uses_contextual_word": false
+              },
+              "interpretation": "観察した場面の記録。気質・能力・愛着の診断はできません。",
+              "uncertain": true
+            }
+          ],
+          "measurements": [],
+          "report_count": 6,
+          "total_reports": 64,
+          "sampling_note": "記録できた場面の様子です。観察のなかった時間や、子どもの内面まではわかりません。"
+        },
+        "portrait": [
+          {
+            "signal": "settles_after_comfort",
+            "text": "記録した5場面のうち、3場面で落ち着く様子があった。",
+            "sources": [
+              {
+                "observation_index": 58,
+                "date": "2027-09-01",
+                "sha256": "59836d29bf3470b51675bc9c92095c2b0ad3c144279d23cd21da6be2087a658e",
+                "source": "synthetic_caregiver_report"
+              },
+              {
+                "observation_index": 60,
+                "date": "2027-09-09",
+                "sha256": "0324333d063b96c646feb5df6b93cdd0800ec863c3ee51247b6360aec6bc6dca",
+                "source": "synthetic_caregiver_report"
+              },
+              {
+                "observation_index": 61,
+                "date": "2027-09-16",
+                "sha256": "36a9e97932dc06b8c1c832801d5ae6013b91bc6a8be3297999cfb6e734648039",
+                "source": "synthetic_caregiver_report"
+              },
+              {
+                "observation_index": 62,
+                "date": "2027-09-23",
+                "sha256": "3bc59187ad62337fd98b5a340aa8c18c65068b97423c527f641105eab731fbed",
+                "source": "synthetic_caregiver_report"
+              },
+              {
+                "observation_index": 63,
+                "date": "2027-09-30",
+                "sha256": "2acd272f719df85a1decede574c174b8c0c5796405bd7c50793d60fd1771b339",
+                "source": "synthetic_caregiver_report"
+              }
+            ]
+          },
+          {
+            "signal": "difficulty_settling",
+            "text": "記録した6場面のうち、3場面で落ち着きにくい様子があった。",
+            "sources": [
+              {
+                "observation_index": 58,
+                "date": "2027-09-01",
+                "sha256": "59836d29bf3470b51675bc9c92095c2b0ad3c144279d23cd21da6be2087a658e",
+                "source": "synthetic_caregiver_report"
+              },
+              {
+                "observation_index": 59,
+                "date": "2027-09-02",
+                "sha256": "6500c6a30574108ba9ba11c452c98271d7a4273629ff30d40bc5be60c22746c2",
+                "source": "synthetic_caregiver_report"
+              },
+              {
+                "observation_index": 60,
+                "date": "2027-09-09",
+                "sha256": "0324333d063b96c646feb5df6b93cdd0800ec863c3ee51247b6360aec6bc6dca",
+                "source": "synthetic_caregiver_report"
+              },
+              {
+                "observation_index": 61,
+                "date": "2027-09-16",
+                "sha256": "36a9e97932dc06b8c1c832801d5ae6013b91bc6a8be3297999cfb6e734648039",
+                "source": "synthetic_caregiver_report"
+              },
+              {
+                "observation_index": 62,
+                "date": "2027-09-23",
+                "sha256": "3bc59187ad62337fd98b5a340aa8c18c65068b97423c527f641105eab731fbed",
+                "source": "synthetic_caregiver_report"
+              },
+              {
+                "observation_index": 63,
+                "date": "2027-09-30",
+                "sha256": "2acd272f719df85a1decede574c174b8c0c5796405bd7c50793d60fd1771b339",
+                "source": "synthetic_caregiver_report"
+              }
+            ]
+          },
+          {
+            "signal": "sustains_object_attention",
+            "text": "記録した6場面のうち、3場面で物へ注意を向け続けた。",
+            "sources": [
+              {
+                "observation_index": 58,
+                "date": "2027-09-01",
+                "sha256": "59836d29bf3470b51675bc9c92095c2b0ad3c144279d23cd21da6be2087a658e",
+                "source": "synthetic_caregiver_report"
+              },
+              {
+                "observation_index": 59,
+                "date": "2027-09-02",
+                "sha256": "6500c6a30574108ba9ba11c452c98271d7a4273629ff30d40bc5be60c22746c2",
+                "source": "synthetic_caregiver_report"
+              },
+              {
+                "observation_index": 60,
+                "date": "2027-09-09",
+                "sha256": "0324333d063b96c646feb5df6b93cdd0800ec863c3ee51247b6360aec6bc6dca",
+                "source": "synthetic_caregiver_report"
+              },
+              {
+                "observation_index": 61,
+                "date": "2027-09-16",
+                "sha256": "36a9e97932dc06b8c1c832801d5ae6013b91bc6a8be3297999cfb6e734648039",
+                "source": "synthetic_caregiver_report"
+              },
+              {
+                "observation_index": 62,
+                "date": "2027-09-23",
+                "sha256": "3bc59187ad62337fd98b5a340aa8c18c65068b97423c527f641105eab731fbed",
+                "source": "synthetic_caregiver_report"
+              },
+              {
+                "observation_index": 63,
+                "date": "2027-09-30",
+                "sha256": "2acd272f719df85a1decede574c174b8c0c5796405bd7c50793d60fd1771b339",
+                "source": "synthetic_caregiver_report"
+              }
+            ]
+          }
+        ],
+        "limits": "活動の反応と配偶者の合意は未校正の体験シナリオ。長期能力・愛着への追加効果はなし。家計・就業・保育はA研究版の未検証部分を継承。"
+      },
+      "parent": {
+        "person_id": "mother",
+        "employment_type": "regular",
+        "industry": "G情報通信業(第3次産業)",
+        "normal_annual": 3852004,
+        "normal_weekly_hours": 56.0,
+        "hours_ratio": 1.0,
+        "return_month": 12,
+        "leave_requested": false,
+        "father_leave_days": 0,
+        "employee_eligible_estimate": true,
+        "state": "working_care_constrained",
+        "leave_days_used": 0,
+        "support_days_used": 0,
+        "commute_minutes_oneway": 30,
+        "job_search": false,
+        "gross_year": {
+          "2026": 0,
+          "2027": 103179
+        },
+        "social_year": {
+          "2026": 6225,
+          "2027": 149187
+        },
+        "tax_provision_year": {},
+        "initial_phase": "prepregnancy proxy; old future-derived quit flag not used",
+        "benefit_eligible_estimate": false,
+        "insurance_enrollment_kind": "estimated_from_reference_employment",
+        "dependent_spouse_scenario": false,
+        "closed_year_income": {
+          "2026": 0
+        },
+        "closed_year_social": {
+          "2026": 6225
+        },
+        "pregnancy_employment_type_reference": null,
+        "contract_active": true,
+        "employee_contract": true,
+        "employment_insured_estimate": true,
+        "takeup_probability": 0.883,
+        "takeup_industry": "総数",
+        "leave_start_date": "2026-11-27",
+        "leave_end_evaluated": false,
+        "realized_leave_segments": [],
+        "benefit_units_booked": [],
+        "paid_gross_year": {
+          "2026": 0,
+          "2027": 68786
+        },
+        "withholding_year": {
+          "2027": 0
+        },
+        "duration_intention_days": null,
+        "duration_bucket": null,
+        "prior_social_proxy": 0,
+        "maternity_days": 0,
+        "parental_days": 0,
+        "paternity_days_in_month": 0,
+        "planned_weekly_hours": 56.0,
+        "actual_gross_this_month": 34393,
+        "actual_weekly_hours": 6,
+        "employment_measurement": {
+          "status": "working",
+          "contract_continues": true,
+          "actually_worked": true,
+          "on_maternity_leave": false,
+          "on_parental_leave": false,
+          "short_time_contract": false,
+          "unpaid_interruption": true,
+          "lfs_employed_proxy": true,
+          "income_positive": true,
+          "employment_type": "regular",
+          "definition_scope": "monthly LFS-like proxy; unpaid job attachment unknown, not last-week survey"
+        },
+        "previous_work": 6,
+        "previous_care": 84
+      },
+      "requests": [
+        {
+          "id": "c0-0000",
+          "date": "2026-10-01",
+          "kind": "job_search",
+          "value": null,
+          "actor": "mother",
+          "source": "policy/work",
+          "time_hours": 0.5,
+          "policy_epoch": 1,
+          "status": "answered",
+          "results": [
+            {
+              "id": "decision/c0-0000",
+              "text": "仕事を探し始める：申請・相談を提出した。",
+              "source_ref": "A.completed.A_decisions/c0-0000",
+              "value_sha256": "acab42457a98868260e7e24e00d5ba4ec32c580a204994af57d812e524eaef64",
+              "evidence": "native_action_feasibility_scenario",
+              "kind": "job_search",
+              "outcome": "submitted",
+              "request_id": "c0-0000",
+              "person": "mother",
+              "requested_value": null
+            }
+          ]
+        },
+        {
+          "id": "c0-0011",
+          "date": "2027-03-01",
+          "kind": "request_relative_support",
+          "value": null,
+          "actor": "mother",
+          "source": "event-0001",
+          "time_hours": 0.5,
+          "policy_epoch": 1,
+          "status": "answered",
+          "results": [
+            {
+              "id": "decision/c0-0011",
+              "text": "身近な人に支援を相談する：今回は支援を得られなかった。",
+              "source_ref": "A.completed.A_decisions/c0-0011",
+              "value_sha256": "a387b068ad37915c052f4ed290b34d6d901ba178326e69e63432e0e0ec2b38e7",
+              "evidence": "native_action_feasibility_scenario",
+              "kind": "request_relative_support",
+              "outcome": "unavailable",
+              "request_id": "c0-0011",
+              "person": null,
+              "requested_value": null
+            }
+          ]
+        },
+        {
+          "id": "c0-0020",
+          "date": "2027-07-01",
+          "kind": "accept_job_offer",
+          "value": "dad8eb42d9cd3f89ce90",
+          "actor": "mother",
+          "source": "event-0003",
+          "time_hours": 0.5,
+          "policy_epoch": 1,
+          "status": "answered",
+          "results": [
+            {
+              "id": "decision/c0-0020",
+              "text": "届いた仕事の提案を受ける：条件付きで受け付けられた。",
+              "source_ref": "A.completed.A_decisions/c0-0020",
+              "value_sha256": "53a973a4931a94a3c8efd20d40559453be3710e6429f26ec12f1f8672673694a",
+              "evidence": "native_action_feasibility_scenario",
+              "kind": "accept_job_offer",
+              "outcome": "accepted_conditional",
+              "request_id": "c0-0020",
+              "person": "mother",
+              "requested_value": "dad8eb42d9cd3f89ce90"
+            }
+          ]
+        },
+        {
+          "id": "c0-0025",
+          "date": "2027-09-01",
+          "kind": "request_relative_support",
+          "value": null,
+          "actor": "mother",
+          "source": "event-0004",
+          "time_hours": 0.5,
+          "policy_epoch": 1,
+          "status": "answered",
+          "results": [
+            {
+              "id": "decision/c0-0025",
+              "text": "身近な人に支援を相談する：今回は支援を得られなかった。",
+              "source_ref": "A.completed.A_decisions/c0-0025",
+              "value_sha256": "5d921f32737654cb0fce20ff0afde4a3a4d91e93ddd64cb26c8b3dbd9f0a1e99",
+              "evidence": "native_action_feasibility_scenario",
+              "kind": "request_relative_support",
+              "outcome": "unavailable",
+              "request_id": "c0-0025",
+              "person": null,
+              "requested_value": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "choice": "reject",
+      "view": {
+        "version": "C-2.0-low-load-research",
+        "revision": 42,
+        "date": "2027-10-01",
+        "age_months": 12,
+        "age_days": 365,
+        "phase": 0,
+        "running": true,
+        "speed": 1,
+        "elapsed_ms": 0,
+        "finished": false,
+        "actor": "mother",
+        "player_name": "みさき",
+        "child_name": "はる",
+        "location": "東京都豊島区",
+        "parents": [
+          {
+            "role": "mother",
+            "name": "みさき",
+            "age": 29,
+            "education": "高校・旧制中(卒業者)",
+            "occupation": null,
+            "usual_annual": 0,
+            "state": "仕事・休業の状況を確認中",
+            "hours": 0,
+            "is_player": true
+          }
+        ],
+        "policy": "work",
+        "work_preference_override": null,
+        "policies": {
+          "work": {
+            "name": "仕事と収入",
+            "hint": "自分の通常勤務を希望。仕事の準備に月8時間を確保し、家では声かけ。収入増を保証しません。"
+          },
+          "time": {
+            "name": "子どもとの時間",
+            "hint": "自分の勤務を8割で相談。月4回、家で一緒に過ごす枠を確保。実現後は給与が減る可能性。"
+          },
+          "play": {
+            "name": "遊びと体験",
+            "hint": "月3,000円を上限に絵本・玩具と外出。支払い口座と予定枠が足りる範囲で実行。"
+          },
+          "stable": {
+            "name": "安定した暮らし",
+            "hint": "今の働き方を保ち、家での活動を中心に。直近の支払い額を目安に口座を残す。"
+          },
+          "save": {
+            "name": "貯蓄をつくる",
+            "hint": "直近の支払い2か月分を残し、余裕があれば月2万円まで定期性預貯金へ。運用益は追加しません。"
+          },
+          "social": {
+            "name": "家族と交流",
+            "hint": "親子ひろばと家族の分担を優先。配偶者には都度相談し、断られた場合も経過を残します。"
+          }
+        },
+        "logs": [
+          {
+            "id": "fact-00000",
+            "key": "experience/voice/engaged",
+            "title": "一緒に過ごした場面",
+            "text": "みさきははると自宅で「抱っこで声をかける」時間を取った。声の方へ顔を向けた。",
+            "date": "2026-10-01",
+            "period": 0,
+            "phase": 1,
+            "source_refs": [
+              "C2.experiences/experience-00000",
+              "C2.tasks/task-00000"
+            ],
+            "evidence": "inherited_C1_uncalibrated_acute_scenario",
+            "links": [],
+            "published_date": "2026-10-01",
+            "published_phase": 1,
+            "published_period": 0
+          },
+          {
+            "id": "fact-00001",
+            "key": "decision/7805d1d1f9daf739df31e8464237a5a4e4466b4cef56716638975609a2bbd00b",
+            "title": "希望への返答が届いた",
+            "text": "みさきの希望に返答。仕事を探し始める：申請・相談を提出した。 実働は週0時間、保育は「家庭で過ごす」。",
+            "date": "2026-11-01",
+            "period": 1,
+            "phase": 0,
+            "source_refs": [
+              "A.completed.decisions/c0-0000"
+            ],
+            "evidence": "native_A_unvalidated_feasibility",
+            "links": [],
+            "published_date": "2026-11-01",
+            "published_phase": 0,
+            "published_period": 1
+          },
+          {
+            "id": "fact-00003",
+            "key": "pattern/voice/engaged",
+            "title": "繰り返して、気づいたこと",
+            "text": "みさきとはるの抱っこで声をかけるの直近3回の記録のうち、3回で「声の方へ顔を向けた。」という反応が残った。この場面での記録で、性格や好みの診断ではない。",
+            "date": "2026-12-01",
+            "period": 2,
+            "phase": 0,
+            "source_refs": [
+              "C2.experiences/experience-00000",
+              "C2.experiences/experience-00001",
+              "C2.experiences/experience-00002"
+            ],
+            "evidence": "repeated_observed_scenario_pattern",
+            "links": [],
+            "published_date": "2026-12-01",
+            "published_phase": 0,
+            "published_period": 2
+          },
+          {
+            "id": "fact-00005",
+            "key": "experience/voice/looking_away",
+            "title": "いつもと違う発見",
+            "text": "みさきははると自宅で「抱っこで声をかける」時間を取った。しばらく見たあと、そばの大人へ顔を寄せた。前回の同じ活動とは違う反応が記録された。",
+            "date": "2026-12-01",
+            "period": 2,
+            "phase": 1,
+            "source_refs": [
+              "C2.experiences/experience-00003",
+              "C2.tasks/task-00003"
+            ],
+            "evidence": "inherited_C1_uncalibrated_acute_scenario",
+            "links": [],
+            "published_date": "2026-12-01",
+            "published_phase": 1,
+            "published_period": 2
+          },
+          {
+            "id": "fact-00008",
+            "key": "experience/voice/crying",
+            "title": "いつもと違う発見",
+            "text": "みさきははると自宅で「抱っこで声をかける」時間を取った。途中で泣き出したため、活動を切り上げて静かな所で過ごした。前回の同じ活動とは違う反応が記録された。",
+            "date": "2027-02-01",
+            "period": 4,
+            "phase": 1,
+            "source_refs": [
+              "C2.experiences/experience-00005",
+              "C2.tasks/task-00005"
+            ],
+            "evidence": "inherited_C1_uncalibrated_acute_scenario",
+            "links": [],
+            "published_date": "2027-02-01",
+            "published_phase": 1,
+            "published_period": 4
+          },
+          {
+            "id": "fact-00009",
+            "key": "request/f0d25dd624b99295909131f6ef800577a1b78d49552b23885bc6363040e4b926",
+            "title": "希望を伝えた場面",
+            "text": "みさきは「親族へ支援を頼む」の手続きに0.5時間を使った。いまの実働は週0時間で、まだ結果ではない。",
+            "date": "2027-03-01",
+            "period": 5,
+            "phase": 0,
+            "source_refs": [
+              "C2.requests/c0-0011"
+            ],
+            "evidence": "requested_action_not_outcome",
+            "links": [
+              "event-0001"
+            ],
+            "published_date": "2027-03-01",
+            "published_phase": 0,
+            "published_period": 5
+          },
+          {
+            "id": "fact-00011",
+            "key": "decision/0197365c7cb469186b622800cc1200ab49a2deb70651fe6c8ef6742f23fb778c",
+            "title": "希望への返答が届いた",
+            "text": "みさきの希望に返答。身近な人に支援を相談する：今回は支援を得られなかった。 実働は週0時間、保育は「家庭で過ごす」。",
+            "date": "2027-04-01",
+            "period": 6,
+            "phase": 0,
+            "source_refs": [
+              "A.completed.decisions/c0-0011"
+            ],
+            "evidence": "native_A_unvalidated_feasibility",
+            "links": [
+              "event-0001"
+            ],
+            "published_date": "2027-04-01",
+            "published_phase": 0,
+            "published_period": 6
+          },
+          {
+            "id": "fact-00014",
+            "key": "experience/toy/engaged_reaching",
+            "title": "一緒に過ごした場面",
+            "text": "みさきははると自宅で赤い布のボールを使った。赤い布のボールへ手を伸ばした。",
+            "date": "2027-06-01",
+            "period": 8,
+            "phase": 0,
+            "source_refs": [
+              "C2.experiences/experience-00009",
+              "C2.tasks/task-00009",
+              "C2.inventory/item-toy"
+            ],
+            "evidence": "inherited_C1_uncalibrated_acute_scenario",
+            "links": [
+              "event-0002"
+            ],
+            "published_date": "2027-06-01",
+            "published_phase": 0,
+            "published_period": 8
+          },
+          {
+            "id": "fact-00016",
+            "key": "request/61cc53c9f15dae39e1347235e8c2e6e3240ca516ea0cb3a445d752600b5a9f69",
+            "title": "希望を伝えた場面",
+            "text": "みさきは「今回は見送る」の手続きに0.5時間を使った。いまの実働は週0時間で、まだ結果ではない。",
+            "date": "2027-07-01",
+            "period": 9,
+            "phase": 0,
+            "source_refs": [
+              "C2.requests/c0-0020"
+            ],
+            "evidence": "requested_action_not_outcome",
+            "links": [
+              "event-0003"
+            ],
+            "published_date": "2027-07-01",
+            "published_phase": 0,
+            "published_period": 9
+          },
+          {
+            "id": "fact-00018",
+            "key": "decision/3843541482c5e22a1e701897015087adcd95d61aeecd4540a331c1c82b1fb224",
+            "title": "希望への返答が届いた",
+            "text": "みさきの希望に返答。届いた仕事の提案を見送る：条件付きで受け付けられた。 実働は週0時間、保育は「家庭で過ごす」。",
+            "date": "2027-08-01",
+            "period": 10,
+            "phase": 0,
+            "source_refs": [
+              "A.completed.decisions/c0-0020"
+            ],
+            "evidence": "native_A_unvalidated_feasibility",
+            "links": [
+              "event-0003"
+            ],
+            "published_date": "2027-08-01",
+            "published_phase": 0,
+            "published_period": 10
+          }
+        ],
+        "latest_child": {
+          "id": "fact-00014",
+          "key": "experience/toy/engaged_reaching",
+          "title": "一緒に過ごした場面",
+          "text": "みさきははると自宅で赤い布のボールを使った。赤い布のボールへ手を伸ばした。",
+          "date": "2027-06-01",
+          "period": 8,
+          "phase": 0,
+          "source_refs": [
+            "C2.experiences/experience-00009",
+            "C2.tasks/task-00009",
+            "C2.inventory/item-toy"
+          ],
+          "evidence": "inherited_C1_uncalibrated_acute_scenario",
+          "links": [
+            "event-0002"
+          ],
+          "published_date": "2027-06-01",
+          "published_phase": 0,
+          "published_period": 8
+        },
+        "event": null,
+        "past_events": [
+          {
+            "id": "event-0000",
+            "title": "この子と、次に何をしてみよう",
+            "choice": "free",
+            "status": "chosen",
+            "date": "2026-12-01",
+            "result": {
+              "status": "done",
+              "reason": null,
+              "kind": "voice",
+              "id": "task-00002",
+              "paid_yen": 0,
+              "hours": 0.25
+            }
+          },
+          {
+            "id": "event-0001",
+            "title": "保育を調べる、その次は",
+            "choice": "relative",
+            "status": "chosen",
+            "date": "2027-03-01",
+            "result": {
+              "status": "requested",
+              "reason": null,
+              "kind": "request_relative_support",
+              "id": "c0-0011",
+              "paid_yen": null,
+              "hours": null
+            }
+          },
+          {
+            "id": "event-0002",
+            "title": "この子と、次に何をしてみよう",
+            "choice": "toy",
+            "status": "chosen",
+            "date": "2027-06-01",
+            "result": {
+              "status": "done",
+              "reason": null,
+              "kind": "toy",
+              "id": "task-00009",
+              "paid_yen": 1600,
+              "hours": 0.5
+            }
+          },
+          {
+            "id": "event-0003",
+            "title": "仕事の提案が届いた",
+            "choice": "reject",
+            "status": "chosen",
+            "date": "2027-07-01",
+            "result": {
+              "status": "requested",
+              "reason": null,
+              "kind": "reject_job_offer",
+              "id": "c0-0020",
+              "paid_yen": null,
+              "hours": null
+            }
+          },
+          {
+            "id": "event-0004",
+            "title": "保育を調べる、その次は",
+            "choice": "relative",
+            "status": "chosen",
+            "date": "2027-09-01",
+            "result": {
+              "status": "requested",
+              "reason": null,
+              "kind": "request_relative_support",
+              "id": "c0-0025",
+              "paid_yen": null,
+              "hours": null
+            }
+          }
+        ],
+        "last_choice_result": {
+          "event_id": "event-0004",
+          "title": "親族へ支援を頼む",
+          "status": "requested",
+          "reason": null,
+          "observed_reaction": null,
+          "counterparty": null,
+          "cash_delta": 0,
+          "new_experiences": 0,
+          "time_hours": 0.5,
+          "native_results": [
+            {
+              "id": "decision/c0-0025",
+              "text": "身近な人に支援を相談する：今回は支援を得られなかった。",
+              "source_ref": "A.completed.A_decisions/c0-0025",
+              "value_sha256": "5d921f32737654cb0fce20ff0afde4a3a4d91e93ddd64cb26c8b3dbd9f0a1e99",
+              "evidence": "native_action_feasibility_scenario",
+              "kind": "request_relative_support",
+              "outcome": "unavailable",
+              "request_id": "c0-0025",
+              "person": null,
+              "requested_value": null
+            }
+          ],
+          "followup": "実際に動いた口座・予定枠・経験を記録しています。",
+          "evidence": "C2_contextual_game_scenario_with_native_actions"
+        },
+        "money": {
+          "cash": 70695,
+          "accounts": {
+            "cash": 70695,
+            "term": 0,
+            "insurance_reserve": 0,
+            "securities": 0,
+            "other_financial": 0,
+            "other_property": 0,
+            "home": 0,
+            "L:mortgage": 0,
+            "L:other_debt": 0,
+            "L:AP:NHI/mother/0": 0,
+            "L:AP:consumption/0": 0,
+            "L:AP:rent/0": 0,
+            "L:AP:birth_invoice": 0,
+            "AR:birth_grant": 0,
+            "L:AP:NHI/mother/1": 0,
+            "L:AP:consumption/1": 0,
+            "L:AP:rent/1": 0,
+            "L:AP:NHI/mother/2": 0,
+            "L:AP:consumption/2": 0,
+            "L:AP:rent/2": 0,
+            "L:AP:NHI/mother/3": 0,
+            "L:AP:consumption/3": 0,
+            "L:AP:rent/3": 0,
+            "L:AP:NHI/mother/4": 0,
+            "L:AP:consumption/4": 0,
+            "L:AP:rent/4": 0,
+            "L:AP:NHI/mother/5": 0,
+            "L:AP:consumption/5": 0,
+            "L:AP:rent/5": 0,
+            "L:AP:NHI/mother/6": 0,
+            "L:AP:consumption/6": 0,
+            "L:AP:rent/6": 0,
+            "L:AP:NHI/mother/7": 0,
+            "L:AP:consumption/7": 0,
+            "L:AP:rent/7": 0,
+            "L:AP:C2/task-00009": 0,
+            "L:AP:NHI/mother/8": 0,
+            "L:AP:consumption/8": 0,
+            "L:AP:rent/8": 0,
+            "L:AP:NHI/mother/9": 0,
+            "L:AP:consumption/9": 0,
+            "L:AP:rent/9": 0,
+            "L:AP:NHI/mother/10": 0,
+            "L:AP:consumption/10": 0,
+            "L:AP:rent/10": 0,
+            "L:AP:NHI/mother/11": 2075,
+            "L:AP:consumption/11": 0,
+            "L:AP:rent/11": 0
+          },
+          "account_rows": [
+            {
+              "key": "cash",
+              "label": "通貨性預貯金（世帯・支払い口座）",
+              "value": 70695
+            },
+            {
+              "key": "term",
+              "label": "定期性預貯金（世帯）",
+              "value": 0
+            },
+            {
+              "key": "insurance_reserve",
+              "label": "保険準備金",
+              "value": 0
+            },
+            {
+              "key": "securities",
+              "label": "有価証券（世帯）",
+              "value": 0
+            },
+            {
+              "key": "other_financial",
+              "label": "その他金融資産",
+              "value": 0
+            },
+            {
+              "key": "other_property",
+              "label": "その他不動産等",
+              "value": 0
+            },
+            {
+              "key": "home",
+              "label": "現在の持家評価",
+              "value": 0
+            },
+            {
+              "key": "L:mortgage",
+              "label": "住宅・土地の借入",
+              "value": 0
+            },
+            {
+              "key": "L:other_debt",
+              "label": "その他借入",
+              "value": 0
+            },
+            {
+              "key": "L:AP:NHI/mother/0",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:consumption/0",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:rent/0",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:birth_invoice",
+              "label": "出産費用の未払い",
+              "value": 0
+            },
+            {
+              "key": "AR:birth_grant",
+              "label": "給付・精算等の入金待ち",
+              "value": 0
+            },
+            {
+              "key": "L:AP:NHI/mother/1",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:consumption/1",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:rent/1",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:NHI/mother/2",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:consumption/2",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:rent/2",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:NHI/mother/3",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:consumption/3",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:rent/3",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:NHI/mother/4",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:consumption/4",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:rent/4",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:NHI/mother/5",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:consumption/5",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:rent/5",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:NHI/mother/6",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:consumption/6",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:rent/6",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:NHI/mother/7",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:consumption/7",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:rent/7",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:C2/task-00009",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:NHI/mother/8",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:consumption/8",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:rent/8",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:NHI/mother/9",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:consumption/9",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:rent/9",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:NHI/mother/10",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:consumption/10",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:rent/10",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:NHI/mother/11",
+              "label": "生活費等の未払い",
+              "value": 2075
+            },
+            {
+              "key": "L:AP:consumption/11",
+              "label": "生活費等の未払い",
+              "value": 0
+            },
+            {
+              "key": "L:AP:rent/11",
+              "label": "生活費等の未払い",
+              "value": 0
+            }
+          ],
+          "opening_cash": 172044,
+          "closing_cash": 70695,
+          "rows": [
+            {
+              "event_id": "075b7272d7fc37d3806f",
+              "label": "その他の支払い",
+              "cash_delta": -2075,
+              "kind": "payment",
+              "source": "A.completed.transactions",
+              "deltas": {
+                "L:AP:NHI/mother/10": -2075,
+                "cash": -2075
+              }
+            },
+            {
+              "event_id": "418743e82344f0dd3560",
+              "label": "生活費",
+              "cash_delta": -56235,
+              "kind": "payment",
+              "source": "A.completed.transactions",
+              "deltas": {
+                "L:AP:consumption/11": -56235,
+                "cash": -56235
+              }
+            },
+            {
+              "event_id": "d6cf63ea7773ccf8a1d2",
+              "label": "家賃",
+              "cash_delta": -43039,
+              "kind": "payment",
+              "source": "A.completed.transactions",
+              "deltas": {
+                "L:AP:rent/11": -43039,
+                "cash": -43039
+              }
+            }
+          ],
+          "cash_identity_residual": 0,
+          "current_C2_cash_delta": 0,
+          "period": "2027-09-01",
+          "consumption_items": [
+            {
+              "code": "210101",
+              "amount": 20418,
+              "cell": [
+                "a010301",
+                196,
+                79,
+                "30131"
+              ],
+              "policy_rigidity_unobserved": true
+            },
+            {
+              "code": "21010202",
+              "amount": 1912,
+              "cell": [
+                "a010301",
+                214,
+                79,
+                "2833"
+              ],
+              "policy_rigidity_unobserved": true
+            },
+            {
+              "code": "210103",
+              "amount": 8161,
+              "cell": [
+                "a010301",
+                217,
+                79,
+                "11938"
+              ],
+              "policy_rigidity_unobserved": true
+            },
+            {
+              "code": "210104",
+              "amount": 1354,
+              "cell": [
+                "a010301",
+                222,
+                79,
+                "2007"
+              ],
+              "policy_rigidity_unobserved": true
+            },
+            {
+              "code": "210105",
+              "amount": 3843,
+              "cell": [
+                "a010301",
+                235,
+                79,
+                "5696"
+              ],
+              "policy_rigidity_unobserved": true
+            },
+            {
+              "code": "210106",
+              "amount": 1698,
+              "cell": [
+                "a010301",
+                244,
+                79,
+                "2517"
+              ],
+              "policy_rigidity_unobserved": true
+            },
+            {
+              "code": "210107",
+              "amount": 10069,
+              "cell": [
+                "a010301",
+                249,
+                79,
+                "15040"
+              ],
+              "policy_rigidity_unobserved": true
+            },
+            {
+              "code": "210108",
+              "amount": 1902,
+              "cell": [
+                "a010301",
+                256,
+                79,
+                "2818"
+              ],
+              "policy_rigidity_unobserved": true
+            },
+            {
+              "code": "210109",
+              "amount": 1690,
+              "cell": [
+                "a010301",
+                260,
+                79,
+                "2504"
+              ],
+              "policy_rigidity_unobserved": true
+            },
+            {
+              "code": "210110",
+              "amount": 5188,
+              "cell": [
+                "a010301",
+                277,
+                79,
+                "7989"
+              ],
+              "policy_rigidity_unobserved": true
+            }
+          ],
+          "monthly_reference_need": 99274,
+          "reserved_cash": 0,
+          "normal_annual_total": 0,
+          "wages_gross_earned": 0,
+          "recognized_expense": 101349,
+          "receivables": {},
+          "unpaid": {
+            "L:AP:NHI/mother/11": 2075
+          },
+          "ownership": "世帯の通貨性預貯金。主人公個人の持分は未識別。",
+          "initial_source": "2024年・住宅ローン有無×可処分所得帯×参照世帯規模の資産統計。親の年齢・職業と資産の同時分布、出生家庭への移送は未確認。",
+          "initial_explicit_scenario": true,
+          "net_worth": 68620
+        },
+        "time": {
+          "care": 336,
+          "rest": 56.0,
+          "used": {},
+          "basis": "直近の週時間配分×4週を計画枠に使う仮定"
+        },
+        "inventory": {
+          "toy": {
+            "id": "item-toy",
+            "name": "赤い布のボール",
+            "acquired": "2027-06-01",
+            "source_task": "task-00009",
+            "cost_yen": 1600
+          }
+        },
+        "care": {
+          "status": "家庭で過ごす",
+          "status_code": "home",
+          "relative_requested": true,
+          "relative_confirmed": false,
+          "application_submitted": false
+        },
+        "reports": {
+          "child_id": "hh_77258d5fb59f667765fb/index_child",
+          "observer": "mother",
+          "cards": [
+            {
+              "id": "child/crying",
+              "text": "記録した4場面のうち、0場面で泣いていた。",
+              "source_ref": "B.player_view.observations",
+              "value_sha256": "7a12f5f96d580c255b44f72fb19802be71162c484f0500bd79aa7cefb60203c0",
+              "evidence": "uncalibrated_behavior_and_observation",
+              "signal": "crying",
+              "title": "泣く様子",
+              "present": 0,
+              "sampled": 4,
+              "sources": [
+                {
+                  "observation_index": 58,
+                  "date": "2027-09-01",
+                  "sha256": "59836d29bf3470b51675bc9c92095c2b0ad3c144279d23cd21da6be2087a658e",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 59,
+                  "date": "2027-09-02",
+                  "sha256": "6500c6a30574108ba9ba11c452c98271d7a4273629ff30d40bc5be60c22746c2",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 61,
+                  "date": "2027-09-16",
+                  "sha256": "36a9e97932dc06b8c1c832801d5ae6013b91bc6a8be3297999cfb6e734648039",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 62,
+                  "date": "2027-09-23",
+                  "sha256": "3bc59187ad62337fd98b5a340aa8c18c65068b97423c527f641105eab731fbed",
+                  "source": "synthetic_caregiver_report"
+                }
+              ]
+            },
+            {
+              "id": "child/settles_after_comfort",
+              "text": "記録した5場面のうち、3場面で落ち着く様子があった。",
+              "source_ref": "B.player_view.observations",
+              "value_sha256": "1790db39ccb23b4f18686953d6b82f0d927d48710147e0f3ed0888ad0db7fb04",
+              "evidence": "uncalibrated_behavior_and_observation",
+              "signal": "settles_after_comfort",
+              "title": "慰めた場面",
+              "present": 3,
+              "sampled": 5,
+              "sources": [
+                {
+                  "observation_index": 58,
+                  "date": "2027-09-01",
+                  "sha256": "59836d29bf3470b51675bc9c92095c2b0ad3c144279d23cd21da6be2087a658e",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 60,
+                  "date": "2027-09-09",
+                  "sha256": "0324333d063b96c646feb5df6b93cdd0800ec863c3ee51247b6360aec6bc6dca",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 61,
+                  "date": "2027-09-16",
+                  "sha256": "36a9e97932dc06b8c1c832801d5ae6013b91bc6a8be3297999cfb6e734648039",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 62,
+                  "date": "2027-09-23",
+                  "sha256": "3bc59187ad62337fd98b5a340aa8c18c65068b97423c527f641105eab731fbed",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 63,
+                  "date": "2027-09-30",
+                  "sha256": "2acd272f719df85a1decede574c174b8c0c5796405bd7c50793d60fd1771b339",
+                  "source": "synthetic_caregiver_report"
+                }
+              ]
+            },
+            {
+              "id": "child/orients_to_unfamiliar_object",
+              "text": "記録した3場面のうち、0場面で物へ注意を向けた。",
+              "source_ref": "B.player_view.observations",
+              "value_sha256": "a6c57baeb8180e5a688c2fecdb724a9ada6c4d2db7a7cea368cfafdf88460171",
+              "evidence": "uncalibrated_behavior_and_observation",
+              "signal": "orients_to_unfamiliar_object",
+              "title": "見慣れない物への反応",
+              "present": 0,
+              "sampled": 3,
+              "sources": [
+                {
+                  "observation_index": 58,
+                  "date": "2027-09-01",
+                  "sha256": "59836d29bf3470b51675bc9c92095c2b0ad3c144279d23cd21da6be2087a658e",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 59,
+                  "date": "2027-09-02",
+                  "sha256": "6500c6a30574108ba9ba11c452c98271d7a4273629ff30d40bc5be60c22746c2",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 63,
+                  "date": "2027-09-30",
+                  "sha256": "2acd272f719df85a1decede574c174b8c0c5796405bd7c50793d60fd1771b339",
+                  "source": "synthetic_caregiver_report"
+                }
+              ]
+            },
+            {
+              "id": "child/looks_toward_voice",
+              "text": "記録した3場面のうち、0場面で声の方を見た。",
+              "source_ref": "B.player_view.observations",
+              "value_sha256": "db33ce2d496179d14b9f7173a32202299893e209d9c53ef03f4319699c5c7200",
+              "evidence": "uncalibrated_behavior_and_observation",
+              "signal": "looks_toward_voice",
+              "title": "声への反応",
+              "present": 0,
+              "sampled": 3,
+              "sources": [
+                {
+                  "observation_index": 58,
+                  "date": "2027-09-01",
+                  "sha256": "59836d29bf3470b51675bc9c92095c2b0ad3c144279d23cd21da6be2087a658e",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 62,
+                  "date": "2027-09-23",
+                  "sha256": "3bc59187ad62337fd98b5a340aa8c18c65068b97423c527f641105eab731fbed",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 63,
+                  "date": "2027-09-30",
+                  "sha256": "2acd272f719df85a1decede574c174b8c0c5796405bd7c50793d60fd1771b339",
+                  "source": "synthetic_caregiver_report"
+                }
+              ]
+            },
+            {
+              "id": "child/difficulty_settling",
+              "text": "記録した6場面のうち、3場面で落ち着きにくい様子があった。",
+              "source_ref": "B.player_view.observations",
+              "value_sha256": "58cee108ec976c49640ed009bd1c9802ef91fa9c409008d05aeefacf5ef818ff",
+              "evidence": "uncalibrated_behavior_and_observation",
+              "signal": "difficulty_settling",
+              "title": "寝つく場面",
+              "present": 3,
+              "sampled": 6,
+              "sources": [
+                {
+                  "observation_index": 58,
+                  "date": "2027-09-01",
+                  "sha256": "59836d29bf3470b51675bc9c92095c2b0ad3c144279d23cd21da6be2087a658e",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 59,
+                  "date": "2027-09-02",
+                  "sha256": "6500c6a30574108ba9ba11c452c98271d7a4273629ff30d40bc5be60c22746c2",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 60,
+                  "date": "2027-09-09",
+                  "sha256": "0324333d063b96c646feb5df6b93cdd0800ec863c3ee51247b6360aec6bc6dca",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 61,
+                  "date": "2027-09-16",
+                  "sha256": "36a9e97932dc06b8c1c832801d5ae6013b91bc6a8be3297999cfb6e734648039",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 62,
+                  "date": "2027-09-23",
+                  "sha256": "3bc59187ad62337fd98b5a340aa8c18c65068b97423c527f641105eab731fbed",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 63,
+                  "date": "2027-09-30",
+                  "sha256": "2acd272f719df85a1decede574c174b8c0c5796405bd7c50793d60fd1771b339",
+                  "source": "synthetic_caregiver_report"
+                }
+              ]
+            },
+            {
+              "id": "child/takes_independent_steps",
+              "text": "記録した5場面のうち、0場面でひとりで足を運んだ。",
+              "source_ref": "B.player_view.observations",
+              "value_sha256": "bf6a8aaa50d76dd06be53f7a93fc011654262e9933e441709913672451cc8767",
+              "evidence": "uncalibrated_behavior_and_observation",
+              "signal": "takes_independent_steps",
+              "title": "足を運ぶ姿",
+              "present": 0,
+              "sampled": 5,
+              "sources": [
+                {
+                  "observation_index": 58,
+                  "date": "2027-09-01",
+                  "sha256": "59836d29bf3470b51675bc9c92095c2b0ad3c144279d23cd21da6be2087a658e",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 59,
+                  "date": "2027-09-02",
+                  "sha256": "6500c6a30574108ba9ba11c452c98271d7a4273629ff30d40bc5be60c22746c2",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 60,
+                  "date": "2027-09-09",
+                  "sha256": "0324333d063b96c646feb5df6b93cdd0800ec863c3ee51247b6360aec6bc6dca",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 61,
+                  "date": "2027-09-16",
+                  "sha256": "36a9e97932dc06b8c1c832801d5ae6013b91bc6a8be3297999cfb6e734648039",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 63,
+                  "date": "2027-09-30",
+                  "sha256": "2acd272f719df85a1decede574c174b8c0c5796405bd7c50793d60fd1771b339",
+                  "source": "synthetic_caregiver_report"
+                }
+              ]
+            },
+            {
+              "id": "child/uses_contextual_word",
+              "text": "記録した6場面のうち、0場面で場面に合うことばがあった。",
+              "source_ref": "B.player_view.observations",
+              "value_sha256": "58cee108ec976c49640ed009bd1c9802ef91fa9c409008d05aeefacf5ef818ff",
+              "evidence": "uncalibrated_behavior_and_observation",
+              "signal": "uses_contextual_word",
+              "title": "ことばの記録",
+              "present": 0,
+              "sampled": 6,
+              "sources": [
+                {
+                  "observation_index": 58,
+                  "date": "2027-09-01",
+                  "sha256": "59836d29bf3470b51675bc9c92095c2b0ad3c144279d23cd21da6be2087a658e",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 59,
+                  "date": "2027-09-02",
+                  "sha256": "6500c6a30574108ba9ba11c452c98271d7a4273629ff30d40bc5be60c22746c2",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 60,
+                  "date": "2027-09-09",
+                  "sha256": "0324333d063b96c646feb5df6b93cdd0800ec863c3ee51247b6360aec6bc6dca",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 61,
+                  "date": "2027-09-16",
+                  "sha256": "36a9e97932dc06b8c1c832801d5ae6013b91bc6a8be3297999cfb6e734648039",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 62,
+                  "date": "2027-09-23",
+                  "sha256": "3bc59187ad62337fd98b5a340aa8c18c65068b97423c527f641105eab731fbed",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 63,
+                  "date": "2027-09-30",
+                  "sha256": "2acd272f719df85a1decede574c174b8c0c5796405bd7c50793d60fd1771b339",
+                  "source": "synthetic_caregiver_report"
+                }
+              ]
+            },
+            {
+              "id": "child/sustains_object_attention",
+              "text": "記録した6場面のうち、3場面で物へ注意を向け続けた。",
+              "source_ref": "B.player_view.observations",
+              "value_sha256": "58cee108ec976c49640ed009bd1c9802ef91fa9c409008d05aeefacf5ef818ff",
+              "evidence": "uncalibrated_behavior_and_observation",
+              "signal": "sustains_object_attention",
+              "title": "物への注意",
+              "present": 3,
+              "sampled": 6,
+              "sources": [
+                {
+                  "observation_index": 58,
+                  "date": "2027-09-01",
+                  "sha256": "59836d29bf3470b51675bc9c92095c2b0ad3c144279d23cd21da6be2087a658e",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 59,
+                  "date": "2027-09-02",
+                  "sha256": "6500c6a30574108ba9ba11c452c98271d7a4273629ff30d40bc5be60c22746c2",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 60,
+                  "date": "2027-09-09",
+                  "sha256": "0324333d063b96c646feb5df6b93cdd0800ec863c3ee51247b6360aec6bc6dca",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 61,
+                  "date": "2027-09-16",
+                  "sha256": "36a9e97932dc06b8c1c832801d5ae6013b91bc6a8be3297999cfb6e734648039",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 62,
+                  "date": "2027-09-23",
+                  "sha256": "3bc59187ad62337fd98b5a340aa8c18c65068b97423c527f641105eab731fbed",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 63,
+                  "date": "2027-09-30",
+                  "sha256": "2acd272f719df85a1decede574c174b8c0c5796405bd7c50793d60fd1771b339",
+                  "source": "synthetic_caregiver_report"
+                }
+              ]
+            },
+            {
+              "id": "child/withdraws_from_intense_stimulus",
+              "text": "記録した5場面のうち、2場面で刺激から身を引いた。",
+              "source_ref": "B.player_view.observations",
+              "value_sha256": "80209ed6d8e9fcc7cc0e8a36422443d550bdb1401ec5f949f48d838c20709e61",
+              "evidence": "uncalibrated_behavior_and_observation",
+              "signal": "withdraws_from_intense_stimulus",
+              "title": "強い刺激への反応",
+              "present": 2,
+              "sampled": 5,
+              "sources": [
+                {
+                  "observation_index": 58,
+                  "date": "2027-09-01",
+                  "sha256": "59836d29bf3470b51675bc9c92095c2b0ad3c144279d23cd21da6be2087a658e",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 59,
+                  "date": "2027-09-02",
+                  "sha256": "6500c6a30574108ba9ba11c452c98271d7a4273629ff30d40bc5be60c22746c2",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 61,
+                  "date": "2027-09-16",
+                  "sha256": "36a9e97932dc06b8c1c832801d5ae6013b91bc6a8be3297999cfb6e734648039",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 62,
+                  "date": "2027-09-23",
+                  "sha256": "3bc59187ad62337fd98b5a340aa8c18c65068b97423c527f641105eab731fbed",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 63,
+                  "date": "2027-09-30",
+                  "sha256": "2acd272f719df85a1decede574c174b8c0c5796405bd7c50793d60fd1771b339",
+                  "source": "synthetic_caregiver_report"
+                }
+              ]
+            },
+            {
+              "id": "child/explores_available_space",
+              "text": "記録した5場面のうち、3場面で周囲を探索する様子があった。",
+              "source_ref": "B.player_view.observations",
+              "value_sha256": "bf6a8aaa50d76dd06be53f7a93fc011654262e9933e441709913672451cc8767",
+              "evidence": "uncalibrated_behavior_and_observation",
+              "signal": "explores_available_space",
+              "title": "周囲への関心",
+              "present": 3,
+              "sampled": 5,
+              "sources": [
+                {
+                  "observation_index": 58,
+                  "date": "2027-09-01",
+                  "sha256": "59836d29bf3470b51675bc9c92095c2b0ad3c144279d23cd21da6be2087a658e",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 59,
+                  "date": "2027-09-02",
+                  "sha256": "6500c6a30574108ba9ba11c452c98271d7a4273629ff30d40bc5be60c22746c2",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 60,
+                  "date": "2027-09-09",
+                  "sha256": "0324333d063b96c646feb5df6b93cdd0800ec863c3ee51247b6360aec6bc6dca",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 61,
+                  "date": "2027-09-16",
+                  "sha256": "36a9e97932dc06b8c1c832801d5ae6013b91bc6a8be3297999cfb6e734648039",
+                  "source": "synthetic_caregiver_report"
+                },
+                {
+                  "observation_index": 63,
+                  "date": "2027-09-30",
+                  "sha256": "2acd272f719df85a1decede574c174b8c0c5796405bd7c50793d60fd1771b339",
+                  "source": "synthetic_caregiver_report"
+                }
+              ]
+            }
+          ],
+          "notices": [],
+          "observations": [
+            {
+              "observer_id": "hh_77258d5fb59f667765fb/mother",
+              "date": "2027-09-01",
+              "source": "synthetic_caregiver_report",
+              "behaviors": {
+                "crying": false,
+                "settles_after_comfort": false,
+                "orients_to_unfamiliar_object": false,
+                "looks_toward_voice": false,
+                "difficulty_settling": true,
+                "sustains_object_attention": false,
+                "withdraws_from_intense_stimulus": false,
+                "explores_available_space": true,
+                "takes_independent_steps": false,
+                "uses_contextual_word": false
+              },
+              "interpretation": "観察した場面の記録。気質・能力・愛着の診断はできません。",
+              "uncertain": true
+            },
+            {
+              "observer_id": "hh_77258d5fb59f667765fb/mother",
+              "date": "2027-09-02",
+              "source": "synthetic_caregiver_report",
+              "behaviors": {
+                "crying": false,
+                "orients_to_unfamiliar_object": false,
+                "difficulty_settling": false,
+                "sustains_object_attention": true,
+                "withdraws_from_intense_stimulus": false,
+                "explores_available_space": true,
+                "takes_independent_steps": false,
+                "uses_contextual_word": false
+              },
+              "interpretation": "観察した場面の記録。気質・能力・愛着の診断はできません。",
+              "uncertain": true
+            },
+            {
+              "observer_id": "hh_77258d5fb59f667765fb/mother",
+              "date": "2027-09-09",
+              "source": "synthetic_caregiver_report",
+              "behaviors": {
+                "settles_after_comfort": true,
+                "difficulty_settling": false,
+                "sustains_object_attention": false,
+                "explores_available_space": false,
+                "takes_independent_steps": false,
+                "uses_contextual_word": false
+              },
+              "interpretation": "観察した場面の記録。気質・能力・愛着の診断はできません。",
+              "uncertain": true
+            },
+            {
+              "observer_id": "hh_77258d5fb59f667765fb/mother",
+              "date": "2027-09-16",
+              "source": "synthetic_caregiver_report",
+              "behaviors": {
+                "crying": false,
+                "settles_after_comfort": false,
+                "difficulty_settling": true,
+                "sustains_object_attention": false,
+                "withdraws_from_intense_stimulus": false,
+                "explores_available_space": false,
+                "takes_independent_steps": false,
+                "uses_contextual_word": false
+              },
+              "interpretation": "観察した場面の記録。気質・能力・愛着の診断はできません。",
+              "uncertain": true
+            },
+            {
+              "observer_id": "hh_77258d5fb59f667765fb/mother",
+              "date": "2027-09-23",
+              "source": "synthetic_caregiver_report",
+              "behaviors": {
+                "crying": false,
+                "settles_after_comfort": true,
+                "looks_toward_voice": false,
+                "difficulty_settling": false,
+                "sustains_object_attention": true,
+                "withdraws_from_intense_stimulus": true,
+                "uses_contextual_word": false
+              },
+              "interpretation": "観察した場面の記録。気質・能力・愛着の診断はできません。",
+              "uncertain": true
+            },
+            {
+              "observer_id": "hh_77258d5fb59f667765fb/mother",
+              "date": "2027-09-30",
+              "source": "synthetic_caregiver_report",
+              "behaviors": {
+                "settles_after_comfort": true,
+                "orients_to_unfamiliar_object": false,
+                "looks_toward_voice": false,
+                "difficulty_settling": true,
+                "sustains_object_attention": true,
+                "withdraws_from_intense_stimulus": true,
+                "explores_available_space": true,
+                "takes_independent_steps": false,
+                "uses_contextual_word": false
+              },
+              "interpretation": "観察した場面の記録。気質・能力・愛着の診断はできません。",
+              "uncertain": true
+            }
+          ],
+          "measurements": [],
+          "report_count": 6,
+          "total_reports": 64,
+          "sampling_note": "記録できた場面の様子です。観察のなかった時間や、子どもの内面まではわかりません。"
+        },
+        "portrait": [
+          {
+            "signal": "settles_after_comfort",
+            "text": "記録した5場面のうち、3場面で落ち着く様子があった。",
+            "sources": [
+              {
+                "observation_index": 58,
+                "date": "2027-09-01",
+                "sha256": "59836d29bf3470b51675bc9c92095c2b0ad3c144279d23cd21da6be2087a658e",
+                "source": "synthetic_caregiver_report"
+              },
+              {
+                "observation_index": 60,
+                "date": "2027-09-09",
+                "sha256": "0324333d063b96c646feb5df6b93cdd0800ec863c3ee51247b6360aec6bc6dca",
+                "source": "synthetic_caregiver_report"
+              },
+              {
+                "observation_index": 61,
+                "date": "2027-09-16",
+                "sha256": "36a9e97932dc06b8c1c832801d5ae6013b91bc6a8be3297999cfb6e734648039",
+                "source": "synthetic_caregiver_report"
+              },
+              {
+                "observation_index": 62,
+                "date": "2027-09-23",
+                "sha256": "3bc59187ad62337fd98b5a340aa8c18c65068b97423c527f641105eab731fbed",
+                "source": "synthetic_caregiver_report"
+              },
+              {
+                "observation_index": 63,
+                "date": "2027-09-30",
+                "sha256": "2acd272f719df85a1decede574c174b8c0c5796405bd7c50793d60fd1771b339",
+                "source": "synthetic_caregiver_report"
+              }
+            ]
+          },
+          {
+            "signal": "difficulty_settling",
+            "text": "記録した6場面のうち、3場面で落ち着きにくい様子があった。",
+            "sources": [
+              {
+                "observation_index": 58,
+                "date": "2027-09-01",
+                "sha256": "59836d29bf3470b51675bc9c92095c2b0ad3c144279d23cd21da6be2087a658e",
+                "source": "synthetic_caregiver_report"
+              },
+              {
+                "observation_index": 59,
+                "date": "2027-09-02",
+                "sha256": "6500c6a30574108ba9ba11c452c98271d7a4273629ff30d40bc5be60c22746c2",
+                "source": "synthetic_caregiver_report"
+              },
+              {
+                "observation_index": 60,
+                "date": "2027-09-09",
+                "sha256": "0324333d063b96c646feb5df6b93cdd0800ec863c3ee51247b6360aec6bc6dca",
+                "source": "synthetic_caregiver_report"
+              },
+              {
+                "observation_index": 61,
+                "date": "2027-09-16",
+                "sha256": "36a9e97932dc06b8c1c832801d5ae6013b91bc6a8be3297999cfb6e734648039",
+                "source": "synthetic_caregiver_report"
+              },
+              {
+                "observation_index": 62,
+                "date": "2027-09-23",
+                "sha256": "3bc59187ad62337fd98b5a340aa8c18c65068b97423c527f641105eab731fbed",
+                "source": "synthetic_caregiver_report"
+              },
+              {
+                "observation_index": 63,
+                "date": "2027-09-30",
+                "sha256": "2acd272f719df85a1decede574c174b8c0c5796405bd7c50793d60fd1771b339",
+                "source": "synthetic_caregiver_report"
+              }
+            ]
+          },
+          {
+            "signal": "sustains_object_attention",
+            "text": "記録した6場面のうち、3場面で物へ注意を向け続けた。",
+            "sources": [
+              {
+                "observation_index": 58,
+                "date": "2027-09-01",
+                "sha256": "59836d29bf3470b51675bc9c92095c2b0ad3c144279d23cd21da6be2087a658e",
+                "source": "synthetic_caregiver_report"
+              },
+              {
+                "observation_index": 59,
+                "date": "2027-09-02",
+                "sha256": "6500c6a30574108ba9ba11c452c98271d7a4273629ff30d40bc5be60c22746c2",
+                "source": "synthetic_caregiver_report"
+              },
+              {
+                "observation_index": 60,
+                "date": "2027-09-09",
+                "sha256": "0324333d063b96c646feb5df6b93cdd0800ec863c3ee51247b6360aec6bc6dca",
+                "source": "synthetic_caregiver_report"
+              },
+              {
+                "observation_index": 61,
+                "date": "2027-09-16",
+                "sha256": "36a9e97932dc06b8c1c832801d5ae6013b91bc6a8be3297999cfb6e734648039",
+                "source": "synthetic_caregiver_report"
+              },
+              {
+                "observation_index": 62,
+                "date": "2027-09-23",
+                "sha256": "3bc59187ad62337fd98b5a340aa8c18c65068b97423c527f641105eab731fbed",
+                "source": "synthetic_caregiver_report"
+              },
+              {
+                "observation_index": 63,
+                "date": "2027-09-30",
+                "sha256": "2acd272f719df85a1decede574c174b8c0c5796405bd7c50793d60fd1771b339",
+                "source": "synthetic_caregiver_report"
+              }
+            ]
+          }
+        ],
+        "limits": "活動の反応と配偶者の合意は未校正の体験シナリオ。長期能力・愛着への追加効果はなし。家計・就業・保育はA研究版の未検証部分を継承。"
+      },
+      "parent": {
+        "person_id": "mother",
+        "employment_type": null,
+        "industry": null,
+        "normal_annual": 0,
+        "normal_weekly_hours": 0.0,
+        "hours_ratio": 1.0,
+        "return_month": 12,
+        "leave_requested": false,
+        "father_leave_days": 0,
+        "employee_eligible_estimate": false,
+        "state": "nonemployed",
+        "leave_days_used": 0,
+        "support_days_used": 0,
+        "commute_minutes_oneway": 30,
+        "job_search": true,
+        "gross_year": {
+          "2026": 0,
+          "2027": 0
+        },
+        "social_year": {
+          "2026": 6225,
+          "2027": 18675
+        },
+        "tax_provision_year": {},
+        "initial_phase": "prepregnancy proxy; old future-derived quit flag not used",
+        "benefit_eligible_estimate": false,
+        "insurance_enrollment_kind": "estimated_from_reference_employment",
+        "dependent_spouse_scenario": false,
+        "closed_year_income": {
+          "2026": 0
+        },
+        "closed_year_social": {
+          "2026": 6225
+        },
+        "pregnancy_employment_type_reference": null,
+        "contract_active": false,
+        "employee_contract": false,
+        "employment_insured_estimate": false,
+        "takeup_probability": 0.883,
+        "takeup_industry": "総数",
+        "leave_start_date": "2026-11-27",
+        "leave_end_evaluated": false,
+        "realized_leave_segments": [],
+        "benefit_units_booked": [],
+        "paid_gross_year": {
+          "2026": 0
+        },
+        "withholding_year": {},
+        "duration_intention_days": null,
+        "duration_bucket": null,
+        "prior_social_proxy": 0,
+        "maternity_days": 0,
+        "parental_days": 0,
+        "paternity_days_in_month": 0,
+        "planned_weekly_hours": 0,
+        "actual_gross_this_month": 0,
+        "actual_weekly_hours": 0,
+        "employment_measurement": {
+          "status": "job_seeking",
+          "contract_continues": false,
+          "actually_worked": false,
+          "on_maternity_leave": false,
+          "on_parental_leave": false,
+          "short_time_contract": false,
+          "unpaid_interruption": false,
+          "lfs_employed_proxy": false,
+          "income_positive": false,
+          "employment_type": null,
+          "definition_scope": "monthly LFS-like proxy; unpaid job attachment unknown, not last-week survey"
+        },
+        "previous_work": 0,
+        "previous_care": 84
+      },
+      "requests": [
+        {
+          "id": "c0-0000",
+          "date": "2026-10-01",
+          "kind": "job_search",
+          "value": null,
+          "actor": "mother",
+          "source": "policy/work",
+          "time_hours": 0.5,
+          "policy_epoch": 1,
+          "status": "answered",
+          "results": [
+            {
+              "id": "decision/c0-0000",
+              "text": "仕事を探し始める：申請・相談を提出した。",
+              "source_ref": "A.completed.A_decisions/c0-0000",
+              "value_sha256": "acab42457a98868260e7e24e00d5ba4ec32c580a204994af57d812e524eaef64",
+              "evidence": "native_action_feasibility_scenario",
+              "kind": "job_search",
+              "outcome": "submitted",
+              "request_id": "c0-0000",
+              "person": "mother",
+              "requested_value": null
+            }
+          ]
+        },
+        {
+          "id": "c0-0011",
+          "date": "2027-03-01",
+          "kind": "request_relative_support",
+          "value": null,
+          "actor": "mother",
+          "source": "event-0001",
+          "time_hours": 0.5,
+          "policy_epoch": 1,
+          "status": "answered",
+          "results": [
+            {
+              "id": "decision/c0-0011",
+              "text": "身近な人に支援を相談する：今回は支援を得られなかった。",
+              "source_ref": "A.completed.A_decisions/c0-0011",
+              "value_sha256": "a387b068ad37915c052f4ed290b34d6d901ba178326e69e63432e0e0ec2b38e7",
+              "evidence": "native_action_feasibility_scenario",
+              "kind": "request_relative_support",
+              "outcome": "unavailable",
+              "request_id": "c0-0011",
+              "person": null,
+              "requested_value": null
+            }
+          ]
+        },
+        {
+          "id": "c0-0020",
+          "date": "2027-07-01",
+          "kind": "reject_job_offer",
+          "value": "dad8eb42d9cd3f89ce90",
+          "actor": "mother",
+          "source": "event-0003",
+          "time_hours": 0.5,
+          "policy_epoch": 1,
+          "status": "answered",
+          "results": [
+            {
+              "id": "decision/c0-0020",
+              "text": "届いた仕事の提案を見送る：条件付きで受け付けられた。",
+              "source_ref": "A.completed.A_decisions/c0-0020",
+              "value_sha256": "ac7e2bb886df14e74175abc9b738049bad486d99290d52716d3860a6fa7e4b80",
+              "evidence": "native_action_feasibility_scenario",
+              "kind": "reject_job_offer",
+              "outcome": "accepted_conditional",
+              "request_id": "c0-0020",
+              "person": "mother",
+              "requested_value": "dad8eb42d9cd3f89ce90"
+            }
+          ]
+        },
+        {
+          "id": "c0-0025",
+          "date": "2027-09-01",
+          "kind": "request_relative_support",
+          "value": null,
+          "actor": "mother",
+          "source": "event-0004",
+          "time_hours": 0.5,
+          "policy_epoch": 1,
+          "status": "answered",
+          "results": [
+            {
+              "id": "decision/c0-0025",
+              "text": "身近な人に支援を相談する：今回は支援を得られなかった。",
+              "source_ref": "A.completed.A_decisions/c0-0025",
+              "value_sha256": "5d921f32737654cb0fce20ff0afde4a3a4d91e93ddd64cb26c8b3dbd9f0a1e99",
+              "evidence": "native_action_feasibility_scenario",
+              "kind": "request_relative_support",
+              "outcome": "unavailable",
+              "request_id": "c0-0025",
+              "person": null,
+              "requested_value": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

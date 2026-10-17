@@ -1,0 +1,17 @@
+{
+  "parser": true,
+  "initial_verified_extraction": true,
+  "all_extracted_file_hashes": 4146,
+  "valid_cached_install_needs_no_archive": true,
+  "missing_python_repaired_without_folder_choice": true,
+  "saves_and_previous_install_preserved": true,
+  "changed_game_file_detected_and_repaired": true,
+  "invalid_archive_rejected_error_file_written": true,
+  "actual_embedded_cmd_body": true,
+  "child_process_capture_0": true,
+  "child_process_capture_42": true,
+  "platform": "PowerShell7.4.7 on Linux; Windows cmd.exe and native .exe not executed",
+  "windows_native_execution_tested": false,
+  "no_simulation_code_changed": true,
+  "no_execution_policy_changes": true
+}

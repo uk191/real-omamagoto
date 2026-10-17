@@ -1,0 +1,81 @@
+{
+  "families": [
+    {
+      "family": 0,
+      "logs": 25,
+      "exact_text_duplicate_count": 0,
+      "exact_text_duplicate_rate": 0.0,
+      "candidate_facts": 53,
+      "suppressed": 28,
+      "event_interval_mean": 2.3,
+      "experience_semantic_duplicates": 0,
+      "experience_records": 28,
+      "experience_prior_links": 25,
+      "named_object_experiences": 1,
+      "specific_place_experiences": 28,
+      "published_reference_coverage": 1.0
+    },
+    {
+      "family": 1,
+      "logs": 22,
+      "exact_text_duplicate_count": 0,
+      "exact_text_duplicate_rate": 0.0,
+      "candidate_facts": 157,
+      "suppressed": 135,
+      "event_interval_mean": 2.5,
+      "experience_semantic_duplicates": 0,
+      "experience_records": 102,
+      "experience_prior_links": 99,
+      "named_object_experiences": 0,
+      "specific_place_experiences": 102,
+      "published_reference_coverage": 1.0
+    },
+    {
+      "family": 2,
+      "logs": 34,
+      "exact_text_duplicate_count": 0,
+      "exact_text_duplicate_rate": 0.0,
+      "candidate_facts": 104,
+      "suppressed": 70,
+      "event_interval_mean": 2.2222222222222223,
+      "experience_semantic_duplicates": 0,
+      "experience_records": 67,
+      "experience_prior_links": 60,
+      "named_object_experiences": 42,
+      "specific_place_experiences": 67,
+      "published_reference_coverage": 1.0
+    },
+    {
+      "family": 3,
+      "logs": 28,
+      "exact_text_duplicate_count": 0,
+      "exact_text_duplicate_rate": 0.0,
+      "candidate_facts": 81,
+      "suppressed": 53,
+      "event_interval_mean": 2.1,
+      "experience_semantic_duplicates": 0,
+      "experience_records": 48,
+      "experience_prior_links": 46,
+      "named_object_experiences": 0,
+      "specific_place_experiences": 48,
+      "published_reference_coverage": 1.0
+    },
+    {
+      "family": 4,
+      "logs": 17,
+      "exact_text_duplicate_count": 0,
+      "exact_text_duplicate_rate": 0.0,
+      "candidate_facts": 54,
+      "suppressed": 37,
+      "event_interval_mean": 2.125,
+      "experience_semantic_duplicates": 0,
+      "experience_records": 27,
+      "experience_prior_links": 24,
+      "named_object_experiences": 0,
+      "specific_place_experiences": 27,
+      "published_reference_coverage": 1.0
+    }
+  ],
+  "method": "Structured semantic keys and source references before rendering; no claim of general natural-language semantic understanding",
+  "padding_events_added": false
+}
