@@ -1,0 +1,12 @@
+{
+  "powershell_version": "7.4.7 Linux; not a Windows machine",
+  "initial_extraction_full_4136_file_hash_check": true,
+  "runtime_folder_exists_but_python_exe_missing_repaired": true,
+  "existing_saves_preserved": true,
+  "previous_install_backup_preserved": true,
+  "cached_install_no_archive_required": true,
+  "embedded_single_cmd_powershell_body_executed": true,
+  "invalid_archive_rejected": true,
+  "Windows_cmd_exe_and_native_python_exe_executed": false,
+  "game_and_model_code_changed": false
+}
