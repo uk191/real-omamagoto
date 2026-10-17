@@ -1,6 +1,12 @@
 # C-1 をプレイする
 
-現在C-0.1が起動できる方は、[小さな更新パック](https://github.com/uk191/real-omamagoto/raw/refs/heads/c0-player-download/player-download/C1_UPGRADE.zip)がおすすめです。
+フォルダ選択後にエラーになる場合は、**[フォルダ選択不要の起動パック（約5KB）](https://github.com/uk191/real-omamagoto/raw/refs/heads/c0-player-download/player-download/C1_SAFE_START.zip)** をすべて展開し、`START_C1.cmd` を開いてください。初回は確認済み本体約103MBを取得し、別フォルダへ自動展開します。旧ゲーム・旧セーブは残ります。次回も同じ起動ファイルを使えます。
+
+起動の失敗は `RealOmamagoto/C1/startup-error.txt` に保存してメモ帳で開きます。内容を確認してからチャットへ送れます（自動送信なし）。
+
+以下は原本と完全一致する旧版がある場合の従来手順です。フォルダ選択後のエラーが出た方は上の起動パックを使ってください。
+
+[従来の小さな更新パック](https://github.com/uk191/real-omamagoto/raw/refs/heads/c0-player-download/player-download/C1_UPGRADE.zip)がおすすめです。
 
 1. ZIPを「すべて展開」し、`UPDATE_C1.cmd` を開く。
 2. 現在のゲームの `PLAY.cmd`・`runtime`・`app` があるフォルダを選ぶ。

@@ -1,0 +1,9 @@
+{
+  "file": "C1_SAFE_START.zip",
+  "bytes": 5072,
+  "sha256": "00c513e2ceebf2123792b628a90550861bb1c25746bb758e6fba3477b1325518",
+  "cmd_sha256": "8f4e86a3959e4ecd692af4de6af17ca1b0de3380df892ac8e22fb946c988f828",
+  "game_sha256": "4f65d84579be58767f51b4b67cd71c2364273225882961602671968a886761b5",
+  "no_folder_chooser": true,
+  "simulation_code_changed": false
+}
