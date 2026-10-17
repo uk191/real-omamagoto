@@ -1,25 +1,25 @@
 {
-  "source": "public unauthenticated HTTP downloads after final P0 push",
+  "source": "unauthenticated public downloads of final P0B build",
   "artifacts": [
     {
-      "filename": "C01_P0_PLAY_WINDOWS_X64.zip",
-      "url": "https://github.com/uk191/real-omamagoto/raw/refs/heads/c0-player-download/player-download/C01_P0_PLAY_WINDOWS_X64.zip",
-      "bytes": 102886393,
-      "sha256": "f09d9db8fde137ba687dccb4a68f89242d7d46a1806a85839b17813790fbce7d",
+      "filename": "C01_P0B_PLAY_WINDOWS_X64.zip",
+      "url": "https://github.com/uk191/real-omamagoto/raw/refs/heads/c0-player-download/player-download/C01_P0B_PLAY_WINDOWS_X64.zip",
+      "bytes": 102886828,
+      "sha256": "a8ee71e0a38f3719f4a1603bfa8495532010e6a4ee34bcfd37a24e157133f97d",
       "CRC": "all_pass"
     },
     {
-      "filename": "C01_P0_START_HELPER.zip",
-      "url": "https://github.com/uk191/real-omamagoto/raw/refs/heads/c0-player-download/player-download/C01_P0_START_HELPER.zip",
+      "filename": "C01_P0B_START_HELPER.zip",
+      "url": "https://github.com/uk191/real-omamagoto/raw/refs/heads/c0-player-download/player-download/C01_P0B_START_HELPER.zip",
       "bytes": 3901,
-      "sha256": "30fc16b2a87d2a03e5b5b88976d7b929c89804f8aa363d887fafe16ad015bb59",
+      "sha256": "69bba5c257f7492f58bf35217b3ffff3d3128cef49027ceb1d28a89583f22626",
       "CRC": "all_pass"
     },
     {
-      "filename": "C01_P0_CODE_AND_REPORTS.zip",
-      "url": "https://github.com/uk191/real-omamagoto/raw/refs/heads/c0-player-download/player-download/C01_P0_CODE_AND_REPORTS.zip",
-      "bytes": 1628335,
-      "sha256": "90fc7536c844b19fcb4a00dcbb193f5de8c4acd5fa270d1da5e017554d44de2e",
+      "filename": "C01_P0B_CODE_AND_REPORTS.zip",
+      "url": "https://github.com/uk191/real-omamagoto/raw/refs/heads/c0-player-download/player-download/C01_P0B_CODE_AND_REPORTS.zip",
+      "bytes": 1628851,
+      "sha256": "07053c1db4d81b330318e67b19bffa9c0c8f605f1cfd4234420e63c512fdd072",
       "CRC": "all_pass"
     }
   ]
