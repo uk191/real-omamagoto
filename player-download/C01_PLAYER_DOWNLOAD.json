@@ -1,8 +1,8 @@
 {
-  "filename": "C01_P0_PLAY_WINDOWS_X64.zip",
-  "bytes": 102886393,
-  "sha256": "f09d9db8fde137ba687dccb4a68f89242d7d46a1806a85839b17813790fbce7d",
-  "manifest_sha256": "b8201ce92fa2306197784f4109d78f7ec1c8598b9a577f83ee7882c0d6d0a876",
-  "files": 4122,
-  "uncompressed_bytes": 558023307
+  "filename": "C01_P0B_PLAY_WINDOWS_X64.zip",
+  "bytes": 102886828,
+  "sha256": "a8ee71e0a38f3719f4a1603bfa8495532010e6a4ee34bcfd37a24e157133f97d",
+  "manifest_sha256": "c6949d4bc997acaf7eb984ea8ae5e27f5dec0226cd03d3b4c866495d26dc24b9",
+  "files": 4123,
+  "uncompressed_bytes": 558023732
 }

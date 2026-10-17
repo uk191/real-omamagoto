@@ -2,29 +2,29 @@
   "version": "C-0.1-P0.1",
   "artifacts": [
     {
-      "filename": "C01_P0_PLAY_WINDOWS_X64.zip",
-      "bytes": 102886393,
-      "sha256": "f09d9db8fde137ba687dccb4a68f89242d7d46a1806a85839b17813790fbce7d"
+      "filename": "C01_P0B_PLAY_WINDOWS_X64.zip",
+      "bytes": 102886828,
+      "sha256": "a8ee71e0a38f3719f4a1603bfa8495532010e6a4ee34bcfd37a24e157133f97d"
     },
     {
-      "filename": "C01_P0_START_HELPER.zip",
+      "filename": "C01_P0B_START_HELPER.zip",
       "bytes": 3901,
-      "sha256": "30fc16b2a87d2a03e5b5b88976d7b929c89804f8aa363d887fafe16ad015bb59"
+      "sha256": "69bba5c257f7492f58bf35217b3ffff3d3128cef49027ceb1d28a89583f22626"
     },
     {
-      "filename": "C01_P0_CODE_AND_REPORTS.zip",
-      "bytes": 1628335,
-      "sha256": "90fc7536c844b19fcb4a00dcbb193f5de8c4acd5fa270d1da5e017554d44de2e"
+      "filename": "C01_P0B_CODE_AND_REPORTS.zip",
+      "bytes": 1628851,
+      "sha256": "07053c1db4d81b330318e67b19bffa9c0c8f605f1cfd4234420e63c512fdd072"
     },
     {
       "filename": "C01_RELEASE_VERIFICATION.json",
-      "bytes": 1142,
-      "sha256": "4a0766126cae4184855b3f6cb9117d9c63e5e0cbf13147698fe20db37ba0323f"
+      "bytes": 1143,
+      "sha256": "54f30c7a1f0b576e327d96b864b52570493fa6a26807c060a9fb6bcf6cf7e825"
     },
     {
       "filename": "C01_START_HELPER_VERIFICATION.json",
-      "bytes": 537,
-      "sha256": "bb14d30c9eefbf8731450d208b94e42d8f71e9a3edd7a79491e8c9b5a439534e"
+      "bytes": 572,
+      "sha256": "1397c9b0c7ca1e83e7a5363a1706080881f8a761f618236d27bbf5ff4c31d21e"
     }
   ]
 }

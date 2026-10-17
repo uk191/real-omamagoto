@@ -2,7 +2,7 @@
 
 実プレイの評価を受け、自動進行・一画面・生活ログ・状況別の選択を実装した版です。
 
-**[起動用ZIPをダウンロード](https://github.com/uk191/real-omamagoto/raw/refs/heads/c0-player-download/player-download/C01_P0_START_HELPER.zip)**（約4KB）。中の **START_C01.cmd** を開くと、本体約103MBを取得・検証・展開してブラウザを開きます。Pythonを入れる必要はありません。初回取得後はネット接続なしで遊べます。
+**[起動用ZIPをダウンロード](https://github.com/uk191/real-omamagoto/raw/refs/heads/c0-player-download/player-download/C01_P0B_START_HELPER.zip)**（約4KB）。中の **START_C01.cmd** を開くと、本体約103MBを取得・検証・展開してブラウザを開きます。Pythonを入れる必要はありません。初回取得後はネット接続なしで遊べます。
 
 1. 家庭条件を設定して「この家族の暮らしを始める」。
 2. 通常は10秒で1か月。0.5/1/2/4倍速、一時停止、手動月送りができます。
@@ -17,8 +17,8 @@
 
 ## その他の取得物
 
-- [本体ZIP・約103MB](https://github.com/uk191/real-omamagoto/raw/refs/heads/c0-player-download/player-download/C01_P0_PLAY_WINDOWS_X64.zip)：全体を展開してPLAY.cmdから起動する方法。
-- [コード・資料・画面・履歴・約1.65MB](https://github.com/uk191/real-omamagoto/raw/refs/heads/c0-player-download/player-download/C01_P0_CODE_AND_REPORTS.zip)
+- [本体ZIP・約103MB](https://github.com/uk191/real-omamagoto/raw/refs/heads/c0-player-download/player-download/C01_P0B_PLAY_WINDOWS_X64.zip)：全体を展開してPLAY.cmdから起動する方法。
+- [コード・資料・画面・履歴・約1.65MB](https://github.com/uk191/real-omamagoto/raw/refs/heads/c0-player-download/player-download/C01_P0B_CODE_AND_REPORTS.zip)
 - [保存後の独立検証](https://github.com/uk191/real-omamagoto/blob/c0-player-download/player-download/C01_RELEASE_VERIFICATION.json) ／ [起動補助の検証](https://github.com/uk191/real-omamagoto/blob/c0-player-download/player-download/C01_START_HELPER_VERIFICATION.json) ／ [SHA256](https://github.com/uk191/real-omamagoto/blob/c0-player-download/player-download/C01_SHA256SUMS.txt)
 
 A/Bの科学モデル・旧C-0を保持しています。開発者のブラウザ検査で設定、実時間進行、選択、保存・再開、24か月を通過。10家庭の実エンジン進行と3家庭の方針比較、旧13テストも確認しました。Windowsネイティブ実機は未検査です。これらは人間による面白さ評価や外部科学的妥当性の証明ではありません。

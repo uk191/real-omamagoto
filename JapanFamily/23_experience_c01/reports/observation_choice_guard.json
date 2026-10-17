@@ -1,0 +1,9 @@
+{
+  "actual_B_observation_added": true,
+  "actual_new_report_contains_crying": true,
+  "child_event_due_at_month": 2,
+  "no_other_event_masks_guard": true,
+  "not_resolved_or_snoozed_before_test": true,
+  "second_same_period_child_observation_not_offered": true,
+  "seed": "observe-guard-3"
+}

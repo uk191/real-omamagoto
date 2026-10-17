@@ -1,6 +1,6 @@
 # 再構築・保全・配布
 
-通常のプレイヤーは `C01_P0_START_HELPER.zip` だけを取得します。本書は開発再開用です。
+通常のプレイヤーは `C01_P0B_START_HELPER.zip` だけを取得します。本書は開発再開用です。
 
 ## 原本
 
@@ -34,9 +34,9 @@ python C01_player_distribution/verify_release.py
 
 ## 成果物の対応
 
-- `C01_P0_PLAY_WINDOWS_X64.zip`：実行に必要なコード・地域DB射影・Python同梱。約103MB。
-- `C01_P0_START_HELPER.zip`：自動取得・検証・展開・起動の1ファイル。約4KB。
-- `C01_P0_CODE_AND_REPORTS.zip`：ソース、実装報告、画面、10家庭の観測履歴と比較結果。巨大DBとPythonは含めません。
+- `C01_P0B_PLAY_WINDOWS_X64.zip`：実行に必要なコード・地域DB射影・Python同梱。約103MB。
+- `C01_P0B_START_HELPER.zip`：自動取得・検証・展開・起動の1ファイル。約4KB。
+- `C01_P0B_CODE_AND_REPORTS.zip`：ソース、実装報告、画面、10家庭の観測履歴と比較結果。巨大DBとPythonは含めません。
 - `C01_RELEASE_VERIFICATION.json` / `C01_START_HELPER_VERIFICATION.json`：保存済み配布物・起動補助の独立検査。
 - `C01_SHA256SUMS.txt`：別ファイルとして配布物を照合。
 

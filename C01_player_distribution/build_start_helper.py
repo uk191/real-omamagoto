@@ -24,7 +24,7 @@ exit /b %C01_RESULT%
 '''
 cmd=ROOT/'START_C01.cmd';cmd.write_bytes((header+body).replace('\r\n','\n').replace('\n','\r\n').encode('utf-8'))
 readme='''「まいにちの、あいだ。」C-0.1 P0 起動用\n\nSTART_C01.cmdをダブルクリックしてください。\nこの小さなZIPの中から直接開けます。\n初回は本体約103MBを取得し、SHA256と展開後の全ファイルを確認します。\nPythonのインストールや実行ポリシーの設定変更は不要です。\n\n開始すると10秒で1か月。相談で止まり、選択後に再開します。\n終了前に右上「保存」。次回は「保存した記録から」。\n\n保存先はローカルアプリデータ内のRealOmamagoto/C01/game/C01_Playです。\n旧C-0のインストール・セーブは上書きしません。旧記録は旧版で開いてください。\nWindows 10/11 x64用。ゲームの本格的な実ユーザー評価は、これから行います。\n'''
-archive=REPO/'artifacts/C01_P0_START_HELPER.zip'
+archive=REPO/'artifacts/C01_P0B_START_HELPER.zip'
 with zipfile.ZipFile(archive,'w',zipfile.ZIP_DEFLATED) as z:
  z.write(cmd,'START_C01.cmd');z.writestr('READ_ME.txt',b'\xef\xbb\xbf'+readme.replace('\n','\r\n').encode('utf-8'))
 with zipfile.ZipFile(archive) as z:assert z.testzip() is None

@@ -152,7 +152,7 @@ class Experience:
                 option('trim','少し抑えて暮らす','調整できる生活費の予算を基準から20%抑える。','set_spending',value=.8),
                 option('normal','通常の予算にする','予算を基準に戻す。物価や家族の条件は別途反映。','set_spending',value=1.0),
                 option('room','生活費に少し余裕を持たせる','調整できる生活費の予算を基準から15%増やす。能力や愛着への加点はない。','set_spending',value=1.15)],['A.spending_factor','A.accounts'])
-        if n in [2,8,14,20]:
+        if n in [2,8,14,20] and 'mother/observe' not in self.game.child_actions_this_turn:
             cards=v['child']['cards'];sig=next((c for c in cards if c['signal']=='crying' and c['present']),None)
             if sig:
                 event(f'child/{n}',f'{self.game.config["child_name"]}のそばで','泣いている様子が、今月の観察に残った。原因はこの記録だけではわからない。少し時間をとって関わってみる？',[

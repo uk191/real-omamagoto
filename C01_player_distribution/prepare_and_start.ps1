@@ -6,9 +6,9 @@ param(
 
 $ErrorActionPreference = 'Stop'
 $ProgressPreference = 'SilentlyContinue'
-$ExpectedArchive = 'f09d9db8fde137ba687dccb4a68f89242d7d46a1806a85839b17813790fbce7d'
-$ExpectedManifest = 'b8201ce92fa2306197784f4109d78f7ec1c8598b9a577f83ee7882c0d6d0a876'
-$DownloadUrl = 'https://github.com/uk191/real-omamagoto/raw/refs/heads/c0-player-download/player-download/C01_P0_PLAY_WINDOWS_X64.zip'
+$ExpectedArchive = 'a8ee71e0a38f3719f4a1603bfa8495532010e6a4ee34bcfd37a24e157133f97d'
+$ExpectedManifest = 'c6949d4bc997acaf7eb984ea8ae5e27f5dec0226cd03d3b4c866495d26dc24b9'
+$DownloadUrl = 'https://github.com/uk191/real-omamagoto/raw/refs/heads/c0-player-download/player-download/C01_P0B_PLAY_WINDOWS_X64.zip'
 
 function Same-Hash([string]$Path, [string]$Expected) {
     if (-not (Test-Path -LiteralPath $Path -PathType Leaf)) { return $false }
@@ -55,7 +55,7 @@ function Find-Archive {
     $folders += $InstallBase
     foreach ($folder in ($folders | Select-Object -Unique)) {
         if (-not $folder -or -not (Test-Path -LiteralPath $folder -PathType Container)) { continue }
-        $files = Get-ChildItem -LiteralPath $folder -Filter 'C01_P0_PLAY_WINDOWS_X64*.zip' -File -ErrorAction SilentlyContinue | Sort-Object LastWriteTime -Descending
+        $files = Get-ChildItem -LiteralPath $folder -Filter 'C01_P0B_PLAY_WINDOWS_X64*.zip' -File -ErrorAction SilentlyContinue | Sort-Object LastWriteTime -Descending
         foreach ($file in $files) {
             if (Same-Hash $file.FullName $ExpectedArchive) { return $file.FullName }
         }
@@ -81,7 +81,7 @@ try {
         if (-not $ArchivePath) { $ArchivePath = Find-Archive }
         if (-not $ArchivePath) {
             Write-Host 'ゲームZIPを取得しています。初回だけ約103MBをダウンロードします。'
-            $ArchivePath = Join-Path $InstallBase 'C01_P0_PLAY_WINDOWS_X64.zip'
+            $ArchivePath = Join-Path $InstallBase 'C01_P0B_PLAY_WINDOWS_X64.zip'
             $pending = Join-Path $InstallBase ('download-' + [Guid]::NewGuid().ToString('N') + '.zip')
             [Net.ServicePointManager]::SecurityProtocol = [Net.ServicePointManager]::SecurityProtocol -bor [Net.SecurityProtocolType]::Tls12
             Invoke-WebRequest -Uri $DownloadUrl -OutFile $pending -UseBasicParsing
