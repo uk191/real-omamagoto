@@ -1,0 +1,67 @@
+'use strict';
+const $=s=>document.querySelector(s), esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const yen=n=>n===null||n===undefined?'未決算':Math.round(n).toLocaleString('ja-JP')+'円';
+const shortDate=s=>s?s.slice(0,10).replaceAll('-',' / '):'';
+const S={sid:null,view:null,running:false,speed:1,remaining:10000,busy:false,last:performance.now(),logs:0};
+let toastTimer;
+function toast(message){$('#toast').textContent=message;$('#toast').classList.remove('hidden');clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('#toast').classList.add('hidden'),6000)}
+async function request(path,body){const r=await fetch(path,body?{method:'POST',headers:{'Content-Type':'application/json','X-C0-Client':'browser-v1'},body:JSON.stringify(body)}:{});const data=await r.json();if(!r.ok){if(data.view)apply(data.view);throw Error(data.error||'通信できませんでした。')}return data}
+function apply(v){S.view=v;S.running=v.playback.running&&!v.event&&!v.finished;S.speed=v.playback.speed;S.remaining=v.playback.remaining_ms;S.last=performance.now();render()}
+function gameShown(){ $('#setup').classList.add('hidden');$('#game').classList.remove('hidden') }
+async function command(name,extra={}){
+ if(S.busy||!S.sid)return null;S.busy=true;setDisabled();
+ try{const r=await request('/api/command',{sid:S.sid,revision:S.view.revision,command:name,...extra});apply(r.view);return r}
+ catch(e){S.running=false;toast(e.message);updateClock();return null}
+ finally{S.busy=false;setDisabled();updateClock()}
+}
+function setDisabled(){if(!S.view)return;for(const e of document.querySelectorAll('.transport button,.transport select,.choice,#observe'))e.disabled=S.busy;$('#next').disabled=S.busy||!!S.view.event||S.view.finished;$('#toggle').disabled=S.busy||!!S.view.event||S.view.finished;$('#observe').disabled=S.busy||!!S.view.event||S.view.finished||S.view.observe_used;}
+function updateClock(){if(!S.view)return;const paused=!!S.view.event,finished=S.view.finished;
+ $('#play-state').textContent=S.busy?'月の記録を更新中':finished?'24か月の記録':paused?'相談のため停止中':S.running?'● 自動で進行中':'Ⅱ 一時停止中';
+ $('#play-state').classList.toggle('paused',!S.running);$('#toggle').textContent=S.running?'一時停止':'自動進行を再開';
+ $('#progress-fill').style.width=(100-S.remaining/100)+'%';$('#speed').value=String(S.speed);
+ $('#hint').textContent=finished?'24か月の暮らしが記録になりました。保存して、また振り返れます。':paused?'右側の相談から選んでください。選んだあと、自動進行へ戻れます。':S.running?`次の月まで 約${Math.ceil(S.remaining/1000/S.speed)}秒。気になるときは、いつでも一時停止。`:'止まっている間に記録を読んだり、方針を考えたりできます。';
+}
+function chart(values){const w=260,h=34,min=Math.min(...values),range=Math.max(...values)-min||1;const points=values.map((v,i)=>`${values.length===1?0:i/(values.length-1)*w},${h-3-(v-min)/range*(h-7)}`).join(' ');return `<svg viewBox="0 0 ${w} ${h}" role="img" aria-label="現金残高の推移"><path d="M0 ${h-1} H${w}" stroke="#dde2d5"/><polyline points="${points}" fill="none" stroke="#839a78" stroke-width="2"/></svg>`}
+function render(){const v=S.view,m=v.metrics;gameShown();$('#date').textContent=v.date.slice(0,7).replace('-','年 ')+'月';$('#age').textContent=`${v.child_name} · ${v.age_months}か月 / 生後${v.age_days}日`;
+ $('#family-title').textContent=v.child_name+'の家族';$('#location').textContent=v.household.municipality+' · '+v.household.family_size+'人暮らし';
+ $('#parents').innerHTML=v.parents.map(p=>`<div class="parent"><strong>${esc(p.name)}・${esc(p.given_name)} <span class="muted">${p.age_years??'—'}歳</span></strong><p class="muted">${esc(p.education||'学歴の記録なし')}<br>${esc(p.occupation||'職業の記録なし')}</p><div class="work-line"><span>${esc(p.status)}</span><b class="hours">${p.weekly_hours===null||p.weekly_hours===undefined?'未決算':Number(p.weekly_hours).toFixed(1)+'h/週'}</b></div></div>`).join('');
+ $('#care').textContent=v.household.care.status;$('#relative').textContent=v.household.care.relative_confirmed?'身近な人の支援も利用中':v.household.care.relative_requested?'支援を相談したが、今回は利用に至らず':'';
+ $('#growth').innerHTML=v.child.observed_growth.length?v.child.observed_growth.map(r=>`<div class="growth-item"><time>${esc(shortDate(r.date))}</time>${r.notices.map(esc).join('<br>')}</div>`).join(''):'<p class="small muted">気づいた変化を、ここに残します。</p>';
+ const journal=$('#journal'),top=journal.scrollTop,atBottom=journal.scrollHeight-top-journal.clientHeight<80;
+ journal.innerHTML=v.logs.map(l=>`<article class="log" data-category="${esc(l.category)}" data-log-id="${esc(l.id)}"><div class="log-top"><time>${esc(shortDate(l.date))}</time><span class="log-category">${esc(l.category)}</span></div><p>${esc(l.text)}</p>${l.fictional_staging.length?'<div class="log-source">状態・観察に基づく記録／時刻・情景には演出を含みます</div>':''}</article>`).join('');
+ if(atBottom||S.logs===0)journal.scrollTop=journal.scrollHeight;else journal.scrollTop=top;S.logs=v.logs.length;
+ $('#log-count').textContent=v.logs.length+'の記録';$('#cash').textContent=yen(m.cash_yen);$('#cash-delta').textContent=v.history.length<=1?'開始時点':(m.cash_delta_yen>=0?'+':'−')+yen(Math.abs(m.cash_delta_yen));$('#cash-delta').classList.toggle('negative',m.cash_delta_yen<0);
+ $('#cash-in').textContent=yen(m.cash_in_yen);$('#cash-out').textContent=yen(m.cash_out_yen);$('#cash-chart').innerHTML=chart(v.history.map(x=>x.cash_yen));$('#unpaid').textContent=m.unpaid_yen?'期限の来た未払い '+yen(m.unpaid_yen):m.asset_transfer_yen?'資産から現金への振替 '+yen(m.asset_transfer_yen):'';
+ $('#budget-period').textContent=v.household.budget.period?v.household.budget.period.start.slice(0,7)+' の決算':'開始時点';
+ const event=v.event;$('#event-panel').classList.toggle('active',!!event);
+ if(event){$('#event').innerHTML=`<h3>${esc(event.title)}</h3><p>${esc(event.text)}</p><div class="choices">${event.options.map(o=>`<button class="choice ${o.id==='later'?'defer':''}" data-choice="${esc(o.id)}"><strong>${esc(o.label)}</strong><small>${esc(o.description)}</small></button>`).join('')}</div><p class="event-timing">${esc(event.resolves_at)}</p>`;for(const b of document.querySelectorAll('[data-choice]'))b.onclick=async()=>{const r=await command('choose',{event_id:event.id,choice_id:b.dataset.choice});if(r)toast('方針を記録しました。相談が残っていなければ、再開できます。')};}
+ else{$('#event').innerHTML=`<div class="empty"><div class="line-art">⌂</div><h3>${v.finished?'この家族の、24か月。':S.running?'暮らしの途中です。':'ひと息、つく時間。'}</h3><p>${v.finished?'家族の記録は残っています。保存してから、別の家族の暮らしも始められます。':v.queue.length?'選んだ希望は、次の暦月決算へ送ります。受け付けられるかと、実現するかは別です。':'いま、急いで決めることはありません。子どもの様子を見ながら、いつもの生活を続けます。'}</p>${!S.running&&!v.finished?'<button class="primary event-next" id="event-resume">この方針で自動進行を再開 →</button>':''}</div>`;if($('#event-resume'))$('#event-resume').onclick=resume;}
+ $('#queued').classList.toggle('hidden',!v.queue.length);$('#queued').textContent='次期へ送る希望：'+v.queue.map(x=>x.label+(x.person?'（'+x.person+'）':'')).join(' / ');
+ updateClock();setDisabled();
+}
+async function resume(){await command('playback',{running:true,speed:S.speed,remaining_ms:S.remaining})}
+$('#toggle').onclick=()=>command('playback',{running:!S.running,speed:S.speed,remaining_ms:S.remaining});
+$('#speed').onchange=e=>command('playback',{running:S.running,speed:Number(e.target.value),remaining_ms:S.remaining});
+$('#next').onclick=()=>command('advance');
+$('#save').onclick=async()=>{const clock=await command('playback',{running:S.running,speed:S.speed,remaining_ms:S.remaining});if(!clock)return;const r=await command('save');if(r){localStorage.setItem('c01.lastSlot',r.saved.slot);toast('保存しました。起動画面の「保存した記録から」で再開できます。')}};
+$('#observe').onclick=async()=>{const r=await command('observe');if(r)toast('そばで見えた場面を、生活ログに記録しました。')};
+$('#new-game').onclick=async()=>{const r=await command('playback',{running:false,speed:S.speed,remaining_ms:S.remaining});if(r){$('#game').classList.add('hidden');$('#setup').classList.remove('hidden');S.running=false;toast('この家族を残したい場合は、戻って保存してください。');const b=document.createElement('button');b.type='button';b.textContent='いまの家族へ戻る';b.onclick=()=>{gameShown();b.remove();render()};$('#save-list').replaceChildren(b)}};
+$('#show-saves').onclick=async()=>{try{const r=await request('/api/saves');$('#save-list').innerHTML=r.saves.length?r.saves.map(x=>`<div class="save-entry"><span>${esc(x.child_name)} · ${esc(x.date)} · ${x.age_months}か月</span><button data-slot="${esc(x.slot)}">この記録から再開</button></div>`).join(''):'<p class="small muted">この版の保存記録は、まだありません。旧C-0の記録は旧版で開いてください。</p>';for(const b of document.querySelectorAll('[data-slot]'))b.onclick=async()=>{if(S.busy)return;S.busy=true;try{const r=await request('/api/load',{slot:b.dataset.slot});S.sid=r.sid;S.logs=0;apply(r.view);toast(S.running?'保存した速度で、自動進行を再開しました。':'保存した一時停止の状態から再開しました。')}catch(e){toast(e.message)}finally{S.busy=false;setDisabled();updateClock()}}}catch(e){toast(e.message)}};
+$('#family').onchange=()=>{const single=$('#family').value==='single';for(const e of $('#father-fields').querySelectorAll('input,select'))e.disabled=single;$('#father-fields').style.opacity=single?'.4':'1'};
+for(const who of ['mother','father']){const emp=$(`[name=${who}_employed]`);emp.onchange=()=>{const occ=$(`[name=${who}_occupation]`);if(emp.value==='false'){occ.value='';occ.disabled=true}else occ.disabled=who==='father'&&$('#family').value==='single'}}
+$('#start-form').onsubmit=async e=>{e.preventDefault();if(S.busy)return;S.busy=true;$('#start-button').disabled=true;$('#start-button').textContent='統計モデルから、この家族を生成しています…';$('#setup-error').textContent='';
+ try{const f=new FormData(e.target),conditions={partner_present:f.get('family')!=='single'};if(!conditions.partner_present)conditions.legal_status='nonmarital';
+ for(const key of ['birth_rank','mother_age','father_age','mother_education','father_education','mother_employed','father_employed','mother_occupation','father_occupation']){const val=f.get(key);if(val!==null&&val!=='')conditions[key]=key.endsWith('_employed')?val==='true':key.endsWith('_age')||key==='birth_rank'?Number(val):val;}
+ if(f.get('annual_income')!=='')conditions.household_income_yen=Math.round(Number(f.get('annual_income'))*10000);
+ const b={prefecture_code:f.get('prefecture_code'),environment:f.get('environment'),birth_date:f.get('birth_date'),child_name:f.get('child_name'),conditions};
+ if(f.get('initial_cash')!=='')b.initial_cash_yen=Math.round(Number(f.get('initial_cash'))*10000);
+ const r=await request('/api/start',b);S.sid=r.sid;S.logs=0;apply(r.view);toast('暮らしが始まりました。10秒で1か月、自動で進みます。');}
+ catch(e){$('#setup-error').textContent=e.message}
+ finally{S.busy=false;$('#start-button').disabled=false;$('#start-button').textContent='この家族の暮らしを始める →';setDisabled()}
+};
+$('#details').onclick=async()=>{if(S.running){const r=await command('playback',{running:false,speed:S.speed,remaining_ms:S.remaining});if(!r)return;}const v=S.view,m=v.metrics;$('#detail-content').innerHTML=`<div class="detail-block"><h3>今期の家計</h3><p>入金・支払いは実際の現金移動。資産振替や借入は収入と区別します。未収・未払いを含む発生ベースの収支とも異なります。</p><table><tr><td>発生ベースの収入</td><td>${yen(m.recognized_income_yen)}</td></tr><tr><td>発生ベースの支出</td><td>${yen(m.recognized_expense_yen)}</td></tr><tr><td>生活費</td><td>${yen(m.consumption_yen)}</td></tr><tr><td>家賃</td><td>${yen(m.rent_yen)}</td></tr><tr><td>定期性預金</td><td>${yen(m.term_yen)}</td></tr><tr><td>有価証券</td><td>${yen(m.securities_yen)}</td></tr></table><p>調整可能な生活費の係数：${m.spending_factor} ／ ${esc(v.environment.label)}</p></div><div class="detail-block"><h3>現金の増減の内訳</h3><table>${m.cash_trace.map(t=>`<tr><td>${esc(t.label)}</td><td>${t.delta_yen>0?'+':''}${yen(t.delta_yen)}</td></tr>`).join('')}</table></div><div class="detail-block"><h3>選んだこと</h3>${v.choices.map(c=>`<p>${esc(c.date)}：${esc(c.label)}<br>${esc(c.description)}</p>`).join('')||'<p>まだ方針を選んでいません。</p>'}</div><div class="detail-block"><h3>文章はどこから来たか</h3><p>行動の事実は観察API、家計・就業・申請はAモデルの確定状態に基づきます。親の呼び名、時刻、居間、小物、記録を開く仕草は演出です。モデルにない能力・病気・感情・制度や施設を付け足しません。</p>${v.logs.slice(-5).map(l=>`<p><b>${esc(l.id)} · ${esc(l.category)}</b><br>${esc(l.evidence)}<br>${esc(JSON.stringify(l.source_refs))}</p>`).join('')}</div><div class="detail-block"><h3>この版で計算できていないこと</h3><p>${Object.values(v.limits).map(esc).join('<br>')}</p><p>健診の実測値、離乳食の進み方、感染症、突発的な修理費、投資運用、転居費用は今回の選択肢には加えていません。</p></div>`;$('#detail-dialog').showModal()};
+$('#close-details').onclick=()=>$('#detail-dialog').close();
+setInterval(async()=>{const now=performance.now(),elapsed=Math.min(now-S.last,1000);S.last=now;if(!S.view||!S.running||S.busy||$('#game').classList.contains('hidden'))return;S.remaining=Math.max(0,S.remaining-elapsed*S.speed);updateClock();if(S.remaining<=0)await command('advance')},100);
+// Reading a detail panel does not consume simulation randomness. Pause to read it.
+$('#detail-dialog').addEventListener('close',()=>{});
+(async()=>{try{const r=await request('/api/catalogue');$('#prefecture').innerHTML=r.prefectures.map(p=>`<option value="${p.code}" ${p.code==='13'?'selected':''}>${esc(p.name)}</option>`).join('');const opts=xs=>xs.map(([k,v])=>`<option value="${k}">${esc(v)}</option>`).join('');for(const el of document.querySelectorAll('.education'))el.innerHTML=opts([['','おまかせ'],['1','小学・中学'],['2','高校'],['3','専門・短大・高専'],['4','大学・大学院']]);for(const el of document.querySelectorAll('.employment'))el.innerHTML=opts([['','おまかせ'],['true','就業あり（休業は別）'],['false','就業なし']]);for(const el of document.querySelectorAll('.occupation'))el.innerHTML=opts([['','おまかせ'],['01','管理'],['02','専門・技術'],['03','事務'],['04','販売'],['05','サービス'],['06','保安'],['07','農林漁業'],['08','生産工程'],['09','輸送・機械運転'],['10','建設・採掘'],['11','運搬・清掃・包装']]);}catch(e){$('#setup-error').textContent=e.message}})();

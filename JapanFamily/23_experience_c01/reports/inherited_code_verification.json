@@ -1,0 +1,976 @@
+{
+  "basis": "C0_CODE_AND_REPORTS.zip",
+  "files": [
+    {
+      "path": "JapanFamily/08_sampler/export_runtime.py",
+      "sha256": "ea52b4cfd664817f77645a5cf1bdc98646650bec8bb67244016af4a5243037fc",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/08_sampler/region.py",
+      "sha256": "caf6caa43accd8a393775335c058f54a095020241432e89d064edbbb4db6c265",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/08_sampler/runtime.py",
+      "sha256": "036944fffb24409462c0663eebca0ba7a5ba530cf34869b02bc62c9caa08b5fa",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/13_family/acquire.py",
+      "sha256": "32ed851d03e5764df00dbe8f5f8ac5201d561e035eba6fbeba89c5117a7f0a7e",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/13_family/api.py",
+      "sha256": "edd6bc5b761acda800717e5f97fa820a5b55b28eb75b8691ec52138ce27e702b",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/13_family/augment.py",
+      "sha256": "25cc2d920f31f4963166dec0384a1cd0a2926247c6fce8a5ab9469f0c26feb2d",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/13_family/catalogue.py",
+      "sha256": "23808558c34cb2e05479871f3b0117d18bba61850b58df6b67ea5040963592e0",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/13_family/check_api.py",
+      "sha256": "82cd8d9204e4b525c246e70899cd780cf0bd49e11007018019561b0d18c926a5",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/13_family/compare_region_frames.py",
+      "sha256": "a82fb6581f71f6fedb9d4a49b95e41c6ce8d34c9f400db227eb4dd680bbf8242",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/13_family/compile.py",
+      "sha256": "3a21abc665f6f11af87118b69d54542cfbb64a16cb13be31774aa5cf2a696b7b",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/13_family/data/A1_observation_baseline.json",
+      "sha256": "bac8a71818bfb484c707d4b647644200f3812c55976a10f9f1b625e8ec3d55ab",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/13_family/data/acquisition_manifest.json",
+      "sha256": "3da1f586e60cd88b3232b9581a5c69095ac9712fe77eb128e7fadb555f7d539f",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/13_family/data/acquisition_manifest_frozen.json",
+      "sha256": "56ef81239b63d12604421f46a94cd11bf631c678ea8c4bd690884e3d680b0e45",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/13_family/data/coverage_summary.json",
+      "sha256": "f12b0cd4c952b57612f6aa7396faa2a925db48e82fe590f3931b397f2c301ff5",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/13_family/data/finance_3-32-1_reference_cells.json",
+      "sha256": "433d05c37fa42cfbde0de0d937d7eb047960b782ad246e70c57fcf84c7cb58dc",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/13_family/data/finance_7-101-1_reference_cells.json",
+      "sha256": "74d7331a8d4746fc56f1370485742a3c295624acef448507f4010c74fcf80064",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/13_family/data/finance_7-91_reference_cells.json",
+      "sha256": "1a5973b8672f3b663d3b1802bddd0a747266b128dca7d364fad67ae7d5cafedc",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/13_family/data/finance_catalogue.json",
+      "sha256": "6d082c6d32cd0bf8cca7bba8c43d6137494d25e99217ce5dbde51d74deab675f",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/13_family/data/finance_extra_manifest.json",
+      "sha256": "d0969474adbcab64d3dadf30b7564ed5014568803a952042d4fdcbb19f45aac6",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/13_family/data/first_example.json",
+      "sha256": "f8e0c0fda50ee8772b0093469150f5493cfc21315a64842aebfb98ba311fca3a",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/13_family/data/kernel_inventory.json",
+      "sha256": "a45470369e7d5dad07e96f54fccad356f73dcae17a05fc7b2ce002c3fd2f678c",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/13_family/data/kernels.json.gz",
+      "sha256": "b6c0b0a9e44ea6d1e50b2e9584a4bf142e0feed156effd006b87b7ca96f98d36",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/13_family/data/output_schema.json",
+      "sha256": "769f1fb0f8fcb5ffca6f7423f149a68fc95e449f98dab2c8016167480e89f39e",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/13_family/external_diagnostics.py",
+      "sha256": "2ca42e108f64041a2dec3e8c4d10c25fa34aa8229acf1cf5bd9a05b99f66caf0",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/13_family/family.py",
+      "sha256": "6b9f339d21b598a0e9fcbc8504f34520e6d213b023d5c732605f938bfde6f6d9",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/13_family/finish_report.py",
+      "sha256": "5e9cba883eb4033f30a61cfdd1a1ce66410c269e279399061109976b1796560e",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/13_family/install_kernels.py",
+      "sha256": "cd65f0325b765c3762af3257dcba2f12d0c13bc4bd5345ad8abe655c1ff1bf4e",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/13_family/reference_tables.py",
+      "sha256": "3bf544b3ff4d2633e1bad4bbc210f6978178c4cbedbb52b03c11e0793bb4c43b",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/13_family/release_checks.py",
+      "sha256": "f62d65688fa0dc09ece3d6c14667933b97cf266f1a28d8281bc9f9938df5ed85",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/13_family/tables.py",
+      "sha256": "173a40d0415d98e73994fe664aae61d273df7848011825cb4430b85017383c8f",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/13_family/validate.py",
+      "sha256": "c1cf42985d309a56b2f99d073235fc0dc08f81c91ce7f47e8e7df8afe60efddf",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/15_initial_state/accounting.py",
+      "sha256": "46c6923143b60c58ffc5d12332b7d2f5c31145d0d44680242ad4e6e39f5b1ac7",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/15_initial_state/acquire.py",
+      "sha256": "409d5c35838622a27e11dcc732a19dd271778d578555194e7a22d523ad518ca6",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/15_initial_state/api.py",
+      "sha256": "cbece731e7330bca80f6a81f2b666ac14c67d0610d354495e06d63c7b3e5bab3",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/15_initial_state/backlog.py",
+      "sha256": "cc27ff3fdfaf1ca087262e75ea0df01bb3456fec414564019aa43c22e0ad10ed",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/15_initial_state/build_report.py",
+      "sha256": "e23e43380c3e000dab2e160a6ad761003de40b17c2f61cf6c74e2ce5837a9360",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/15_initial_state/catalogue.py",
+      "sha256": "7c94d044599bd437364a16d631e6b69bd592acd08f17cbad44e2f0ada5bf1d8f",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/15_initial_state/check_model.py",
+      "sha256": "f78716a04280069baf0ae6b1521d12849b095ff726a175299e52bcb5fb08f060",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/15_initial_state/check_schema.py",
+      "sha256": "7a6c0684350881ead33c0a42387101c91e1c85e5fab703eb1b9521e6b88884e9",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/15_initial_state/compile.py",
+      "sha256": "43c184d6021b23bd697de8a3715856cf56bb5cba911eb3e15742517a6d3690d0",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/15_initial_state/data/acquisition_attempts.json",
+      "sha256": "f1737961f78ac89ef6ce50112b9c7597691bcd8a497f6100eb4ce28d303a038d",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/15_initial_state/data/backlog_505_A25.json",
+      "sha256": "12eecaf5f15411fafe559fa41157795a55496f930a011f14429c3517df3a9327",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/15_initial_state/data/baseline_audit.json",
+      "sha256": "c6f09a3e0c364877375de409d2261b9effc78ec6364c66ff2d92087cdde830f9",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/15_initial_state/data/example_requests.json",
+      "sha256": "7d701ae1ffef70f725899b5da10cc5b7f934bc6d74b11e84d7eb7dc0e8f334ae",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/15_initial_state/data/expanded_catalogue_A25.json",
+      "sha256": "32f62bb72b3d2f37dd18bcd25d6d42703df276d9db49020022f46465dadacbe2",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/15_initial_state/data/first_partial_state.json",
+      "sha256": "c6c87a6965ed8379c486cab1212e161a978cc8293284d44a99ac692a86f85c2e",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/15_initial_state/data/initial_state.schema.json",
+      "sha256": "c667a6266d7fd4be45ff0b92130c5d67b2556b1c9a399cd752f2a61b2d0a9afb",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/15_initial_state/data/sources.json",
+      "sha256": "7faf2bbbc4fe656f3899ac89a3adab76d8bba33019249359f993b9576cf8ce9a",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/15_initial_state/data/state_kernels.json",
+      "sha256": "408b66a8f0f81a28741465fb6b9e6ae4ecad4075f31d7718b3b968d80e103946",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/15_initial_state/estimators.py",
+      "sha256": "2fecca854633037889607e328c7a293ff6f806ca801b7a58171436b4151cc624",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/15_initial_state/examples.py",
+      "sha256": "b445f351efadf9b68be0e20b2e17f3f6a69c565416a0c141ace436de2649167e",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/15_initial_state/external.py",
+      "sha256": "825c13ccf84b96953077f588c1d05cffdb7268dca3f48f7f8a4605a04725d04e",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/15_initial_state/initial_state.py",
+      "sha256": "20f6cfce4cd8a0961758dc77519a707753222b3d47a4be2fc98a63c34f2b74d4",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/15_initial_state/install.py",
+      "sha256": "384f5aa47832e43e1458adca9bf1724d50f4103ab73831ac84324743a1493d9d",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/15_initial_state/legacy_regression.py",
+      "sha256": "cbdbcfb55f1c5f18bff73f4448d7396d96be002a6ef11bca484213640ec0fec3",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/15_initial_state/municipal.py",
+      "sha256": "693d3d7734156f2dc97b501bf6b49ab6df803f10c34dc40d85e570a19084eea7",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/15_initial_state/package.py",
+      "sha256": "de9a2ad88f9a5dd955d17ab9ba3b6f7937b18ffc1b876fa21423b75f50bcf4fd",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/15_initial_state/policy.py",
+      "sha256": "f9edc4ce6fc0827d4c40320a62d99d83c7889fea9f18e81036284e28aef4436a",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/15_initial_state/roster.py",
+      "sha256": "d3c49e52e7dad46a8c921184183ca1f5b4ced691e715855cd70268b6d89fff91",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/15_initial_state/sensitivity.py",
+      "sha256": "153cf0cf39cfaf999f69fdfceec2f9da68079aa6d2798015c09e019e173d9dc3",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/15_initial_state/tests.py",
+      "sha256": "b7f80ec1372d23b0e82a95723ca7dc4db126d4e59bd0774d281396386429baaf",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/15_initial_state/transport.py",
+      "sha256": "602fcb59776296b1bf37ea0b15c0c92e02d4c84e4e59be3f2e484412024c50ad",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/15_initial_state/validate.py",
+      "sha256": "ced02b661739874a303a3a485198b59765a022237b2980574a090914ef92224e",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/16_recovery/acquire.py",
+      "sha256": "d26a76ef60b36b7884817e531ee2d01a834ff84a735fcef534462d8976e0038a",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/16_recovery/api.py",
+      "sha256": "282061755c4cc0c5e2f3e9d61f0e083b3941c4b8d6dfbffb8a8ccebaa33283f4",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/16_recovery/catalogue.py",
+      "sha256": "a652217755b0dbc7b226c10287669858a1a41ff8bcd14f7e292afcd1abc77bc4",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/16_recovery/check_asset_quantiles.py",
+      "sha256": "5dc576db800ec913f75331fb31934a849283aa6be404255c5aa8be83febe72d8",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/16_recovery/compile.py",
+      "sha256": "aad81caf94ca8f96989bfb3cdd62c29bed85fca0c8f9d755d1715de9104c1af8",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/16_recovery/data/backlog.json",
+      "sha256": "12eecaf5f15411fafe559fa41157795a55496f930a011f14429c3517df3a9327",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/16_recovery/data/birth_fees.json",
+      "sha256": "f1d0b5c6083845bad2c24bfad5e5a6e5ea1751b4e506e8bfe8b116819808d1a6",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/16_recovery/data/examples.json",
+      "sha256": "96d9ccb59ad255f30d07c507e3a9508cc8a1c2aaa9f2f142c498b788824a3dcd",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/16_recovery/data/expanded_catalogue.json",
+      "sha256": "12955c421f88e9edf928eb39d2fb24aab5ee7e05a439224dfc7f478abdd4d1f7",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/16_recovery/data/inherited_code_hashes.json",
+      "sha256": "b5e73c2ea10b014f74ebbed4f23cecda5a9bd4f86473c29ec83a58069943a456",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/16_recovery/data/kernels.json.gz",
+      "sha256": "144350e5ecce6a48a1d589d464f99eb0b998a808cff3a83f8582ae7a6c6d7166",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/16_recovery/data/sources.json",
+      "sha256": "d2b8e6c1c6ad11667bf61b4ada921e58d58ab3866b1e0c7b2979a4e547e24576",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/16_recovery/experiments.py",
+      "sha256": "a01f0eaddd865349b074197b7219bb2ced81a4e079c4de1b87d7332c2fb14810",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/16_recovery/external.py",
+      "sha256": "53554d68ad1aa0730840be6e67b744e7943cadaaaa6ffab66bfd10d39de4fcc6",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/16_recovery/install.py",
+      "sha256": "b9411901189f2fa9976f23f6d49fa13cfaf18330d259ca0044a65927ca89b876",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/16_recovery/model.py",
+      "sha256": "a649f805327849cbc6ccd440195fc5c7503957a7662fceac70394cbafb94d58b",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/16_recovery/parallel_validate.py",
+      "sha256": "898c7171bba2b433ef35dd91c30522c9dc9594b9d179f19ad84711d1923e293e",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/16_recovery/release.py",
+      "sha256": "4addbd8602b74d2e791c7b9a78b1a853ed5a61a4ee9fb1aabc979622b9329366",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/16_recovery/tests.py",
+      "sha256": "8f963553d897fcfbf8af66ba0945f7e956a14b2e05f32f8d6fefe43a9acd6fa4",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/16_recovery/validate.py",
+      "sha256": "6810598c8ed4877964ca3fc8bbbf9aab6f435efb6106a3c225977a3c85e009d7",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/18_monthly_v02/acquire_v02.py",
+      "sha256": "0df758e46e1ec06bd20ab16df8d3ac797ef92c2eeca45ff6c87339eff571f5c6",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/18_monthly_v02/analyze_v02.py",
+      "sha256": "b20107b03e86145292682ba88b6c15ab8f662d55a3aaacf2a12ae2e51a8798ed",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/18_monthly_v02/api.py",
+      "sha256": "e49af701f5c852edc984abced069f074455808723d10bba1a37eb7c28b835e63",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/18_monthly_v02/audit_baseline.py",
+      "sha256": "c2cccc1c8b09cddcf80d75084e4ae9d48391a23b4825a405227ac0bf78f9950a",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/18_monthly_v02/cash_rules.py",
+      "sha256": "ea7a0c366d7336ba09d9ae51d53a278c2c8079c67643e6defc9c12dee0003b9c",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/18_monthly_v02/catalogue_v02.py",
+      "sha256": "b93d49536c92ccc11ceb9f3d35d9f0ae2b1d89be1cddebb074b75b8d4ea33db0",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/18_monthly_v02/common.py",
+      "sha256": "1488da08463dc3b132966f6903630895f4df26028bb692bd12a8fae411ca16f7",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/18_monthly_v02/compile_v02.py",
+      "sha256": "4390a0265cdee444ad02d790cb8e90085b62bb69f30df1e93b88a970fdad4e3c",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/18_monthly_v02/data/action.schema.json",
+      "sha256": "ee836f553e149890e4bf13e73288c68252fb71b62b2fed09f13a6f62f134a7ec",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/18_monthly_v02/data/backlog_v02.json",
+      "sha256": "0e1a45c5a24269ac422ed12b362cbf0647f5fb38a2913d265405377fbd0c7a3e",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/18_monthly_v02/data/conditional_budget.json",
+      "sha256": "a0d68c75fd32765a76ab3fb20dda2a945eddf5aed731a4ec9539fe19907ad2f1",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/18_monthly_v02/data/employment_conditionals.json",
+      "sha256": "1169bd2abbe0917cae4db448805ab65d74e86a623f399ab8fac5fbfb6610a930",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/18_monthly_v02/data/inherited_v01_backlog.json",
+      "sha256": "800f3e49dbc2eaf3f455ad8e2ad4ef3812ce78a8af12f64386be27bc8ad154cc",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/18_monthly_v02/data/inherited_v01_inheritance.json",
+      "sha256": "e85200577a4c4dad70a05d1d3061cd8d686e56edc82834d1b8bbc4d7df3e4ae5",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/18_monthly_v02/data/inherited_v01_rule_catalogue.json",
+      "sha256": "40e2f4343c6ed09097741b483fe82d29da23e9deee92aaa9d4f4e7a67f6009f4",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/18_monthly_v02/data/inherited_v01_sources.json",
+      "sha256": "6a6a250cd70253e99fd5f616ecae7f7c5367f53202d6e1721511db3e98fcf57b",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/18_monthly_v02/data/inherited_v01_variable_catalogue.json",
+      "sha256": "893765222275c2724134c15e4a957ae6533e6a75b5fa57dfe9d8b48b9eda1552",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/18_monthly_v02/data/kernels.json",
+      "sha256": "2df0133516d9968c61245fa7534202583f55fe5cb7cb453a791125937a824e14",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/18_monthly_v02/data/release_expectations_v02.json",
+      "sha256": "0154bc53e610b5b079f6d494588e781d06c8ae64c6c70f35abaa290c4148591a",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/18_monthly_v02/data/source_registry_v02.json",
+      "sha256": "e8d2863899d2b1408073dcc8c621713a694c5932fe38ad459c852a1461052d4a",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/18_monthly_v02/data/sources_v02.json",
+      "sha256": "96a5ac658fa2acf59b0ec999ad0a8ba5a95c414387f86f32255ad5e9162ad567",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/18_monthly_v02/data/state.schema.json",
+      "sha256": "6d8ccbbfc1426cd1251c038b03de1bdf09f91bd22165e65ad40ad4d391a01c72",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/18_monthly_v02/data/variable_registry_v02.json",
+      "sha256": "22fe62e36a995b1938ed549abfda471d27487de0bcebcf6f86f9c0174235f7e1",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/18_monthly_v02/engine.py",
+      "sha256": "ab88611c20d670251dbaeea3b9f2e3fa8b8cc7e92199f1438314be96a71c75dc",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/18_monthly_v02/environment.py",
+      "sha256": "bf6c1744788a9aebb3958a1a521522e00715c2cbb3dcd608544daf06fac98586",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/18_monthly_v02/experiments_v02.py",
+      "sha256": "3b8b5e03a54419d7ad9899e9f89305a2b0e0e99f74f88ac1aac9ba7e54df9963",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/18_monthly_v02/install_v02.py",
+      "sha256": "4085ca7d719196198a19962661bdc1c90f9e5db92cf9003c99522ce2ca3943fb",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/18_monthly_v02/ledger.py",
+      "sha256": "bd7e9bf49acb69aeefc144ceed86bcebba4de03a36c77cc0687fe80d7467120a",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/18_monthly_v02/package_v02.py",
+      "sha256": "910384420fb60e612b944712cec25a9804b862d9fdcf2c17e07dd22df6e0c722",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/18_monthly_v02/provenance.py",
+      "sha256": "ea24892f4a2cbb43088906f3725d32bd6129b7f8771dab4338380465180e09ef",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/18_monthly_v02/realism.py",
+      "sha256": "b219f965f6d419ceff2d479e094154d47f12bf9a0e7ad0cb4ef626939243c68e",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/18_monthly_v02/regression_replay_v01.py",
+      "sha256": "74ad5ed825dcfc5e86b24d69c7f78640d9c7062e6cd3058ecf690ff99ae54fa4",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/18_monthly_v02/replay_v02.py",
+      "sha256": "08f7f63261a622da6edc67c578ea438ddfdfe52ce766e7340f8d8c9ff7f7965b",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/18_monthly_v02/report_v02.py",
+      "sha256": "c7354378f0237f60995ce8392c552c0ac8221f789cf2bd6cdc3713f4b0c831f5",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/18_monthly_v02/rules.py",
+      "sha256": "642f5ca70a4231ff1d2e24f05df70a14f79bb98a5c44d4cc75a5dc1ef43bb7f5",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/18_monthly_v02/tests.py",
+      "sha256": "b76e84989977673993cfd48e83a724c653d4000410ff1bcc5f2afbd3d38ead4c",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/18_monthly_v02/tests_extra.py",
+      "sha256": "dbda9fbe811d5c99b9fbf40bb104cd06fcaf26e959b1317ae7b29337249d1ef7",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/18_monthly_v02/tests_v02.py",
+      "sha256": "e2750034ed8a8a2cde13aab2827557262451bbef47cfcdfdf837df616065e62a",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/18_monthly_v02/time_budget.py",
+      "sha256": "a1f30967941e4df1aed28f2df4d259b566d623dd9c9d46f162e17e2a02ffef9d",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/18_monthly_v02/validate_v02.py",
+      "sha256": "c7ac7a324b6854cc865e301e6f645a86da0bd73ec742856f51f1870e0bdd0658",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/18_monthly_v02/verify_release_v02.py",
+      "sha256": "d6136866dfea01faf0f453603d5ba81cb59ef449cb97c85328e7d8bc873d6c28",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/19_child_b10/child_b10/__init__.py",
+      "sha256": "c5473938ee5931503ba7dd9d6213e31547b752ca09559c6ffaa2d3d9997b5f72",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/19_child_b10/child_b10/adapter_a3.py",
+      "sha256": "4cd243b850acacc2b61b83236fa52fb3588bc2f4d4fe86884296f96a0e09b51a",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/19_child_b10/child_b10/engine.py",
+      "sha256": "c4c2dec89b578662151c6f139797f94462821d54bc7ba1efa0d5f4a0bf4e8df6",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/19_child_b10/child_b10/growth.py",
+      "sha256": "6d1c7f1e32711988dca5f053bafc181ca47919d7cd16e01c60dcb6baef201f44",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/19_child_b10/child_b10/japan_reference.py",
+      "sha256": "73f2516362ed2a5973b7eb1e88a274f59b03e8481d2283e40b0a7b5ee61a6a65",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/19_child_b10/child_b10/player_api.py",
+      "sha256": "aea02594aca273c4bd249d7922a4f76a59081eb55f6a8c0be5938a7830bb7631",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/19_child_b10/child_b10/randomness.py",
+      "sha256": "42b6c7f6238778039a968a25d1164415c16b502dd51474098d9a7602df3a1537",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/19_child_b10/child_b10/storage.py",
+      "sha256": "64cbc2d31c911324b2ecdaa11b81974393ced2c11db52a02e8198e5c89566ff1",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/19_child_b10/data/backlog.json",
+      "sha256": "ae8fbde708e461881240814d3dc5bc0cc7fe7509b22c69c212d919003e60d091",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/19_child_b10/data/correction_acquisition.json",
+      "sha256": "ac787eb1bbfd9f676f22b91c29cea231f322bed6bada38e4fd6cb987cdc80fd3",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/19_child_b10/data/estat_listing_metadata.json",
+      "sha256": "6339a4449a2ec2db6bbc73af2338ee0c41e4a15cc71ca6f027671c0d74bdcf95",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/19_child_b10/data/evidence_classes.json",
+      "sha256": "5746df3d5f0ef9ab89b234ad9215e61d248db14560994d93fd69de72ffa1ffbf",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/19_child_b10/data/heldout_acquisition.json",
+      "sha256": "b4a5e73d7fb93a061de65c397c64882681239d3c194e037199a20ca85b2ffbee",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/19_child_b10/data/internal_state.schema.json",
+      "sha256": "c69c8bc04a5a111f09a7197ed01dd12e836fdcb4c42dd156d918bb4793c4a0c8",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/19_child_b10/data/japan_reference.json",
+      "sha256": "ece4b172d1494b5aadb29f159970e042d54b17fb7dadee3f65205f99ed04d50c",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/19_child_b10/data/jp_tables_acquisition.json",
+      "sha256": "958501aae87dbfba1fb4e0e4c80d1701ecb085d7ef2ce9eb2aee0e6272bb6dfc",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/19_child_b10/data/literature_metadata.json",
+      "sha256": "e8ac4212b3db98084e0f5f90a82bb8b02afe31141ada7c00361e0bd243e2fd67",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/19_child_b10/data/parameters.json",
+      "sha256": "ea7814915f25513f1ff3f2026fa2faa1063cb95205beae7046d639df694cdc46",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/19_child_b10/data/player_response.schema.json",
+      "sha256": "bf7cb9ebd0217f58f4dcacab89e51f52f10b09f815307af236ef1ad32d9a3e4d",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/19_child_b10/data/relationship_ledger.json",
+      "sha256": "86da2bad8e41182452933555682954558b6b94e09ded653fd54cc1033bc985ea",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/19_child_b10/data/research_access_attempts.json",
+      "sha256": "118daad95e5830f702b5f691002d3f979405e195677f87a1bcf3106acb9d904b",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/19_child_b10/data/secondary_acquisition.json",
+      "sha256": "0083b87110293653c8d721c85645c8dc5ae1fa6905b562643fc3377ac005e51e",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/19_child_b10/data/source_acquisition.json",
+      "sha256": "16b3ee6c489db1a05e72ba4c2654ad429ef381cf2b73bd963372645ddbdae0c9",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/19_child_b10/data/third_acquisition.json",
+      "sha256": "5b2757af96844504af30173a3032571cd614aa8d5db718f93046b547d2bc432c",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/20_integrated_b10/data/backlog.json",
+      "sha256": "9b379e6d8745a78da32941d3175f4c603f098f48dd68f2d08f3f718c678d9a3e",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/20_integrated_b10/data/causal_connections.json",
+      "sha256": "1641ca4b811017677aa87c97baffa066658ad5107356b388df54b715e267a0ab",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/20_integrated_b10/data/heldout2010_physical.json",
+      "sha256": "50c4ca9dec579d007eb31e0eb8d01c274fcd3541249adce5c69976e3d147ea0d",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/20_integrated_b10/data/integrated_snapshot.schema.json",
+      "sha256": "59ed6eccaf5eaa608a8eebf8c2d8a1ade13dd3c1cf0d0bcfa0c9beb1a1b8588d",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/20_integrated_b10/data/interface_mapping.json",
+      "sha256": "ccd0e636c28c7622aec08e1706d5678c2a1ff5c5c4e8036dcff9ae829df5928d",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/20_integrated_b10/data/player_response.schema.json",
+      "sha256": "1a1c05c324f7349f2d593e660678e23736e70fa39cb4e5c624753f2ef07dfa5b",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/20_integrated_b10/integrated_b10/__init__.py",
+      "sha256": "ff4ec562114dd231153069f3a53eeec4c019b4bb2bb0cc1e282c4393a35cd0d4",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/20_integrated_b10/integrated_b10/cli.py",
+      "sha256": "4fdf6804645a52dc90bbf960c56ff7211708f643f14e2140740967f087364327",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/20_integrated_b10/integrated_b10/coordinator.py",
+      "sha256": "5fb37b41585c3f34de0d4c7ff7a6a7509ef926e2958553d074efe85d6e1b6e75",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/20_integrated_b10/integrated_b10/http_api.py",
+      "sha256": "6f47e6a00cc049d1672d8d8e14140203cf9e3a105229d54dcad9f8951f342e35",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/20_integrated_b10/integrated_b10/legacy.py",
+      "sha256": "54f488f336d13efc84878dfd770ba27c5914c5b7dd1a756978c5aeb241da513d",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/20_integrated_b10/integrated_b10/storage.py",
+      "sha256": "87aa19fd39d79ab39806a86bfbf81d47c08e1f52348038038ba5b811e8d5b392",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/21_child_b11/child_b11/__init__.py",
+      "sha256": "1c1d975f45a9342459eefdd7f5a1929781ffee03d6942ad5e35bb88f6c299a56",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/21_child_b11/child_b11/engine.py",
+      "sha256": "7706b092972ee0bb28ccafee6bedd74484229a779fab39e9def5ff59bf942a9a",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/21_child_b11/child_b11/integrated.py",
+      "sha256": "296bf8d49937576a65f56e70e9d4488a57b0ebe1c61dbd38db546ec56e0b9b56",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/21_child_b11/child_b11/storage.py",
+      "sha256": "86b5e28b492a1d41c00bd4dc15c8d623638f07e180c7fd43139b7508573efb39",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/21_child_b11/data/JASQ_aggregate_norms.json",
+      "sha256": "596e8ec90268ef98a6661b0e419ec41502ee2e025070894c2f8916031624834d",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/21_child_b11/data/JASQ_validation_acquisition.json",
+      "sha256": "cdaf460b343dbfe5287d758560f8131b58f73623fa9b45d3fb4a387b30f64ee1",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/21_child_b11/data/WHO_acquisition.json",
+      "sha256": "d666fc8120202f90493b1ef7b8c995fb299029a71552e224528f6d1237373446",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/21_child_b11/data/WHO_motor_reference.json",
+      "sha256": "917ebbc3fe7d473123461464279460cbfca4d30b930aa943cbb59b792665103c",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/21_child_b11/data/backlog.json",
+      "sha256": "be74c273e90c85f5bc45d3eaf0c68d20786248d341a45e654050a619a2385e21",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/21_child_b11/data/baseline_pins.json",
+      "sha256": "1b29dc4d372f1c57daa9994abe45b30b3fb36f4299b52c31b446ea863b9d086c",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/21_child_b11/data/causal_connections.json",
+      "sha256": "3c1f2352b9396e5d8cb63afc8ea3e215e2dfd96ed62eb191b38da0fcc3e8c24b",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/21_child_b11/data/environment.json",
+      "sha256": "94fee190328d84d13fd8ebae6b3d4a33b0a753e13b1dc6f830c22685483b854f",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/21_child_b11/data/extracted_article_tables.json",
+      "sha256": "5d26e77d55cf1843d368c615540ac3a3f4d984faa213f7ddb5f2b29d4ca83abe",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/21_child_b11/data/fulltext_acquisition.json",
+      "sha256": "0c5e5b8280772d34ce1be4271ded6988d62e17227040cea49bb907f04c764f6f",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/21_child_b11/data/internal_state.schema.json",
+      "sha256": "dd18a0f714700b902be29d8633d6f87de23115f6c8ce153d260e8dd38fe9ff55",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/21_child_b11/data/legacy_artifact_pins.json",
+      "sha256": "338d6c83ab2b3638159108b47d1c7666c2a4a38a93f961de411dd851510c9107",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/21_child_b11/data/official_acquisition.json",
+      "sha256": "0675e61cfcaf37341a47838c1c2905edc7c554f1f8cd58d1b6268df8be75012a",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/21_child_b11/data/parameters.json",
+      "sha256": "c3ac0e9aa12a077847156197a1734b286c0ca260ccb7d084c8491f40486a4641",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/21_child_b11/data/player_response.schema.json",
+      "sha256": "bf7cb9ebd0217f58f4dcacab89e51f52f10b09f815307af236ef1ad32d9a3e4d",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/21_child_b11/data/research_cache_manifest.json",
+      "sha256": "c8e7d0d750f64847bf4fda1d516a26dc7d31d395bdc1f9fcf954c5af4314f98f",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/21_child_b11/data/research_metadata.json",
+      "sha256": "c930684d25537fa0d6f34ad3d6ce27632bade6abe32c6bb0d0adc65c3a1da276",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/21_child_b11/data/research_queries.json",
+      "sha256": "268ee9767e31f6911015af86e6620b6bf33e5b6006569ade455e1a14f94cb457",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/21_child_b11/data/source_ledger.json",
+      "sha256": "e197f8de23e05b509d112ed4cc2b3ee859347aa1412102c04726bf6aaf7eabc7",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/21_child_b11/data/targeted_scale_review.json",
+      "sha256": "a8247568b1f30ec8854ff299b33566e5c86295ce6d04597e78ea060d2c285958",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/22_experience_c0/c0/__init__.py",
+      "sha256": "e814522e15478da2cdc67020312633cbcea59192a5e6c970674fd31195bf4a00",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/22_experience_c0/c0/bridge.py",
+      "sha256": "3d0546eeb09e23cb9eca12c54388772b2cdb32617ff6510d9a07a359407b9273",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/22_experience_c0/c0/catalogue.py",
+      "sha256": "1d0709670dec4b5e3417bc750d86d33189738a93ca86fd5ba14ba6d75a68c2c0",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/22_experience_c0/c0/game.py",
+      "sha256": "b5e5ff3ae25ea4bb3e68204c3ca1bc4ee3476151b77a391cd798704fef3f4634",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/22_experience_c0/c0/projection.py",
+      "sha256": "9761425a8435c17238fc5437779afef51c10b2c28f4dbabefce938d0acd836e0",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/22_experience_c0/data/baseline_pins.json",
+      "sha256": "db8dd3d6c936b95115f6015c289b38a45dbd8f2112b02a305ca45a885d4cc05e",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/22_experience_c0/data/effects_and_assumptions.json",
+      "sha256": "51352f3de4201cbb8160ddecfc4dec219166028d7ba92b1a9f16070c4d8c9246",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/22_experience_c0/data/inherited_runtime_manifest.json",
+      "sha256": "06ee62bff1a00b90e72d1f29a6c1d54de50021953c71656eac0dcd7ca447a2f8",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/22_experience_c0/data/runtime_projection_manifest.json",
+      "sha256": "d83c1433a647f195a818aad04042448c2fb02ccb27b2ddacace617d6fa36e16d",
+      "matches_immutable_C0_archive": true
+    },
+    {
+      "path": "JapanFamily/22_experience_c0/server.py",
+      "sha256": "f2500861b98dd24a5fc6656eee860503632be0c39f74a18c09224f70ad54a447",
+      "matches_immutable_C0_archive": true
+    }
+  ],
+  "unchanged": true
+}

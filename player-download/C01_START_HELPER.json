@@ -1,0 +1,14 @@
+{
+  "filename": "C01_START_HELPER.zip",
+  "bytes": 3894,
+  "sha256": "b2d5b75799286e9da30f4d3fac7aae6c579170e710f6722a4ce59e04c3387991",
+  "cmd_sha256": "0b7953b83ef1ce6b1a713b545b4f7b5a9e6a88776f05d06e59c8f469332779f6",
+  "base_game": {
+    "filename": "C01_PLAY_WINDOWS_X64.zip",
+    "bytes": 102886234,
+    "sha256": "0c5e148c3c69e8aa4df558ea0b0612b005fcf8d3f7a2d8fa8faea92409ad7b65",
+    "manifest_sha256": "676dee89d20b642e226a9d823e0c3d34aca329fc942e8fa507f50690e505fd35",
+    "files": 4122,
+    "uncompressed_bytes": 558022635
+  }
+}

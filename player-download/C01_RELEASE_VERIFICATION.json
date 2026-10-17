@@ -1,0 +1,31 @@
+{
+  "version": "C-0.1-P0.1",
+  "archive": {
+    "filename": "C01_PLAY_WINDOWS_X64.zip",
+    "bytes": 102886234,
+    "sha256": "0c5e148c3c69e8aa4df558ea0b0612b005fcf8d3f7a2d8fa8faea92409ad7b65",
+    "manifest_sha256": "676dee89d20b642e226a9d823e0c3d34aca329fc942e8fa507f50690e505fd35",
+    "files": 4122,
+    "uncompressed_bytes": 558022635
+  },
+  "zip_internal_CRC": "all_pass",
+  "all_manifest_SHA256": "all_pass",
+  "sqlite_integrity": [
+    [
+      "ok"
+    ]
+  ],
+  "sqlite_foreign_key_errors": [],
+  "checks": {
+    "extracted_launcher_and_portable_database_start": true,
+    "stale_revision_rejected": true,
+    "reading_view_is_pure": true,
+    "extracted_pack_real_A_B_24_months": true,
+    "saved_pack_exact_reload": true,
+    "private_files_and_cross_origin_guard": true
+  },
+  "independent_extraction_root": "/workspace/c01_release_inspection",
+  "native_Windows_execution_tested": false,
+  "actual_platform": "Linux Python 3.12, pinned numpy/scipy; official Windows runtime and PE architecture preserved from verified baseline",
+  "ordinary_browser_evidence": "JapanFamily/23_experience_c01/reports/browser_verification.json"
+}

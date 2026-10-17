@@ -1,0 +1,96 @@
+{
+  "version": "C-0.1-P0.1",
+  "unidentified_effects_enabled": false,
+  "fictional_staging": [
+    "parent given names",
+    "room and time of day",
+    "red cloth and light",
+    "opening a household ledger"
+  ],
+  "unchanged_model_assumptions": [
+    {
+      "domain": "employment",
+      "kind": "unverified scenario",
+      "path": "18_monthly_v02 / realism",
+      "issue": "continuing contract with zero work and pay; care/return constraints"
+    },
+    {
+      "domain": "hours request / job search / family support",
+      "kind": "game scenario, not identified causal coefficient",
+      "path": "18_monthly_v02 scenario defaults",
+      "issue": "employer response, offers and support availability are not calibrated predictions"
+    },
+    {
+      "domain": "childcare",
+      "kind": "partly identified eligibility, unverified resource allocation",
+      "path": "18_monthly_v02 / realism",
+      "issue": "municipal totals do not identify individual admissions"
+    },
+    {
+      "domain": "finance",
+      "kind": "unvalidated joint distribution and time allocation",
+      "path": "18_monthly_v02 / budget / ledger",
+      "issue": "integer identities pass, external joint fit does not follow"
+    },
+    {
+      "domain": "tax / benefits",
+      "kind": "official rule snapshots plus estimated eligibility and monthly lags",
+      "path": "18_monthly_v02 / rules / cash_rules",
+      "issue": "actual notices, applications, filing deadlines and future policy not completely reproduced"
+    },
+    {
+      "domain": "child behavior",
+      "kind": "uncalibrated measurement model",
+      "path": "21_child_b11",
+      "issue": "observations are noisy, not clinical or personality diagnoses"
+    },
+    {
+      "domain": "caregiver actions -> skills / attachment",
+      "kind": "unidentified, disabled",
+      "path": "B.act(...scenario_effects=False)",
+      "issue": "observation/history change; no long-term causal boost"
+    }
+  ],
+  "P0_scenario_parameters": {
+    "milliseconds_per_month": 10000,
+    "speeds": [
+      0.5,
+      1,
+      2,
+      4
+    ],
+    "residential_density_thresholds": [
+      300,
+      4000
+    ],
+    "residential_max_rejection_proposals": 48,
+    "defer_decision_months": 3,
+    "shortage_reopen_band_yen": 500000,
+    "scheduled_budget_review_months": [
+      6,
+      12,
+      18
+    ],
+    "care_review_months": [
+      3,
+      9,
+      15,
+      21
+    ]
+  },
+  "backlog": {
+    "P1": [
+      "daily sleep/feeding/rhythm with evidence",
+      "meaningful short caregiver-child interaction",
+      "richer source-grounded scenes without unobserved skills",
+      "benefit filing deadlines and work/care responses",
+      "causal trace of carried-over choices"
+    ],
+    "P2": [
+      "career pathways and changing economy",
+      "asset formation and housing with actual costs and risk",
+      "long-term relationships and autobiographical records",
+      "ages 2–6 after play and scientific review"
+    ]
+  }
+}

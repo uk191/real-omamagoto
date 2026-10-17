@@ -1,0 +1,195 @@
+{
+  "version": "C-0.1-P0.1",
+  "checks": {
+    "start_auto_10_seconds": "passed",
+    "view_does_not_consume_randomness": "passed",
+    "first_month_pauses_for_real_decision": "passed",
+    "cannot_skip_unreviewed_event": "passed",
+    "choice_is_native_request_not_guaranteed_result": "passed",
+    "native_claim_submitted_next_month": "passed",
+    "money_flow_reconciles": "passed",
+    "save_load_exact_state_and_timer": "passed",
+    "save_replay_next_month_exact": "passed",
+    "damaged_save_rejected": "passed",
+    "unchanged_native_A_B_results": "passed",
+    "ten_families_24_months_ids_ledger_logs_provenance": "passed",
+    "three_policy_branches_change_real_household_state": "passed",
+    "no_hidden_child_state_in_player_API": "passed"
+  },
+  "failures": [],
+  "families": [
+    {
+      "family": "tokyo",
+      "date": "2028-10-01",
+      "calendar_turns": 24,
+      "logs": 59,
+      "choices": 10,
+      "cash_yen": 4624568,
+      "environment": {
+        "class": "urban",
+        "label": "都市部（市町村人口密度4,000人/km²以上）",
+        "density": 18661.0
+      },
+      "household_id": "hh_4bf6cb423a3fc436f3c0"
+    },
+    {
+      "family": "single",
+      "date": "2028-10-01",
+      "calendar_turns": 24,
+      "logs": 70,
+      "choices": 17,
+      "cash_yen": 0,
+      "environment": {
+        "class": "rural",
+        "label": "低密度地域（300人/km²未満）",
+        "density": 50.7
+      },
+      "household_id": "hh_8780bdf47305301d7842"
+    },
+    {
+      "family": "rural",
+      "date": "2028-10-01",
+      "calendar_turns": 24,
+      "logs": 75,
+      "choices": 18,
+      "cash_yen": 88322,
+      "environment": {
+        "class": "rural",
+        "label": "低密度地域（300人/km²未満）",
+        "density": 22.2
+      },
+      "household_id": "hh_af7fec79a11a250d38fc"
+    },
+    {
+      "family": "suburban",
+      "date": "2028-10-01",
+      "calendar_turns": 24,
+      "logs": 73,
+      "choices": 26,
+      "cash_yen": 0,
+      "environment": {
+        "class": "suburban",
+        "label": "郊外・地方都市（300〜4,000人/km²未満）",
+        "density": 1459.1
+      },
+      "household_id": "hh_f092c26d764c624ce19e"
+    },
+    {
+      "family": "jobs",
+      "date": "2028-10-01",
+      "calendar_turns": 24,
+      "logs": 71,
+      "choices": 17,
+      "cash_yen": 1977813,
+      "environment": {
+        "class": "urban",
+        "label": "都市部（市町村人口密度4,000人/km²以上）",
+        "density": 5002.7
+      },
+      "household_id": "hh_495a2f2eb1f9afc93f2a"
+    },
+    {
+      "family": "lowcash",
+      "date": "2028-10-01",
+      "calendar_turns": 24,
+      "logs": 66,
+      "choices": 12,
+      "cash_yen": 919813,
+      "environment": {
+        "class": "suburban",
+        "label": "郊外・地方都市（300〜4,000人/km²未満）",
+        "density": 2460.2
+      },
+      "household_id": "hh_6960e92fc9dab977ff57"
+    },
+    {
+      "family": "highcash",
+      "date": "2028-10-01",
+      "calendar_turns": 24,
+      "logs": 71,
+      "choices": 18,
+      "cash_yen": 6716462,
+      "environment": {
+        "class": "urban",
+        "label": "都市部（市町村人口密度4,000人/km²以上）",
+        "density": 8568.2
+      },
+      "household_id": "hh_15f651e61f2169ad5502"
+    },
+    {
+      "family": "siblings",
+      "date": "2028-10-01",
+      "calendar_turns": 24,
+      "logs": 70,
+      "choices": 16,
+      "cash_yen": 2409939,
+      "environment": {
+        "class": "suburban",
+        "label": "郊外・地方都市（300〜4,000人/km²未満）",
+        "density": 1475.8
+      },
+      "household_id": "hh_52c375c26738e4b3b9e9"
+    },
+    {
+      "family": "regional",
+      "date": "2028-10-01",
+      "calendar_turns": 24,
+      "logs": 67,
+      "choices": 13,
+      "cash_yen": 11911827,
+      "environment": {
+        "class": "suburban",
+        "label": "郊外・地方都市（300〜4,000人/km²未満）",
+        "density": 427.8
+      },
+      "household_id": "hh_f642c799c15ed46ca5b4"
+    },
+    {
+      "family": "midmonth",
+      "date": "2028-10-17",
+      "calendar_turns": 25,
+      "logs": 69,
+      "choices": 20,
+      "cash_yen": 9117288,
+      "environment": {
+        "class": "urban",
+        "label": "都市部（市町村人口密度4,000人/km²以上）",
+        "density": 7186.1
+      },
+      "household_id": "hh_d300e5acb2200a96f6b1"
+    }
+  ],
+  "decision_comparisons": [
+    {
+      "family": "branch-a",
+      "trim_final_cash": 791937,
+      "room_final_cash": 0,
+      "cash_difference_yen": 791937,
+      "unpaid_difference_yen": 0,
+      "recognized_expense_difference_yen": -912588,
+      "child_internal_equal": true,
+      "native_effect": "set_spending changes A consumption / cash / liabilities; no identified child causal effect"
+    },
+    {
+      "family": "branch-b",
+      "trim_final_cash": 5135257,
+      "room_final_cash": 4031840,
+      "cash_difference_yen": 1103417,
+      "unpaid_difference_yen": 0,
+      "recognized_expense_difference_yen": -1103417,
+      "child_internal_equal": true,
+      "native_effect": "set_spending changes A consumption / cash / liabilities; no identified child causal effect"
+    },
+    {
+      "family": "branch-c",
+      "trim_final_cash": 0,
+      "room_final_cash": 0,
+      "cash_difference_yen": 0,
+      "unpaid_difference_yen": -295644,
+      "recognized_expense_difference_yen": -295644,
+      "child_internal_equal": true,
+      "native_effect": "set_spending changes A consumption / cash / liabilities; no identified child causal effect"
+    }
+  ],
+  "test_kind": "developer integration scenarios; not human play evaluation"
+}

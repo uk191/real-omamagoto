@@ -1,0 +1,30 @@
+{
+  "version": "C-0.1-P0.1",
+  "artifacts": [
+    {
+      "filename": "C01_PLAY_WINDOWS_X64.zip",
+      "bytes": 102886234,
+      "sha256": "0c5e148c3c69e8aa4df558ea0b0612b005fcf8d3f7a2d8fa8faea92409ad7b65"
+    },
+    {
+      "filename": "C01_START_HELPER.zip",
+      "bytes": 3894,
+      "sha256": "b2d5b75799286e9da30f4d3fac7aae6c579170e710f6722a4ce59e04c3387991"
+    },
+    {
+      "filename": "C01_CODE_AND_REPORTS.zip",
+      "bytes": 1645226,
+      "sha256": "11bf713952f99d7fa0ba93b507f9f2e8e947caa99bdf891625bc17f06de0b463"
+    },
+    {
+      "filename": "C01_RELEASE_VERIFICATION.json",
+      "bytes": 1139,
+      "sha256": "d8fb200f5ab40e2fd0406751ccd602558f2016500e52d2d6373691d5a20342ff"
+    },
+    {
+      "filename": "C01_START_HELPER_VERIFICATION.json",
+      "bytes": 537,
+      "sha256": "bb14d30c9eefbf8731450d208b94e42d8f71e9a3edd7a79491e8c9b5a439534e"
+    }
+  ]
+}
