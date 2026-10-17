@@ -1,0 +1,55 @@
+{
+  "archives": [
+    {
+      "name": "C1_PLAY_WINDOWS_X64.zip",
+      "bytes": 102921164,
+      "sha256": "4f65d84579be58767f51b4b67cd71c2364273225882961602671968a886761b5",
+      "crc_ok": true
+    },
+    {
+      "name": "C1_CODE_AND_REPORTS.zip",
+      "bytes": 4475224,
+      "sha256": "abda609f1d668a7c80f5a1268bc689a921e7bfd0e1488b53f14614d5efa3009f",
+      "crc_ok": true
+    },
+    {
+      "name": "C1_UPGRADE.zip",
+      "bytes": 58429,
+      "sha256": "bff9380e300f69964a6d8ec5faa0032b71ffae0766c9287ee47bfd58606ac04a",
+      "crc_ok": true
+    }
+  ],
+  "checks": {
+    "three_archives_CRC": true,
+    "all_manifest_hashes_after_extraction": 4134,
+    "preserved_native_and_runtime_files": 4117,
+    "SQLite_integrity_foreign_keys": true,
+    "upgrade_dependencies_and_payload": true,
+    "upgrade_no_policy_changes": true,
+    "independent_python_process": {
+      "old_API": true,
+      "C1_generation_cost_time_resume_seed": true,
+      "parent_projection_no_latent_state": true,
+      "C1_24months": true,
+      "external_expense_checks": [
+        {
+          "net_worth_open": 35554524,
+          "net_worth_close": 35553324,
+          "recognized_income": 0,
+          "recognized_expense": 1200,
+          "net_worth_identity_residual": 0,
+          "cash_identity_residual": 0,
+          "unpaid_obligations": 0,
+          "receivables": 1073647
+        }
+      ]
+    },
+    "launcher_target": true
+  },
+  "saved_zip_independent_reextraction": true,
+  "platform_executed": "Linux x64 Python3.12 and Chromium",
+  "windows_machine_execution_tested": false,
+  "windows_upgrade_installer_executed": false,
+  "scientific_external_validation": false,
+  "actual_human_playtest": false
+}

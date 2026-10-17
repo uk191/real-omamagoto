@@ -1,0 +1,14 @@
+{
+  "checks": {
+    "real_cost_time_purchase_reuse_familiarity": true,
+    "recurring_plan_cancel_and_asset_transfer": true,
+    "save_phase_resume_seed_view_purity_tamper": true,
+    "insufficient_cash_no_free_item_no_charge": true,
+    "three_families_three_ages_six_month_branches": true,
+    "midmonth_birth_24months_25calendar_turns": true,
+    "same_household_different_children_real_B_and_reactions": true,
+    "log_count_at_most_three_per_month": true
+  },
+  "scope": "developer scenario inspection; not human playtest nor external scientific calibration",
+  "passed": true
+}

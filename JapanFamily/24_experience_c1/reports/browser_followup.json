@@ -1,0 +1,29 @@
+[
+  {
+    "seed": 1301,
+    "start_age": 0,
+    "following_latest_log_residual_pixels": 0,
+    "six_actual_recurring_experiences": 6,
+    "education_option_accepted": true,
+    "queued_input_save": true,
+    "cash_flows_visible": true
+  },
+  {
+    "seed": 1302,
+    "start_age": 6,
+    "following_latest_log_residual_pixels": 0,
+    "six_actual_recurring_experiences": 6,
+    "education_option_accepted": true,
+    "queued_input_save": true,
+    "cash_flows_visible": true
+  },
+  {
+    "seed": 1303,
+    "start_age": 12,
+    "following_latest_log_residual_pixels": 0,
+    "six_actual_recurring_experiences": 6,
+    "education_option_accepted": true,
+    "queued_input_save": true,
+    "cash_flows_visible": true
+  }
+]
