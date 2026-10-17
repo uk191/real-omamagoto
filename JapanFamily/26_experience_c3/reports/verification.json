@@ -1,0 +1,466 @@
+{
+  "checks": {
+    "ten_families_24months": true,
+    "meaningful_choice_branches": true,
+    "native_cash_identity": true,
+    "no_added_biological_causality": true,
+    "policy_allocations_differ": true,
+    "child_seed_changes_observed_reactions": true,
+    "same_seed_save_resume": true,
+    "view_no_random_consumption": true,
+    "midmonth_birth_exact_24mo": true,
+    "no_identical_log_texts": true,
+    "no_explicit_action_required": true,
+    "canonical_scene_before_prose": true
+  },
+  "families": [
+    {
+      "family": 0,
+      "age_months": 24,
+      "turns": 24,
+      "events": 9,
+      "categories": {
+        "gift": 2,
+        "challenge": 1,
+        "outing": 2,
+        "food": 1,
+        "birthday": 1,
+        "interest": 1,
+        "season": 1
+      },
+      "mean_interval": 2.375,
+      "scenes": 54,
+      "genres": [
+        "books",
+        "communication",
+        "community",
+        "construction",
+        "discovery",
+        "food",
+        "memory",
+        "music",
+        "play"
+      ],
+      "logs": 44,
+      "child_or_memory_log_share": 0.9090909090909091,
+      "duplicate_texts": 0,
+      "memories": 22,
+      "cash_checks": 81,
+      "reaction_distribution": {
+        "unexpected": 12,
+        "withdraw": 9,
+        "sleepy": 1,
+        "watch": 13,
+        "reach": 13,
+        "people": 6
+      }
+    },
+    {
+      "family": 1,
+      "age_months": 24,
+      "turns": 24,
+      "events": 9,
+      "categories": {
+        "family": 2,
+        "challenge": 2,
+        "gift": 2,
+        "food": 2,
+        "birthday": 1
+      },
+      "mean_interval": 2.625,
+      "scenes": 80,
+      "genres": [
+        "challenge",
+        "communication",
+        "memory",
+        "movement"
+      ],
+      "logs": 31,
+      "child_or_memory_log_share": 0.9032258064516129,
+      "duplicate_texts": 0,
+      "memories": 19,
+      "cash_checks": 81,
+      "reaction_distribution": {
+        "watch": 15,
+        "unexpected": 15,
+        "people": 13,
+        "withdraw": 7,
+        "sleepy": 7,
+        "reach": 23
+      }
+    },
+    {
+      "family": 2,
+      "age_months": 24,
+      "turns": 24,
+      "events": 9,
+      "categories": {
+        "interest": 1,
+        "gift": 2,
+        "outing": 2,
+        "birthday": 2,
+        "revisit": 1,
+        "challenge": 1
+      },
+      "mean_interval": 2.5,
+      "scenes": 53,
+      "genres": [
+        "animals",
+        "anniversary",
+        "books",
+        "communication",
+        "community",
+        "family",
+        "memory",
+        "outdoors"
+      ],
+      "logs": 39,
+      "child_or_memory_log_share": 0.9487179487179487,
+      "duplicate_texts": 0,
+      "memories": 19,
+      "cash_checks": 81,
+      "reaction_distribution": {
+        "withdraw": 7,
+        "people": 15,
+        "unexpected": 8,
+        "watch": 5,
+        "reach": 16,
+        "sleepy": 2
+      }
+    },
+    {
+      "family": 3,
+      "age_months": 24,
+      "turns": 24,
+      "events": 9,
+      "categories": {
+        "challenge": 2,
+        "gift": 2,
+        "food": 2,
+        "birthday": 2,
+        "work": 1
+      },
+      "mean_interval": 2.375,
+      "scenes": 57,
+      "genres": [
+        "anniversary",
+        "challenge",
+        "communication",
+        "food",
+        "memory",
+        "movement"
+      ],
+      "logs": 30,
+      "child_or_memory_log_share": 0.9333333333333333,
+      "duplicate_texts": 0,
+      "memories": 35,
+      "cash_checks": 81,
+      "reaction_distribution": {
+        "withdraw": 6,
+        "people": 11,
+        "watch": 11,
+        "sleepy": 1,
+        "unexpected": 10,
+        "reach": 18
+      }
+    },
+    {
+      "family": 4,
+      "age_months": 24,
+      "turns": 24,
+      "events": 9,
+      "categories": {
+        "family": 2,
+        "gift": 2,
+        "challenge": 1,
+        "birthday": 2,
+        "food": 1,
+        "work": 1
+      },
+      "mean_interval": 2.375,
+      "scenes": 34,
+      "genres": [
+        "communication",
+        "memory",
+        "movement"
+      ],
+      "logs": 25,
+      "child_or_memory_log_share": 0.84,
+      "duplicate_texts": 0,
+      "memories": 27,
+      "cash_checks": 81,
+      "reaction_distribution": {
+        "people": 8,
+        "unexpected": 8,
+        "watch": 8,
+        "sleepy": 2,
+        "withdraw": 2,
+        "reach": 6
+      }
+    },
+    {
+      "family": 5,
+      "age_months": 24,
+      "turns": 24,
+      "events": 10,
+      "categories": {
+        "season": 1,
+        "challenge": 1,
+        "gift": 2,
+        "interest": 2,
+        "outing": 1,
+        "food": 1,
+        "revisit": 1,
+        "birthday": 1
+      },
+      "mean_interval": 2.3333333333333335,
+      "scenes": 33,
+      "genres": [
+        "books",
+        "challenge",
+        "communication",
+        "discovery",
+        "food",
+        "leisure",
+        "memory",
+        "music",
+        "play"
+      ],
+      "logs": 34,
+      "child_or_memory_log_share": 0.8529411764705882,
+      "duplicate_texts": 0,
+      "memories": 26,
+      "cash_checks": 82,
+      "reaction_distribution": {
+        "unexpected": 7,
+        "sleepy": 3,
+        "people": 4,
+        "watch": 6,
+        "withdraw": 4,
+        "reach": 9
+      }
+    },
+    {
+      "family": 6,
+      "age_months": 24,
+      "turns": 24,
+      "events": 8,
+      "categories": {
+        "season": 2,
+        "gift": 2,
+        "challenge": 1,
+        "food": 1,
+        "family": 1,
+        "birthday": 1
+      },
+      "mean_interval": 2.7142857142857144,
+      "scenes": 55,
+      "genres": [
+        "communication",
+        "family",
+        "food",
+        "memory",
+        "movement",
+        "season"
+      ],
+      "logs": 32,
+      "child_or_memory_log_share": 0.9375,
+      "duplicate_texts": 0,
+      "memories": 31,
+      "cash_checks": 80,
+      "reaction_distribution": {
+        "unexpected": 12,
+        "people": 13,
+        "watch": 6,
+        "withdraw": 5,
+        "reach": 15,
+        "sleepy": 4
+      }
+    },
+    {
+      "family": 7,
+      "age_months": 24,
+      "turns": 25,
+      "events": 10,
+      "categories": {
+        "season": 1,
+        "interest": 2,
+        "gift": 2,
+        "challenge": 2,
+        "birthday": 2,
+        "outing": 1
+      },
+      "mean_interval": 2.4444444444444446,
+      "scenes": 55,
+      "genres": [
+        "anniversary",
+        "books",
+        "communication",
+        "community",
+        "construction",
+        "discovery",
+        "memory",
+        "music",
+        "play"
+      ],
+      "logs": 42,
+      "child_or_memory_log_share": 0.9523809523809523,
+      "duplicate_texts": 0,
+      "memories": 24,
+      "cash_checks": 85,
+      "reaction_distribution": {
+        "people": 9,
+        "watch": 18,
+        "unexpected": 5,
+        "withdraw": 5,
+        "reach": 16,
+        "sleepy": 2
+      }
+    },
+    {
+      "family": 8,
+      "age_months": 24,
+      "turns": 24,
+      "events": 10,
+      "categories": {
+        "gift": 2,
+        "challenge": 1,
+        "interest": 2,
+        "outing": 2,
+        "food": 1,
+        "money": 1,
+        "birthday": 1
+      },
+      "mean_interval": 2.2222222222222223,
+      "scenes": 103,
+      "genres": [
+        "books",
+        "communication",
+        "discovery",
+        "movement",
+        "music",
+        "play"
+      ],
+      "logs": 38,
+      "child_or_memory_log_share": 0.9473684210526315,
+      "duplicate_texts": 0,
+      "memories": 17,
+      "cash_checks": 82,
+      "reaction_distribution": {
+        "watch": 30,
+        "withdraw": 14,
+        "people": 19,
+        "unexpected": 11,
+        "sleepy": 5,
+        "reach": 24
+      }
+    },
+    {
+      "family": 9,
+      "age_months": 24,
+      "turns": 24,
+      "events": 9,
+      "categories": {
+        "gift": 2,
+        "challenge": 2,
+        "money": 1,
+        "family": 1,
+        "interest": 1,
+        "food": 1,
+        "birthday": 1
+      },
+      "mean_interval": 2.5,
+      "scenes": 33,
+      "genres": [
+        "books",
+        "challenge",
+        "communication",
+        "community",
+        "discovery",
+        "family",
+        "memory",
+        "outdoors"
+      ],
+      "logs": 31,
+      "child_or_memory_log_share": 0.8709677419354839,
+      "duplicate_texts": 0,
+      "memories": 21,
+      "cash_checks": 81,
+      "reaction_distribution": {
+        "withdraw": 4,
+        "unexpected": 6,
+        "sleepy": 8,
+        "watch": 10,
+        "reach": 3,
+        "people": 2
+      }
+    }
+  ],
+  "individuality": [
+    {
+      "child_seed": 111,
+      "initial_A": "712f197c8a0fc76bd1972edf07af0149de164bd14ade49f89f7053f50dbac84d",
+      "reactions": [
+        "watch",
+        "watch",
+        "withdraw",
+        "withdraw",
+        "unexpected",
+        "withdraw",
+        "unexpected",
+        "people",
+        "unexpected",
+        "withdraw"
+      ]
+    },
+    {
+      "child_seed": 222,
+      "initial_A": "712f197c8a0fc76bd1972edf07af0149de164bd14ade49f89f7053f50dbac84d",
+      "reactions": [
+        "sleepy",
+        "people",
+        "withdraw",
+        "watch",
+        "sleepy",
+        "withdraw",
+        "sleepy",
+        "people",
+        "people",
+        "watch"
+      ]
+    },
+    {
+      "child_seed": 333,
+      "initial_A": "712f197c8a0fc76bd1972edf07af0149de164bd14ade49f89f7053f50dbac84d",
+      "reactions": [
+        "unexpected",
+        "sleepy",
+        "sleepy",
+        "people",
+        "sleepy",
+        "watch",
+        "people",
+        "watch",
+        "people",
+        "withdraw"
+      ]
+    }
+  ],
+  "branch_events": 14,
+  "event_categories": [
+    "birthday",
+    "challenge",
+    "family",
+    "food",
+    "gift",
+    "interest",
+    "money",
+    "outing",
+    "revisit",
+    "season",
+    "work"
+  ],
+  "human_fun_test": false,
+  "Windows_native_test": false,
+  "external_causal_validation": false
+}

@@ -1,0 +1,46 @@
+{
+  "archives": [
+    {
+      "file": "C3_PLAY_WINDOWS_X64.zip",
+      "bytes": 103037564,
+      "sha256": "dc5f4ce7a48355588954b5de9f72aea6c850bc96330d52121b2e97d4a53d555f",
+      "CRC": true
+    },
+    {
+      "file": "C3_CODE_AND_REPORTS.zip",
+      "bytes": 5646415,
+      "sha256": "3f14b332053996d592bb642d48136176ff3934de517dff71ed0ed5229eead1f6",
+      "CRC": true
+    },
+    {
+      "file": "C3_COMPARISON_DATA.zip",
+      "bytes": 495377,
+      "sha256": "3a89d81ecab192a11b7b8c7e688c7eb7a3f6968b587c6d1632595f56b6708e52",
+      "CRC": true
+    },
+    {
+      "file": "C3_START.zip",
+      "bytes": 4748,
+      "sha256": "fffcc4615387087c4a00f99215834b854e00d6ba7df814ecbc77202ce5f27fcb",
+      "CRC": true
+    }
+  ],
+  "checks": {
+    "all_extracted_manifest_files": 4163,
+    "saved_runtime_matches_current_source": 8,
+    "unchanged_inherited_files": 4142,
+    "SQLite_integrity_and_foreign_keys": true,
+    "independent_restored_process": {
+      "old_API": true,
+      "C3_24months": true,
+      "save_at_event_and_resume": true,
+      "seed_reproducibility": true,
+      "player_projection_no_hidden_state": true,
+      "cash_reconciliation": true
+    }
+  },
+  "Windows_native_execution_tested": false,
+  "human_user_test": false,
+  "scientific_external_validity_claimed": false,
+  "new_saved_zip_reextracted": true
+}

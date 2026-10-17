@@ -1,0 +1,15 @@
+{
+  "idle_connections": 3,
+  "concurrent_health_requests": 6,
+  "seconds": [
+    0.018760356993880123,
+    0.02456811100273626,
+    0.035800731006020214,
+    0.007819250000466127,
+    0.0014438629950745963,
+    0.001067414996214211
+  ],
+  "start_tick_save_resume": true,
+  "stale_revision_rejected": true,
+  "simulation_code_unchanged": true
+}
