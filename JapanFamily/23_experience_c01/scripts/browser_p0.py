@@ -68,6 +68,8 @@ with sync_playwright() as p:
  assert last_age==24,last_age
  expect(page.locator('#play-state')).to_contain_text('24か月');assert not errors,errors
  last=page.locator('.log').last.bounding_box();box=page.locator('#journal').bounding_box();assert last['y']+last['height']<=box['y']+box['height']+12, 'latest life log did not follow time progression'
+ if page.locator('.growth-item').count():
+  last=page.locator('.growth-item').last.bounding_box();box=page.locator('#growth').bounding_box();assert last['y']+last['height']<=box['y']+box['height']+2, 'observed growth was clipped'
  # Save completed play, inspect the optional detail drawer once.
  page.click('#save');page.wait_for_timeout(150);page.click('#details');expect(page.locator('#detail-dialog')).to_be_visible();page.screenshot(path=str(OUT/'screenshots/09_details.png'),full_page=True);page.click('#close-details')
  assert not page.evaluate('document.documentElement.scrollHeight>window.innerHeight+2')

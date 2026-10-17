@@ -6,7 +6,7 @@ OPENER=urllib.request.build_opener(urllib.request.ProxyHandler({}))
 def sha(p):
  with p.open('rb') as f:return hashlib.file_digest(f,'sha256').hexdigest()
 def main():
- archive=REPO/'artifacts/C01_PLAY_WINDOWS_X64.zip';record=json.loads((REPO/'artifacts/C01_PLAYER_DOWNLOAD.json').read_text());assert sha(archive)==record['sha256']
+ record=json.loads((REPO/'artifacts/C01_PLAYER_DOWNLOAD.json').read_text());archive=REPO/'artifacts'/record['filename'];assert sha(archive)==record['sha256']
  target=Path('/workspace/c01_release_inspection');target.mkdir(exist_ok=True)
  with zipfile.ZipFile(archive) as z:
   assert z.testzip() is None

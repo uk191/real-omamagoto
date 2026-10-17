@@ -10,7 +10,7 @@ def sha(p):
  with p.open('rb') as f:return hashlib.file_digest(f,'sha256').hexdigest()
 def build():
  base=ART/'C0_PLAY_WINDOWS_X64.zip';assert sha(base)==BASE_SHA
- out=ART/'C01_PLAY_WINDOWS_X64.zip';files={}
+ out=ART/'C01_P0_PLAY_WINDOWS_X64.zip';files={}
  def write(z,name,data):
   z.writestr('C01_Play/'+name,data);files[name]={'bytes':len(data),'sha256':hashlib.sha256(data).hexdigest()}
  with zipfile.ZipFile(base) as src,zipfile.ZipFile(out,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as dst:

@@ -7,7 +7,7 @@ env=os.environ.copy()
 for name,folder in [('XDG_CACHE_HOME','ps_cache'),('XDG_CONFIG_HOME','ps_config'),('XDG_DATA_HOME','ps_data')]:env[name]=str(BUILD/folder)
 env['C01_BOOTSTRAP']=str(ROOT/'START_C01.cmd')
 fake=BUILD/'fake_bootstrap_user';(fake/'Downloads').mkdir(parents=True,exist_ok=True);env['USERPROFILE']=str(fake)
-archive=REPO/'artifacts/C01_PLAY_WINDOWS_X64.zip';link=fake/'Downloads'/archive.name
+archive=REPO/'artifacts/C01_P0_PLAY_WINDOWS_X64.zip';link=fake/'Downloads'/archive.name
 if not link.exists():link.symlink_to(archive)
 def run(name,code=None,extra=None,expected=0):
     cmd=[str(PW),'-NoLogo','-NoProfile']

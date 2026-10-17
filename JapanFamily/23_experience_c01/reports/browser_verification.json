@@ -12,8 +12,8 @@
     "no_page_errors": true
   },
   "timings": {
-    "one_month_1x_seconds": 10.404602701004478,
-    "one_month_4x_seconds": 2.7985617560043465
+    "one_month_1x_seconds": 10.403731637998135,
+    "one_month_4x_seconds": 2.7974664620051044
   },
   "errors": [],
   "browser": "154.0.8037.57",

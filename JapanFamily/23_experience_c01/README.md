@@ -4,7 +4,7 @@ C-0への実プレイ評価を受け、操作・観察・意思決定の体験�
 
 ## Windowsで遊ぶ
 
-1. [起動用ZIP](https://github.com/uk191/real-omamagoto/raw/refs/heads/c0-player-download/player-download/C01_START_HELPER.zip)を取得。
+1. [起動用ZIP](https://github.com/uk191/real-omamagoto/raw/refs/heads/c0-player-download/player-download/C01_P0_START_HELPER.zip)を取得。
 2. 中の `START_C01.cmd` を開く。初回は本体を取得し、SHA256確認・自動展開後にブラウザを開きます。
 3. 家庭条件を選んで「この家族の暮らしを始める」。10秒で1か月の自動進行が始まります。
 4. 相談が出ると停止。選んでから「この方針で自動進行を再開」。選択肢がまだあれば、続けて確認してください。
@@ -12,7 +12,7 @@ C-0への実プレイ評価を受け、操作・観察・意思決定の体験�
 
 Windows 10/11 x64用。Pythonは同梱。PowerShellの実行ポリシーやセキュリティ設定を変更しません。旧C-0とは別の `RealOmamagoto/C01` へ保存します。旧版のセーブは旧版で開けます。自動移行はしません。
 
-ネットワーク不要で遊べる[本体ZIP](https://github.com/uk191/real-omamagoto/raw/refs/heads/c0-player-download/player-download/C01_PLAY_WINDOWS_X64.zip)もあります。こちらは全体を展開してから `PLAY.cmd` を開いてください。初回取得以外のプレイ通信は自分のPC内だけです。
+ネットワーク不要で遊べる[本体ZIP](https://github.com/uk191/real-omamagoto/raw/refs/heads/c0-player-download/player-download/C01_P0_PLAY_WINDOWS_X64.zip)もあります。こちらは全体を展開してから `PLAY.cmd` を開いてください。初回取得以外のプレイ通信は自分のPC内だけです。
 
 ## 操作
 
