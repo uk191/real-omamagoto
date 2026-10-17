@@ -1,5 +1,7 @@
 # 「まいにちの、あいだ。」C-0.1 P0 再設計版
 
+起動時に「アプリケーションを正しく起動できませんでした」と表示される場合は、[起動確認用ZIP（約5KB）](https://github.com/uk191/real-omamagoto/raw/refs/heads/c0-player-download/player-download/C01_CHECK_AND_PLAY.zip)のCHECK_AND_PLAY.cmdで、失敗した段階と終了コードを記録できます。原因の解消を保証する修正ではありません。本体・セーブ・Windows設定を変更せず、確認を通過した場合は既存のゲームを起動します。
+
 実プレイの評価を受け、自動進行・一画面・生活ログ・状況別の選択を実装した版です。
 
 **[起動用ZIPをダウンロード](https://github.com/uk191/real-omamagoto/raw/refs/heads/c0-player-download/player-download/C01_P0B_START_HELPER.zip)**（約4KB）。中の **START_C01.cmd** を開くと、本体約103MBを取得・検証・展開してブラウザを開きます。Pythonを入れる必要はありません。初回取得後はネット接続なしで遊べます。

@@ -1,0 +1,20 @@
+{
+  "native_Windows_machine_executed": false,
+  "runtime_source_PE_audit": {
+    "files": 161,
+    "all_amd64": true
+  },
+  "powershell_test_platform": "PowerShell 7.4.7 Linux, process runner and embedded-body tests",
+  "probe_success_and_nonzero_exit_capture": true,
+  "stdout_and_stderr_captured_concurrently_100000_characters_each": true,
+  "NTSTATUS_hex_conversion_test": true,
+  "embedded_cmd_body_executed": true,
+  "CMD_absolute_native_PowerShell_path_checked": true,
+  "simulation_or_save_modified": false,
+  "cause_of_user_Windows_error": "not_yet_identified; exact native result required",
+  "archive": {
+    "filename": "C01_CHECK_AND_PLAY.zip",
+    "bytes": 5427,
+    "sha256": "1142d0a1eaf86cd6df24eb1b3e0b6672fa62e6cfc28a71cf21539c0fabadaadf"
+  }
+}
