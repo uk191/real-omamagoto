@@ -1,0 +1,83 @@
+{
+  "baseline_regression": {
+    "generation_and_father": true,
+    "A_B_identity": {
+      "run_id": "b11_ed49aca3b6ff06685a92616e",
+      "household_id": "hh_10430ed5d412a435d329",
+      "index_local_person_id": "index_child",
+      "index_global_person_id": "hh_10430ed5d412a435d329/index_child",
+      "caregiver_local_ids": [
+        "father",
+        "mother"
+      ],
+      "person_links": {
+        "mother": "hh_10430ed5d412a435d329/mother",
+        "father": "hh_10430ed5d412a435d329/father",
+        "index_child": "hh_10430ed5d412a435d329/index_child",
+        "prior_child_1": "hh_10430ed5d412a435d329/prior_child_1"
+      },
+      "birth_date": "2026-10-01",
+      "delivery_event_id": "delivery_10430ed5d412a435d329"
+    },
+    "auto_pause_and_resume": true,
+    "month24": true,
+    "clock_and_speed_saved": true,
+    "save_and_replay_exact": true,
+    "log_publication_order": true,
+    "native_account_identity": true,
+    "child_and_family_updates": true,
+    "view_pure": true,
+    "unchanged_initial_family": true,
+    "events": 9
+  },
+  "updated_regression": {
+    "generation_and_father": true,
+    "A_B_identity": {
+      "run_id": "b11_ed49aca3b6ff06685a92616e",
+      "household_id": "hh_10430ed5d412a435d329",
+      "index_local_person_id": "index_child",
+      "index_global_person_id": "hh_10430ed5d412a435d329/index_child",
+      "caregiver_local_ids": [
+        "father",
+        "mother"
+      ],
+      "person_links": {
+        "mother": "hh_10430ed5d412a435d329/mother",
+        "father": "hh_10430ed5d412a435d329/father",
+        "index_child": "hh_10430ed5d412a435d329/index_child",
+        "prior_child_1": "hh_10430ed5d412a435d329/prior_child_1"
+      },
+      "birth_date": "2026-10-01",
+      "delivery_event_id": "delivery_10430ed5d412a435d329"
+    },
+    "auto_pause_and_resume": true,
+    "month24": true,
+    "clock_and_speed_saved": true,
+    "save_and_replay_exact": true,
+    "log_publication_order": true,
+    "native_account_identity": true,
+    "child_and_family_updates": true,
+    "view_pure": true,
+    "unchanged_initial_family": true,
+    "events": 8
+  },
+  "branch_tests": {
+    "sixteen_branches": 16,
+    "distinct_real_outcomes_each": true,
+    "followup_context_depends_on_choice": true,
+    "no_added_B_biology_effect": true,
+    "pending_save_resume_exact": true,
+    "additional_native_households_24mo": 5,
+    "midmonth_birth": true,
+    "C3_save_import": true,
+    "view_pure": true,
+    "A_B_originals_unchanged": true,
+    "human_fun_test": false,
+    "Windows_native_test": false
+  },
+  "browser_families_24months": 2,
+  "native_legacy_tests": 13,
+  "all_passed": true,
+  "human_fun_test": false,
+  "native_Windows_test": false
+}

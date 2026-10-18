@@ -1,0 +1,19 @@
+{
+  "checks": {
+    "all_extracted_manifest_files": 4184,
+    "saved_runtime_matches_current_source": 7,
+    "unchanged_inherited_files": 4159,
+    "SQLite_integrity_and_foreign_keys": true,
+    "independent_restored_process": {
+      "old_API": true,
+      "C31_24months": true,
+      "save_at_event_and_resume": true,
+      "seed_reproducibility": true,
+      "player_projection_no_hidden_state": true,
+      "cash_reconciliation": true
+    }
+  },
+  "new_saved_zip_reextracted": true,
+  "Windows_native_execution_tested": false,
+  "scientific_external_validity_claimed": false
+}

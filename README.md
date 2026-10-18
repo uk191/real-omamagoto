@@ -1,3 +1,5 @@
+最新体験版：[C-3.1 四つの相談と、その後](C31_README.md)。[Windows起動パック](https://github.com/uk191/real-omamagoto/raw/refs/heads/c0-player-download/player-download/C31_START.zip)を展開してSTART_C31.cmdを開いてください。旧版は以下に残しています。
+
 # 「まいにちの、あいだ。」C-0.1 P0 再設計版
 
 起動時に「アプリケーションを正しく起動できませんでした」と表示される場合は、[起動確認用ZIP（約5KB）](https://github.com/uk191/real-omamagoto/raw/refs/heads/c0-player-download/player-download/C01_CHECK_AND_PLAY.zip)のCHECK_AND_PLAY.cmdで、失敗した段階と終了コードを記録できます。原因の解消を保証する修正ではありません。本体・セーブ・Windows設定を変更せず、確認を通過した場合は既存のゲームを起動します。

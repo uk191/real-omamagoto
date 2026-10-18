@@ -1,0 +1,296 @@
+{
+  "children": [
+    {
+      "child_seed": 111,
+      "initial_A": "c18fdc5c0073bc7afb3b92501a9d2b45838f7f193d5b1861a2e79693451582c0",
+      "current_A_accounts": "280d3f31b51019859fc359892b5ac919955ededc0661b8401eb0f6ef4ee98d23",
+      "choice": "broaden",
+      "experiences": [
+        {
+          "id": "experience-00008",
+          "task_id": "task-00008",
+          "scene_id": "scene-00008",
+          "period": 4,
+          "date": "2027-02-01",
+          "age_days": 123,
+          "kind": "music",
+          "place": "自宅の居間",
+          "participants": [
+            "hh_681c4cb2cc2d38e2b8b8/father",
+            "hh_681c4cb2cc2d38e2b8b8/index_child"
+          ],
+          "item_id": "item-bell",
+          "item_name": "黄色い持ち手の鈴",
+          "prior_experience_id": null,
+          "reaction": "はるの顔がくしゃっとなり、泣き声に変わった。けんたは遊びをやめ、抱き直して静かに待った。",
+          "short_observation": "泣いて遊びを切り上げた",
+          "reaction_code": "withdraw",
+          "hours": 0.5,
+          "paid_yen": 900,
+          "finance_id": "finance-00000",
+          "source": "decision",
+          "event_id": "event-0000",
+          "evidence": "C3_uncalibrated_game_world_scenario",
+          "long_term_effect": false
+        },
+        {
+          "id": "experience-00011",
+          "task_id": "task-00011",
+          "scene_id": "scene-00011",
+          "period": 5,
+          "date": "2027-03-01",
+          "age_days": 151,
+          "kind": "music",
+          "place": "自宅の居間",
+          "participants": [
+            "hh_681c4cb2cc2d38e2b8b8/father",
+            "hh_681c4cb2cc2d38e2b8b8/index_child"
+          ],
+          "item_id": "item-bell",
+          "item_name": "黄色い持ち手の鈴",
+          "prior_experience_id": "experience-00008",
+          "reaction": "はるは道具よりけんたの顔を見ていた。けんたが顔を近づけると、その方へ視線が戻った。",
+          "short_observation": "そばの人を見ていた",
+          "reaction_code": "people",
+          "hours": 0.5,
+          "paid_yen": 0,
+          "finance_id": null,
+          "source": "decision",
+          "event_id": "event-0000",
+          "evidence": "C3_uncalibrated_game_world_scenario",
+          "long_term_effect": false
+        }
+      ],
+      "case_effects": {
+        "experience_ids": [
+          "experience-00008",
+          "experience-00011"
+        ],
+        "expenses_yen": 900,
+        "cash_delta_direct": -900,
+        "term_delta_direct": 0,
+        "hours_used": 1.0,
+        "planned_operations": 0,
+        "done_operations": 2,
+        "unrealized": [],
+        "native_results": [],
+        "projects": [],
+        "funds": [],
+        "observed_reactions": [
+          {
+            "experience_id": "experience-00008",
+            "date": "2027-02-01",
+            "place": "自宅の居間",
+            "text": "はるの顔がくしゃっとなり、泣き声に変わった。けんたは遊びをやめ、抱き直して静かに待った。"
+          },
+          {
+            "experience_id": "experience-00011",
+            "date": "2027-03-01",
+            "place": "自宅の居間",
+            "text": "はるは道具よりけんたの顔を見ていた。けんたが顔を近づけると、その方へ視線が戻った。"
+          }
+        ],
+        "memory_ids": [
+          "memory-0006",
+          "memory-0009"
+        ]
+      }
+    },
+    {
+      "child_seed": 222,
+      "initial_A": "c18fdc5c0073bc7afb3b92501a9d2b45838f7f193d5b1861a2e79693451582c0",
+      "current_A_accounts": "280d3f31b51019859fc359892b5ac919955ededc0661b8401eb0f6ef4ee98d23",
+      "choice": "broaden",
+      "experiences": [
+        {
+          "id": "experience-00008",
+          "task_id": "task-00008",
+          "scene_id": "scene-00008",
+          "period": 4,
+          "date": "2027-02-01",
+          "age_days": 123,
+          "kind": "music",
+          "place": "自宅の居間",
+          "participants": [
+            "hh_681c4cb2cc2d38e2b8b8/father",
+            "hh_681c4cb2cc2d38e2b8b8/index_child"
+          ],
+          "item_id": "item-bell",
+          "item_name": "黄色い持ち手の鈴",
+          "prior_experience_id": null,
+          "reaction": "はるは道具よりけんたの顔を見ていた。けんたが顔を近づけると、その方へ視線が戻った。",
+          "short_observation": "そばの人を見ていた",
+          "reaction_code": "people",
+          "hours": 0.5,
+          "paid_yen": 900,
+          "finance_id": "finance-00000",
+          "source": "decision",
+          "event_id": "event-0000",
+          "evidence": "C3_uncalibrated_game_world_scenario",
+          "long_term_effect": false
+        },
+        {
+          "id": "experience-00011",
+          "task_id": "task-00011",
+          "scene_id": "scene-00011",
+          "period": 5,
+          "date": "2027-03-01",
+          "age_days": 151,
+          "kind": "music",
+          "place": "自宅の居間",
+          "participants": [
+            "hh_681c4cb2cc2d38e2b8b8/father",
+            "hh_681c4cb2cc2d38e2b8b8/index_child"
+          ],
+          "item_id": "item-bell",
+          "item_name": "黄色い持ち手の鈴",
+          "prior_experience_id": "experience-00008",
+          "reaction": "はるの顔がくしゃっとなり、泣き声に変わった。けんたは遊びをやめ、抱き直して静かに待った。",
+          "short_observation": "泣いて遊びを切り上げた",
+          "reaction_code": "withdraw",
+          "hours": 0.5,
+          "paid_yen": 0,
+          "finance_id": null,
+          "source": "decision",
+          "event_id": "event-0000",
+          "evidence": "C3_uncalibrated_game_world_scenario",
+          "long_term_effect": false
+        }
+      ],
+      "case_effects": {
+        "experience_ids": [
+          "experience-00008",
+          "experience-00011"
+        ],
+        "expenses_yen": 900,
+        "cash_delta_direct": -900,
+        "term_delta_direct": 0,
+        "hours_used": 1.0,
+        "planned_operations": 0,
+        "done_operations": 2,
+        "unrealized": [],
+        "native_results": [],
+        "projects": [],
+        "funds": [],
+        "observed_reactions": [
+          {
+            "experience_id": "experience-00008",
+            "date": "2027-02-01",
+            "place": "自宅の居間",
+            "text": "はるは道具よりけんたの顔を見ていた。けんたが顔を近づけると、その方へ視線が戻った。"
+          },
+          {
+            "experience_id": "experience-00011",
+            "date": "2027-03-01",
+            "place": "自宅の居間",
+            "text": "はるの顔がくしゃっとなり、泣き声に変わった。けんたは遊びをやめ、抱き直して静かに待った。"
+          }
+        ],
+        "memory_ids": [
+          "memory-0006",
+          "memory-0008"
+        ]
+      }
+    },
+    {
+      "child_seed": 333,
+      "initial_A": "c18fdc5c0073bc7afb3b92501a9d2b45838f7f193d5b1861a2e79693451582c0",
+      "current_A_accounts": "280d3f31b51019859fc359892b5ac919955ededc0661b8401eb0f6ef4ee98d23",
+      "choice": "broaden",
+      "experiences": [
+        {
+          "id": "experience-00008",
+          "task_id": "task-00008",
+          "scene_id": "scene-00008",
+          "period": 4,
+          "date": "2027-02-01",
+          "age_days": 123,
+          "kind": "music",
+          "place": "自宅の居間",
+          "participants": [
+            "hh_681c4cb2cc2d38e2b8b8/father",
+            "hh_681c4cb2cc2d38e2b8b8/index_child"
+          ],
+          "item_id": "item-bell",
+          "item_name": "黄色い持ち手の鈴",
+          "prior_experience_id": null,
+          "reaction": "はるは道具よりけんたの顔を見ていた。けんたが顔を近づけると、その方へ視線が戻った。",
+          "short_observation": "そばの人を見ていた",
+          "reaction_code": "people",
+          "hours": 0.5,
+          "paid_yen": 900,
+          "finance_id": "finance-00000",
+          "source": "decision",
+          "event_id": "event-0000",
+          "evidence": "C3_uncalibrated_game_world_scenario",
+          "long_term_effect": false
+        },
+        {
+          "id": "experience-00011",
+          "task_id": "task-00011",
+          "scene_id": "scene-00011",
+          "period": 5,
+          "date": "2027-03-01",
+          "age_days": 151,
+          "kind": "music",
+          "place": "自宅の居間",
+          "participants": [
+            "hh_681c4cb2cc2d38e2b8b8/father",
+            "hh_681c4cb2cc2d38e2b8b8/index_child"
+          ],
+          "item_id": "item-bell",
+          "item_name": "黄色い持ち手の鈴",
+          "prior_experience_id": "experience-00008",
+          "reaction": "はるの顔がくしゃっとなり、泣き声に変わった。けんたは遊びをやめ、抱き直して静かに待った。",
+          "short_observation": "泣いて遊びを切り上げた",
+          "reaction_code": "withdraw",
+          "hours": 0.5,
+          "paid_yen": 0,
+          "finance_id": null,
+          "source": "decision",
+          "event_id": "event-0000",
+          "evidence": "C3_uncalibrated_game_world_scenario",
+          "long_term_effect": false
+        }
+      ],
+      "case_effects": {
+        "experience_ids": [
+          "experience-00008",
+          "experience-00011"
+        ],
+        "expenses_yen": 900,
+        "cash_delta_direct": -900,
+        "term_delta_direct": 0,
+        "hours_used": 1.0,
+        "planned_operations": 0,
+        "done_operations": 2,
+        "unrealized": [],
+        "native_results": [],
+        "projects": [],
+        "funds": [],
+        "observed_reactions": [
+          {
+            "experience_id": "experience-00008",
+            "date": "2027-02-01",
+            "place": "自宅の居間",
+            "text": "はるは道具よりけんたの顔を見ていた。けんたが顔を近づけると、その方へ視線が戻った。"
+          },
+          {
+            "experience_id": "experience-00011",
+            "date": "2027-03-01",
+            "place": "自宅の居間",
+            "text": "はるの顔がくしゃっとなり、泣き声に変わった。けんたは遊びをやめ、抱き直して静かに待った。"
+          }
+        ],
+        "memory_ids": [
+          "memory-0006",
+          "memory-0009"
+        ]
+      }
+    }
+  ],
+  "matched_A": true,
+  "observed_reactions_differ": true,
+  "reaction_coefficients_external_validity": false,
+  "not_a_personality_diagnosis": true
+}

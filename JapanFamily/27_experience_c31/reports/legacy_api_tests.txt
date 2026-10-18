@@ -1,0 +1,18 @@
+test_application_slots_private_and_no_research_override (test_experience.ExperienceTests.test_application_slots_private_and_no_research_override) ... ok
+test_bad_actor_bad_action_and_revision (test_experience.ExperienceTests.test_bad_actor_bad_action_and_revision) ... ok
+test_causally_unidentified_child_effect_is_off (test_experience.ExperienceTests.test_causally_unidentified_child_effect_is_off) ... ok
+test_midmonth_exact_horizon_and_no_forecast (test_experience.ExperienceTests.test_midmonth_exact_horizon_and_no_forecast) ... ok
+test_multi_turn_stop (test_experience.ExperienceTests.test_multi_turn_stop) ... ok
+test_native_first_day_engine_unchanged (test_experience.ExperienceTests.test_native_first_day_engine_unchanged) ... ok
+test_no_action_growth_and_null_care_fee (test_experience.ExperienceTests.test_no_action_growth_and_null_care_fee) ... ok
+test_parent_whitelist_and_fact_hashes (test_experience.ExperienceTests.test_parent_whitelist_and_fact_hashes) ... ok
+test_request_is_not_outcome_and_cancel_is_pure (test_experience.ExperienceTests.test_request_is_not_outcome_and_cancel_is_pure) ... ok
+test_review_gate_is_atomic (test_experience.ExperienceTests.test_review_gate_is_atomic) ... ok
+test_same_child_action_bounded_and_reproducible (test_experience.ExperienceTests.test_same_child_action_bounded_and_reproducible) ... ok
+test_save_resume_and_tamper (test_experience.ExperienceTests.test_save_resume_and_tamper) ... ok
+test_views_do_not_consume_randomness (test_experience.ExperienceTests.test_views_do_not_consume_randomness) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 8.866s
+
+OK

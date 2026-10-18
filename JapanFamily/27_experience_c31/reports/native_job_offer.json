@@ -1,0 +1,567 @@
+{
+  "seed": 5503,
+  "offer": {
+    "normal_annual": 2910736,
+    "normal_weekly_hours": 41.0,
+    "employment_type": "regular",
+    "industry": "O教育,学習支援業(第3次産業)",
+    "id": "7b880f9e3542bfbd322c"
+  },
+  "event": {
+    "id": "event-0001",
+    "kind": "decision_C",
+    "domain": "C",
+    "title": "来月の勤務と、家で過ごす時間",
+    "background": "あかり宛てに、通常年収2,910,736円・週41.0時間の仕事の提案が届いた。希望だけで就業が決まるわけではない。 今は「現在は仕事をしていない」、直近の実働は週0時間、通常年収は0円。 家ではそうたは「働いている」、保育は「家庭で過ごす」。2027-04、自宅の窓辺ではるは「横顔の写真を残した」。 仕事の準備にも、家で待つ時間にも同じ自分の時間を使う。支払い口座は662,690円、今月の余暇・手続きの枠はあと172時間。",
+    "date": "2027-05-01",
+    "period": 7,
+    "participants": [
+      "あかり",
+      "はる",
+      "そうた"
+    ],
+    "why_now": "実際の月齢・観察・口座・時間から、四つの選び方を考えられるため。",
+    "choices": [
+      {
+        "id": "work",
+        "title": "届いた仕事の提案を、受けると返事する",
+        "value_axis": "仕事を手放さない",
+        "gain": "届いた提案に返事をし、仕事の準備に時間を取る",
+        "forgo": "家のために使えた時間を月4時間、2か月使う。収入増は保証されない",
+        "ops": [
+          {
+            "op": "request",
+            "kind": "accept_job_offer",
+            "value": "7b880f9e3542bfbd322c",
+            "when": 0
+          },
+          {
+            "op": "work_time",
+            "hours": 4,
+            "when": 0
+          },
+          {
+            "op": "work_time",
+            "hours": 4,
+            "when": 1
+          }
+        ],
+        "cost_yen": 0,
+        "planned_cost_yen": 0,
+        "hours": 8.5,
+        "transfer_yen": 0,
+        "detail": "届いた提案に返事をし、仕事の準備に時間を取る／家のために使えた時間を月4時間、2か月使う。収入増は保証されない",
+        "disabled": false,
+        "disabled_reason": null,
+        "quotes": [
+          {
+            "cost_yen": 0,
+            "transfer_yen": 0,
+            "hours": 0.5,
+            "bucket": "rest",
+            "when": 0,
+            "minimum_age": 0
+          },
+          {
+            "cost_yen": 0,
+            "transfer_yen": 0,
+            "hours": 4,
+            "bucket": "rest",
+            "when": 0,
+            "minimum_age": 0
+          },
+          {
+            "cost_yen": 0,
+            "transfer_yen": 0,
+            "hours": 4,
+            "bucket": "rest",
+            "when": 1,
+            "minimum_age": 0
+          }
+        ]
+      },
+      {
+        "id": "time",
+        "title": "家で過ごす時間を、先に確保する",
+        "value_axis": "今の子どもとの時間",
+        "gain": "仕事探しを急がず、家で過ごす枠を実行する",
+        "forgo": "減収・機会を見送る可能性がある。勤務変更には結果待ちがある",
+        "ops": [
+          {
+            "op": "request",
+            "kind": "reject_job_offer",
+            "value": "7b880f9e3542bfbd322c",
+            "when": 0
+          },
+          {
+            "op": "activity",
+            "kind": "floor",
+            "when": 0
+          },
+          {
+            "op": "activity",
+            "kind": "photo",
+            "when": 1
+          },
+          {
+            "op": "activity",
+            "kind": "floor",
+            "when": 1
+          }
+        ],
+        "cost_yen": 0,
+        "planned_cost_yen": 0,
+        "hours": 2.25,
+        "transfer_yen": 0,
+        "detail": "仕事探しを急がず、家で過ごす枠を実行する／減収・機会を見送る可能性がある。勤務変更には結果待ちがある",
+        "disabled": false,
+        "disabled_reason": null,
+        "quotes": [
+          {
+            "cost_yen": 0,
+            "transfer_yen": 0,
+            "hours": 0.5,
+            "bucket": "rest",
+            "when": 0,
+            "minimum_age": 0
+          },
+          {
+            "cost_yen": 0,
+            "transfer_yen": 0,
+            "hours": 0.5,
+            "bucket": "care",
+            "when": 0,
+            "minimum_age": 3
+          },
+          {
+            "cost_yen": 0,
+            "transfer_yen": 0,
+            "hours": 0.75,
+            "bucket": "care",
+            "when": 1,
+            "minimum_age": 0
+          },
+          {
+            "cost_yen": 0,
+            "transfer_yen": 0,
+            "hours": 0.5,
+            "bucket": "care",
+            "when": 1,
+            "minimum_age": 3
+          }
+        ]
+      },
+      {
+        "id": "budget",
+        "title": "働き方は保ち、支出の方を見直す",
+        "value_axis": "生活の安定",
+        "gain": "通常消費を1割抑える希望を出し、家での活動を残す",
+        "forgo": "使える物やサービスを減らす選択。収入を増やす計算ではない",
+        "ops": [
+          {
+            "op": "request",
+            "kind": "reject_job_offer",
+            "value": "7b880f9e3542bfbd322c",
+            "when": 0
+          },
+          {
+            "op": "request",
+            "kind": "set_spending",
+            "value": 0.9,
+            "when": 0
+          },
+          {
+            "op": "activity",
+            "kind": "voice",
+            "when": 1
+          }
+        ],
+        "cost_yen": 0,
+        "planned_cost_yen": 0,
+        "hours": 1.25,
+        "transfer_yen": 0,
+        "detail": "通常消費を1割抑える希望を出し、家での活動を残す／使える物やサービスを減らす選択。収入を増やす計算ではない",
+        "disabled": false,
+        "disabled_reason": null,
+        "quotes": [
+          {
+            "cost_yen": 0,
+            "transfer_yen": 0,
+            "hours": 0.5,
+            "bucket": "rest",
+            "when": 0,
+            "minimum_age": 0
+          },
+          {
+            "cost_yen": 0,
+            "transfer_yen": 0,
+            "hours": 0.5,
+            "bucket": "rest",
+            "when": 0,
+            "minimum_age": 0
+          },
+          {
+            "cost_yen": 0,
+            "transfer_yen": 0,
+            "hours": 0.25,
+            "bucket": "care",
+            "when": 1,
+            "minimum_age": 0
+          }
+        ]
+      },
+      {
+        "id": "support",
+        "title": "一人で抱えず、支援を整える方へ動く",
+        "value_axis": "続けられる分担",
+        "gain": "保育や親族支援へ相談し、手続きと家の予定を進める",
+        "forgo": "利用できるか・費用はいくらかはまだ確定しない。仕事の返事を待つ間に提案の期限を過ぎる可能性がある",
+        "ops": [
+          {
+            "op": "request",
+            "kind": "apply_childcare",
+            "value": null,
+            "when": 0
+          },
+          {
+            "op": "activity",
+            "kind": "handover",
+            "when": 1
+          }
+        ],
+        "cost_yen": 0,
+        "planned_cost_yen": 0,
+        "hours": 2.5,
+        "transfer_yen": 0,
+        "detail": "保育や親族支援へ相談し、手続きと家の予定を進める／利用できるか・費用はいくらかはまだ確定しない。仕事の返事を待つ間に提案の期限を過ぎる可能性がある",
+        "disabled": false,
+        "disabled_reason": null,
+        "quotes": [
+          {
+            "cost_yen": 0,
+            "transfer_yen": 0,
+            "hours": 0.5,
+            "bucket": "rest",
+            "when": 0,
+            "minimum_age": 0
+          },
+          {
+            "cost_yen": 0,
+            "transfer_yen": 0,
+            "hours": 2,
+            "bucket": "rest",
+            "when": 1,
+            "minimum_age": 0
+          }
+        ]
+      }
+    ],
+    "source_refs": [
+      "C31.decision_context_facts/decision-context-001"
+    ],
+    "status": "waiting",
+    "evidence": "C31_game_scenario; native_A_feasibility_unvalidated; no_added_B_long_term_effect",
+    "parent_case_id": null,
+    "voluntary": false
+  },
+  "outcomes": [
+    {
+      "choice": "work",
+      "effects": {
+        "experience_ids": [],
+        "expenses_yen": 0,
+        "cash_delta_direct": 0,
+        "term_delta_direct": 0,
+        "hours_used": 4.5,
+        "planned_operations": 1,
+        "done_operations": 2,
+        "unrealized": [],
+        "native_results": [
+          {
+            "id": "decision/c0-0015",
+            "text": "届いた仕事の提案を受ける：条件付きで受け付けられた。",
+            "source_ref": "A.completed.A_decisions/c0-0015",
+            "value_sha256": "a0f4b6c5b70f83963d296dc41c348ecba217125510d38bded468825105a76a4d",
+            "evidence": "native_action_feasibility_scenario",
+            "kind": "accept_job_offer",
+            "outcome": "accepted_conditional",
+            "request_id": "c0-0015",
+            "person": "mother",
+            "requested_value": "7b880f9e3542bfbd322c"
+          }
+        ],
+        "projects": [],
+        "funds": [],
+        "observed_reactions": [],
+        "memory_ids": []
+      },
+      "state": {
+        "date": "2027-06-01",
+        "age_months": 8,
+        "cash": 845374,
+        "term": 0,
+        "spending_factor": 1.0,
+        "parent_state": "unpaid_care_interruption",
+        "actual_weekly_hours": 0,
+        "usual_annual": 2910736,
+        "hours_ratio": 1.0,
+        "care": "home",
+        "actual_gross_earned": 514983,
+        "time": {
+          "care": 220,
+          "rest": 172.0,
+          "used": {},
+          "basis": "直近の週時間配分×4週を計画枠に使う仮定"
+        },
+        "experience_ids": [
+          "experience-00000",
+          "experience-00001",
+          "experience-00002",
+          "experience-00003",
+          "experience-00004",
+          "experience-00005",
+          "experience-00006",
+          "experience-00007",
+          "experience-00008",
+          "experience-00009",
+          "experience-00010",
+          "experience-00011"
+        ],
+        "inventory_ids": [],
+        "native_queue": [],
+        "job_offer": null
+      }
+    },
+    {
+      "choice": "time",
+      "effects": {
+        "experience_ids": [
+          "experience-00011"
+        ],
+        "expenses_yen": 0,
+        "cash_delta_direct": 0,
+        "term_delta_direct": 0,
+        "hours_used": 1.0,
+        "planned_operations": 2,
+        "done_operations": 2,
+        "unrealized": [],
+        "native_results": [
+          {
+            "id": "decision/c0-0015",
+            "text": "届いた仕事の提案を見送る：条件付きで受け付けられた。",
+            "source_ref": "A.completed.A_decisions/c0-0015",
+            "value_sha256": "8e308c5e1805eee9a484243e0c83e28629da4ff3ea760cbaf67dfd1b13f41194",
+            "evidence": "native_action_feasibility_scenario",
+            "kind": "reject_job_offer",
+            "outcome": "accepted_conditional",
+            "request_id": "c0-0015",
+            "person": "mother",
+            "requested_value": "7b880f9e3542bfbd322c"
+          }
+        ],
+        "projects": [],
+        "funds": [],
+        "observed_reactions": [
+          {
+            "experience_id": "experience-00011",
+            "date": "2027-05-01",
+            "place": "自宅の敷物の上",
+            "text": "あかりが動きを止めたあとも、はるは同じ所を見ていた。間を置いて同じことをすると、またそちらへ顔が向いた。"
+          }
+        ],
+        "memory_ids": [
+          "memory-0011"
+        ]
+      },
+      "state": {
+        "date": "2027-06-01",
+        "age_months": 8,
+        "cash": 854891,
+        "term": 0,
+        "spending_factor": 1.0,
+        "parent_state": "nonemployed",
+        "actual_weekly_hours": 0,
+        "usual_annual": 0,
+        "hours_ratio": 1.0,
+        "care": "home",
+        "actual_gross_earned": 514983,
+        "time": {
+          "care": 220,
+          "rest": 172.0,
+          "used": {},
+          "basis": "直近の週時間配分×4週を計画枠に使う仮定"
+        },
+        "experience_ids": [
+          "experience-00000",
+          "experience-00001",
+          "experience-00002",
+          "experience-00003",
+          "experience-00004",
+          "experience-00005",
+          "experience-00006",
+          "experience-00007",
+          "experience-00008",
+          "experience-00009",
+          "experience-00010",
+          "experience-00011",
+          "experience-00012"
+        ],
+        "inventory_ids": [],
+        "native_queue": [],
+        "job_offer": null
+      }
+    },
+    {
+      "choice": "budget",
+      "effects": {
+        "experience_ids": [],
+        "expenses_yen": 0,
+        "cash_delta_direct": 0,
+        "term_delta_direct": 0,
+        "hours_used": 1.0,
+        "planned_operations": 1,
+        "done_operations": 2,
+        "unrealized": [],
+        "native_results": [
+          {
+            "id": "decision/c0-0015",
+            "text": "届いた仕事の提案を見送る：条件付きで受け付けられた。",
+            "source_ref": "A.completed.A_decisions/c0-0015",
+            "value_sha256": "8e308c5e1805eee9a484243e0c83e28629da4ff3ea760cbaf67dfd1b13f41194",
+            "evidence": "native_action_feasibility_scenario",
+            "kind": "reject_job_offer",
+            "outcome": "accepted_conditional",
+            "request_id": "c0-0015",
+            "person": "mother",
+            "requested_value": "7b880f9e3542bfbd322c"
+          },
+          {
+            "id": "decision/c0-0016",
+            "text": "調整できる生活費を見直す：受け付けられた。",
+            "source_ref": "A.completed.A_decisions/c0-0016",
+            "value_sha256": "54ade1f102e4cfc8699063a5e0ddbeddcb6eab97b07abbb106e269b740e0ca48",
+            "evidence": "native_action_feasibility_scenario",
+            "kind": "set_spending",
+            "outcome": "accepted",
+            "request_id": "c0-0016",
+            "person": null,
+            "requested_value": 0.9
+          }
+        ],
+        "projects": [],
+        "funds": [],
+        "observed_reactions": [],
+        "memory_ids": []
+      },
+      "state": {
+        "date": "2027-06-01",
+        "age_months": 8,
+        "cash": 864594,
+        "term": 0,
+        "spending_factor": 0.9,
+        "parent_state": "nonemployed",
+        "actual_weekly_hours": 0,
+        "usual_annual": 0,
+        "hours_ratio": 1.0,
+        "care": "home",
+        "actual_gross_earned": 514983,
+        "time": {
+          "care": 220,
+          "rest": 172.0,
+          "used": {},
+          "basis": "直近の週時間配分×4週を計画枠に使う仮定"
+        },
+        "experience_ids": [
+          "experience-00000",
+          "experience-00001",
+          "experience-00002",
+          "experience-00003",
+          "experience-00004",
+          "experience-00005",
+          "experience-00006",
+          "experience-00007",
+          "experience-00008",
+          "experience-00009",
+          "experience-00010",
+          "experience-00011"
+        ],
+        "inventory_ids": [],
+        "native_queue": [],
+        "job_offer": null
+      }
+    },
+    {
+      "choice": "support",
+      "effects": {
+        "experience_ids": [],
+        "expenses_yen": 0,
+        "cash_delta_direct": 0,
+        "term_delta_direct": 0,
+        "hours_used": 0.5,
+        "planned_operations": 1,
+        "done_operations": 1,
+        "unrealized": [],
+        "native_results": [
+          {
+            "id": "decision/c0-0015",
+            "text": "保育の利用を申し込む：申請・相談を提出した。",
+            "source_ref": "A.completed.A_decisions/c0-0015",
+            "value_sha256": "119e2ef46629f6ce183cb92a606490b99686ad39221be9185b237c93d94dbfe2",
+            "evidence": "native_action_feasibility_scenario",
+            "kind": "apply_childcare",
+            "outcome": "submitted",
+            "request_id": "c0-0015",
+            "person": null,
+            "requested_value": null
+          }
+        ],
+        "projects": [],
+        "funds": [],
+        "observed_reactions": [],
+        "memory_ids": []
+      },
+      "state": {
+        "date": "2027-06-01",
+        "age_months": 8,
+        "cash": 854891,
+        "term": 0,
+        "spending_factor": 1.0,
+        "parent_state": "nonemployed",
+        "actual_weekly_hours": 0,
+        "usual_annual": 0,
+        "hours_ratio": 1.0,
+        "care": "pending",
+        "actual_gross_earned": 514983,
+        "time": {
+          "care": 220,
+          "rest": 172.0,
+          "used": {},
+          "basis": "直近の週時間配分×4週を計画枠に使う仮定"
+        },
+        "experience_ids": [
+          "experience-00000",
+          "experience-00001",
+          "experience-00002",
+          "experience-00003",
+          "experience-00004",
+          "experience-00005",
+          "experience-00006",
+          "experience-00007",
+          "experience-00008",
+          "experience-00009",
+          "experience-00010",
+          "experience-00011"
+        ],
+        "inventory_ids": [],
+        "native_queue": [],
+        "job_offer": {
+          "normal_annual": 2910736,
+          "normal_weekly_hours": 41.0,
+          "employment_type": "regular",
+          "industry": "O教育,学習支援業(第3次産業)",
+          "id": "7b880f9e3542bfbd322c"
+        }
+      }
+    }
+  ]
+}

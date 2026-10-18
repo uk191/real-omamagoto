@@ -1,0 +1,14 @@
+{
+  "sixteen_branches": 16,
+  "distinct_real_outcomes_each": true,
+  "followup_context_depends_on_choice": true,
+  "no_added_B_biology_effect": true,
+  "pending_save_resume_exact": true,
+  "additional_native_households_24mo": 5,
+  "midmonth_birth": true,
+  "C3_save_import": true,
+  "view_pure": true,
+  "A_B_originals_unchanged": true,
+  "human_fun_test": false,
+  "Windows_native_test": false
+}
