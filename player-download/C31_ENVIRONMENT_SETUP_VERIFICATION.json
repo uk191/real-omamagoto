@@ -1,0 +1,13 @@
+{
+  "published_code_pack_restored": true,
+  "unchanged_C3_dependencies_restored": 358,
+  "numerical_dependencies_pinned": true,
+  "actual_native_family_generated": true,
+  "first_phase_logs": true,
+  "save_resume_exact": true,
+  "test_root": "/workspace/c31_environment_replay/project",
+  "setup_script_sha256": "d66e7615b843d42ff30d98dae7a782dce5d7c1afbb884059af27aba5b4e1e709",
+  "published_cloud_snapshot": false,
+  "idempotent_second_install": true,
+  "configuration_draft_saved": true
+}

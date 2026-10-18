@@ -1,0 +1,43 @@
+{
+  "commit": "eeb0bc93394463541edcfcde1c33ceed19aa5242",
+  "archives": [
+    {
+      "file": "C31_PLAY_WINDOWS_X64.zip",
+      "bytes": 103110635,
+      "sha256": "b511b4c9f424051018c14b38d2e7b588c37c6a5130b1e03e3cce2083492fcb18",
+      "CRC": true,
+      "url": "https://github.com/uk191/real-omamagoto/raw/eeb0bc93394463541edcfcde1c33ceed19aa5242/player-download/C31_PLAY_WINDOWS_X64.zip",
+      "download_sha256_matches": true,
+      "public_CRC": true
+    },
+    {
+      "file": "C31_CODE_AND_REPORTS.zip",
+      "bytes": 5251983,
+      "sha256": "067f7090103281a6cfb1f7b3e9fd46973c8644c8c76a46ae48c7b72777d1e107",
+      "CRC": true,
+      "url": "https://github.com/uk191/real-omamagoto/raw/eeb0bc93394463541edcfcde1c33ceed19aa5242/player-download/C31_CODE_AND_REPORTS.zip",
+      "download_sha256_matches": true,
+      "public_CRC": true
+    },
+    {
+      "file": "C31_COMPARISON_DATA.zip",
+      "bytes": 208252,
+      "sha256": "5a8d8dbe1da3e8f28f29fe336679ffea635524e1efe60a1bb7bae95f70430348",
+      "CRC": true,
+      "url": "https://github.com/uk191/real-omamagoto/raw/eeb0bc93394463541edcfcde1c33ceed19aa5242/player-download/C31_COMPARISON_DATA.zip",
+      "download_sha256_matches": true,
+      "public_CRC": true
+    },
+    {
+      "file": "C31_START.zip",
+      "bytes": 4746,
+      "sha256": "f2fcf257fb0b62cd7fae220112adcb19d4d109e14747ade6941bc5e6d6f623c5",
+      "CRC": true,
+      "url": "https://github.com/uk191/real-omamagoto/raw/eeb0bc93394463541edcfcde1c33ceed19aa5242/player-download/C31_START.zip",
+      "download_sha256_matches": true,
+      "public_CRC": true
+    }
+  ],
+  "all_public_downloads_verified": true,
+  "authentication_used": false
+}
